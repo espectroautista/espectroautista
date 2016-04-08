@@ -16,6 +16,8 @@ BASE=$PWD
 
 TARGET=~/espectroautista.github.io
 
+echo espectroautista.info > $TARGET/CNAME
+
 [[ -d $TARGET ]]         || mkdir $TARGET
 [[ -d $TARGET/styles ]]  || mkdir $TARGET/styles 
 [[ -d $TARGET/scripts ]] || mkdir $TARGET/scripts 
