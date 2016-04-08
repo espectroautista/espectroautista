@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * DAS-A.xml - Dating Anxiety Scale for Adolescents
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="DASA.xml">
+	<sentencia n="1">Normalmente estoy nervioso en mi primera cita con alguien.</sentencia>
+	<sentencia n="2">A menudo temo que pueda parecer tonto o ridículo durante una cita.</sentencia>
+	<sentencia n="3">Me preocupa que yo pueda no ser atractivo para las personas del sexo opuesto.</sentencia>
+	<sentencia n="4">Me cuesta mucho tiempo llegar a sentirme confortable en un grupo en el que haya tanto chicos como chicas.</sentencia>
+	<sentencia n="5">Me gusta tener citas.</sentencia>
+	<sentencia n="6">Normalmente me preocupa pensar qué tipo de impresión causaré durante una cita.</sentencia>
+	<sentencia n="7">Me resulta difícil relajarme cuando estoy con una persona del sexo opuesto a la que no conozco muy bien.</sentencia>
+	<sentencia n="8">Pienso que me preocupa demasiado lo que las personas del sexo opuesto puedan pensar de mí.</sentencia>
+	<sentencia n="9">Me siento nervioso en la situaciones que se producen en las citas.</sentencia>
+	<sentencia n="10">A menudo me siento nervioso al hablar  con una persona atractiva del sexo opuesto.</sentencia>
+	<sentencia n="11">Me gusta ir a fiestas.</sentencia>
+	<sentencia n="12">Suelo estar más callado de lo habitual cuando estoy en un grupo en el que hay tanto chicos como chicas.</sentencia>
+	<sentencia n="13">Me siento tenso cuando me cito con alguien que no conozco muy bien.</sentencia>
+	<sentencia n="14">A menudo me preocupa que la persona por la que he perdido la cabeza no piense mucho en mí.</sentencia>
+	<sentencia n="15">Me gusta conocer gente nueva.</sentencia>
+	<sentencia n="16">A menudo me siento nervioso o tenso en los encuentros casuales en los que hay tanto chicos como chicas.</sentencia>
+	<sentencia n="17">Me siento preocupado cuanto pienso que la persona con la que me he citado se está formando una impresión negativa de mí.</sentencia>
+	<sentencia n="18">Me siento seguro en las situaciones que se producen en las citas.</sentencia>
+	<sentencia n="19">Me pongo tenso y nervioso cuando siento que alguien del sexo opuesto se está fijando en mí.</sentencia>
+	<sentencia n="20">A menudo temo que la persona por la que he perdido la cabeza se de cuenta de mis defectos.</sentencia>
+	<sentencia n="21">A menudo las fiestas me hacen sentir ansioso e incomodo.</sentencia>
+	<sentencia n="22">A menudo me siento preocupado sobre el tipo de impresión que pueda estar causando a las personas del sexo opuesto.</sentencia>
+	<sentencia n="23">Me preocupa que la persona con la que estoy saliendo me encuentre defectos.</sentencia>
+	<sentencia n="24">Soy más tímido con las personas del sexo opuesto.</sentencia>
+	<sentencia n="25">Pienso que la mayoría de la gente me encuentra atractivo.</sentencia>
+	<sentencia n="26">Me preocupa lo que pueda pensar de mí la persona con la que me he citado, incluso cuando sé que esto no importa demasiado</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

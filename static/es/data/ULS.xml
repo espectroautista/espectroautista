@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * ULS.xml - UCLA loneliness Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="ULS.xml">
+	<sentencia n="1">¿Cuán a menudo se siente triste haciendo tantas cosas solo?</sentencia>
+	<sentencia n="2">¿Cuán a menudo siente que no tiene a nadie con quien hablar?</sentencia>
+	<sentencia n="3">¿Cuán a menudo siente que no puede tolerar estar tan solo?</sentencia>
+	<sentencia n="4">¿Cuán a menudo se siente como si nadie le entendiera realmente?</sentencia>
+	<sentencia n="5">¿Cuán a menudo se encuentra esperando que otros le llamen o escriban?</sentencia>
+	<sentencia n="6">¿Cuán a menudo se siente completamente solo?</sentencia>
+	<sentencia n="7">¿Cuán a menudo siente que es incapaz de conectar o comunicarse con los que le rodean?</sentencia>
+	<sentencia n="8">¿Cuán a menudo se siente desesperadamente necesitado de compañía?</sentencia>
+	<sentencia n="9">¿Cuán a menudo encuentra que es difícil para usted hacer amigos?</sentencia>
+	<sentencia n="10">¿Cuán a menudo se siente ignorado y excluido por los demás?</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

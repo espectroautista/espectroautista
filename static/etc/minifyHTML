@@ -1,0 +1,10 @@
+#!/bin/sh
+# minify HTML
+
+#sed -i -e 's/^[ \t]\+//' -e '/^$/d' *.html
+
+sed -e 's/^[ \t]\+//' -e '/^$/d'
+
+	#-e '1s/ SYSTEM "about:legacy-compat"//' \
+
+# vim:sw=4:ts=4:ai:fileencoding=utf8:syntax=sh

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * RCBS20.xml - Revised Cheek and Buss Shyness Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="RCBS20.xml">
+	<sentencia n="1" a="1" b="2" c="3" d="4" e="5">Me siento tenso cuando estoy con gente que no conozco bien.</sentencia>
+	<sentencia n="2" a="1" b="2" c="3" d="4" e="5">Al conversar con personas que acabo de conocer me preocupa decir algo estúpido.</sentencia>
+	<sentencia n="3" a="1" b="2" c="3" d="4" e="5">Soy un poco raro socialmente.</sentencia>
+	<sentencia n="4" a="5" b="4" c="3" d="2" e="1">No encuentro difícil solicitar información a otras personas.</sentencia>
+	<sentencia n="5" a="1" b="2" c="3" d="4" e="5">No me suelo encontrar confortable en fiestas u otras reuniones sociales.</sentencia>
+	<sentencia n="6" a="1" b="2" c="3" d="4" e="5">Cuando estoy con un grupo de personas me cuesta decidir sobre los temas adecuados de los que hablar.</sentencia>
+	<sentencia n="7" a="5" b="4" c="3" d="2" e="1">Me encuentro relajado incluso en situaciones sociales poco familiares.</sentencia>
+	<sentencia n="8" a="1" b="2" c="3" d="4" e="5">Me resulta difícil actuar con naturalidad cuando me encuentro con gente nueva.</sentencia>
+	<sentencia n="9" a="1" b="2" c="3" d="4" e="5">Me siento dolorosamente auto-consciente cuando estoy entre desconocidos.</sentencia>
+	<sentencia n="10" a="5" b="4" c="3" d="2" e="1">Me siento seguro de mis habilidades sociales.</sentencia>
+	<sentencia n="11" a="1" b="2" c="3" d="4" e="5">Me siento nervioso cuando he de hablar con alguien importante.</sentencia>
+	<sentencia n="12" a="1" b="2" c="3" d="4" e="5">Tengo problemas al mirar a alguien directamente a los ojos.</sentencia>
+	<sentencia n="13" a="5" b="4" c="3" d="2" e="1">Generalmente soy yo la persona que inicia la conversación.</sentencia>
+	<sentencia n="14" a="1" b="2" c="3" d="4" e="5">A menudo tengo dudas sobre si les gusta estar conmigo a las otras personas.</sentencia>
+	<sentencia n="15" a="1" b="2" c="3" d="4" e="5">A veces, cuando me presentan nuevas personas me siento físicamente alterado (por ejemplo, con dolor de estómago, palpitaciones, palmas de las manos sudorosas, sofoco).</sentencia>
+	<sentencia n="16" a="5" b="4" c="3" d="2" e="1">No me resulta difícil hablar con desconocidos.</sentencia>
+	<sentencia n="17" a="1" b="2" c="3" d="4" e="5">Cuando me presentan gente nueva me preocupa pensar si me llevaré bien con ella.</sentencia>
+	<sentencia n="18" a="1" b="2" c="3" d="4" e="5">Soy tímido cuando me encuentro con alguien del sexo opuesto.</sentencia>
+	<sentencia n="19" a="5" b="4" c="3" d="2" e="1">No necesito mucho tiempo para vencer mi timidez en las situaciones nuevas.</sentencia>
+	<sentencia n="20" a="1" b="2" c="3" d="4" e="5">Me siento cohibido en las situaciones sociales.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

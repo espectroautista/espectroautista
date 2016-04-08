@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * SPIN.xml - Social Phobia Inventory
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="SPIN.xml">
+	<sentencia n="1">Me espanto ante la gente con autoridad.</sentencia>
+	<sentencia n="2">Me molesta sonrojarme delante de la gente.</sentencia>
+	<sentencia n="3">Las fiestas y acontecimientos sociales me asustan.</sentencia>
+	<sentencia n="4">Evito hablar con la gente que no conozco.</sentencia>
+	<sentencia n="5">Cuando me critican me alarmo mucho.</sentencia>
+	<sentencia n="6">El miedo a sentirme avergonzado me lleva a evitar hacer cosas o a hablar con la gente.</sentencia>
+	<sentencia n="7">Sudar delante de la gente me incomoda.</sentencia>
+	<sentencia n="8">Evito ir a fiestas.</sentencia>
+	<sentencia n="9">Evito las actividades en las que soy el centro de atención.</sentencia>
+	<sentencia n="10">Hablar con desconocidos me asusta.</sentencia>
+	<sentencia n="11">Evito tener que hablar ante una audiencia.</sentencia>
+	<sentencia n="12">Haría cualquier cosa para evitar ser criticado.</sentencia>
+	<sentencia n="13">Me molesta tener palpitaciones cuando estoy entre la gente.</sentencia>
+	<sentencia n="14">Me atemoriza hacer cosas cuando la gente me mira.</sentencia>
+	<sentencia n="15">Sentirme avergonzado o parecer estúpido son mis peores miedos.</sentencia>
+	<sentencia n="16">Evito hablar a cualquier persona importante.</sentencia>
+	<sentencia n="17">Me incomoda temblar o agitarme delante de la gente.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

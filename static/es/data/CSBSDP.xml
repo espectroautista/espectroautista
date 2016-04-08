@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * CSBSDP.xml - 
+-->
+<!DOCTYPE preguntas [
+<!ELEMENT preguntas (pregunta+)>
+<!ATTLIST preguntas id ID #REQUIRED>
+<!ENTITY XHTMLNS "http://www.w3.org/1999/xhtml">
+]>
+
+<preguntas id="CSBSDP.xml">
+
+<!--
+CSBS DP Cuestionario del bebé y niño pequeño
+Nombre del niño o niña:         Fecha de nacimiento:           Fecha en que se llenó el formulario:
+¿Fue prematuro el parto?        ¿Por cuántas semanas?
+Llenado por:                    Relación con el niño o niña:
+
+Instrucciones para la persona que cuida al niño o niña: Esta lista fue diseñada
+para identificar distintos aspectos del desarrollo del bebé y el niño pequeño.
+Antes de aprender a hablar, hay varios comportamientos que pueden indicar si el
+niño o niña tendrá problemas para aprender a hablar. Este formulario debe ser
+llenado cuando el niño o niña tiene entre 6 y 24 meses de edad, por los padres
+o la persona que cuida al niño, para determinar si es necesario hacer una
+evaluación más completa. La persona que llena el formulario debe ser alguien
+que esté en contacto diario con el niño o niña, ya sean sus padres u otra
+persona. Marque la opción que describa mejor el comportamiento de su niño o
+niña. Si tiene dudas, marque la opción más adecuada según su experiencia con el
+niño o niña. Los niños y niñas de estas edades no necesariamente presentan
+todos los comportamientos que se describen aquí.
+-->
+
+<!--Emociones y mirada-->
+
+	<pregunta n='1'>
+		<texto xmlns="&XHTMLNS;">¿Puede usted distinguir cuando su niño o niña está contento y cuando está triste?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='2'>
+		<texto xmlns="&XHTMLNS;">Cuando juega con juguetes, ¿se vuelve a mirarle para ver si lo está observando?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='3'>
+		<texto xmlns="&XHTMLNS;">¿Sonríe o ríe mientras le mira?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='4'>
+		<texto xmlns="&XHTMLNS;">Si usted mira y señala un juguete al otro lado del cuarto, ¿su niño o niña se vuelve a verlo?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+<!--Comunicación-->
+
+	<pregunta n='5'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña puede indicarle cuando necesita ayuda o cuando quiere algo que no puede alcanzar?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='6'>
+		<texto xmlns="&XHTMLNS;">Si usted no le presta atención, ¿su niño o niña trata de llamar su atención?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='7'>
+		<texto xmlns="&XHTMLNS;">¿Hace su niño o niña cosas sólo para hacerle reír?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='8'>
+		<texto xmlns="&XHTMLNS;">¿Trata su niño o niña de mostrarle objetos interesantes para que usted los vea, sin que quiera que haga algo con ellos?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+<!--Gestos-->
+	<pregunta n='9'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña recoge objetos y se los da a usted?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='10'>
+		<texto xmlns="&XHTMLNS;">¿Le muestra su niño o niña objetos sin dárselos?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='11'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña saluda moviendo la mano?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='12'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña señala los objetos?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='13'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña mueve la cabeza para decir que sí?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+<!--Sonidos-->
+
+	<pregunta n='14'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña usa sonidos o palabras para llamar la atención o pedir ayuda?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='15'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña une varios sonidos, como por ejemplo, ah-oh, mamá, gaga, nana, papá?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='16'>
+		<texto xmlns="&XHTMLNS;">¿Aproximadamente cuántos de los siguientes sonidos consonantes usa su niño o niña: ma, na, ba, da, ga, pua, la, ya, sa?</texto>
+		<opcion v='0'>Ninguno</opcion>
+		<opcion v='1'>1 a 2</opcion>
+		<opcion v='2'>3 a 4</opcion>
+		<opcion v='3'>5 a 8</opcion>
+		<opcion v='4'>más de 8</opcion>
+	</pregunta>
+
+<!--Palabras-->
+
+	<pregunta n='17'>
+		<texto xmlns="&XHTMLNS;">¿Cuantas palabras que usted pueda reconocer usa su niño o niña para indicar algo (como tete por biberón, buabua por agua)?</texto>
+		<opcion v='0'>Ninguno</opcion>
+		<opcion v='1'>1 a 3</opcion>
+		<opcion v='2'>4 a 10</opcion>
+		<opcion v='3'>11 a 30</opcion>
+		<opcion v='4'>más de 30</opcion>
+	</pregunta>
+
+	<pregunta n='18'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña une dos palabras (por ejemplo más agua, este mío)?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+<!--Comprensión-->
+
+	<pregunta n='19'>
+		<texto xmlns="&XHTMLNS;">Cuando llama a su niño o niña por su nombre, ¿responde volviendo la mirada o la cabeza hacia usted?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='20'>
+		<texto xmlns="&XHTMLNS;">¿Aproximadamente cuántas palabras o frases entiende su niño o niña sin ayuda de gestos? Por ejemplo, si usted dice “¿dónde está tu nariz?”, “¿dónde está papá?”, “dame la pelota” o “ven aquí”, sin señalar con la mano o apuntar, su niño o niña responderá de forma apropiada.</texto>
+		<opcion v='0'>Ninguno</opcion>
+		<opcion v='1'>1 a 3</opcion>
+		<opcion v='2'>4 a 10</opcion>
+		<opcion v='3'>11 a 30</opcion>
+		<opcion v='4'>más de 30</opcion>
+	</pregunta>
+
+<!--Uso de objetos-->
+
+	<pregunta n='21'>
+		<texto xmlns="&XHTMLNS;">¿Su niño o niña muestra interés en jugar con una variedad de objetos?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+	<pregunta n='22'>
+		<texto xmlns="&XHTMLNS;">¿Aproximadamente cuántos de los objetos siguientes usa su niño o niña correctamente: taza, biberón, tazón, cuchara, peine o cepillo, cepillo de dientes, esponja de baño, pelota, carrito de juguete, teléfono de juguete?</texto>
+		<opcion v='0'>Ninguno</opcion>
+		<opcion v='1'>1 a 2</opcion>
+		<opcion v='2'>3 a 4</opcion>
+		<opcion v='3'>5 a 8</opcion>
+		<opcion v='4'>más de 8</opcion>
+	</pregunta>
+
+	<pregunta n='23'>
+		<texto xmlns="&XHTMLNS;">¿Aproximadamente cuántos bloques o aros puede poner su niño o niña uno encima de otro?</texto>
+		<opcion v='0'>Ninguno</opcion>
+		<opcion v='1'>2 bloques</opcion>
+		<opcion v='2'>3 a 4 bloques</opcion>
+		<opcion v='3'>5 o más</opcion>
+	</pregunta>
+
+	<pregunta n='24'>
+		<texto xmlns="&XHTMLNS;">¿Juega con sus juguetes a juegos como: darle de comer a un osito de peluche, arrullar a una muñeca, o poner un muñeco en un carrito?</texto>
+		<opcion v='0'>Todavía No</opcion>
+		<opcion v='1'>A veces</opcion>
+		<opcion v='2'>Frecuentemente</opcion>
+	</pregunta>
+
+<!--
+¿Le preocupa algún aspecto del desarrollo de su niño o niña?                                sí     no      
+Sí la respuesta es sí, explique al dorso.
+-->
+
+<!--
+Amy M. Wetherby & Barry M. Prizant © 2002 by Paul H. Brookes Publishing Co. All rights reserved.
+-->
+
+</preguntas>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

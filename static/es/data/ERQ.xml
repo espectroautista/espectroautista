@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * ERQ.xml - Emotion Regulation Questionnaire
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="ERQ.xml">
+	<sentencia n="1">Cuando quiero sentir más una emoción positiva (por ejemplo, alegre o divertido), modifico lo que pienso sobre ello.</sentencia>
+	<sentencia n="2">Trato de mantener ocultos mis sentimientos.</sentencia>
+	<sentencia n="3">Cuando quiero sentir menos una emoción negativa (por ejemplo, tristeza o enfado), modifico lo que pienso sobre ello.</sentencia>
+	<sentencia n="4">Cuando estoy sintiendo emociones positivas, tengo cuidado de no expresarlas.</sentencia>
+	<sentencia n="5">Cuando hago frente a una situación estresante, pienso en ella de una manera que me ayude a mantener la calma.</sentencia>
+	<sentencia n="6">Controlo mis emociones no expresándolas.</sentencia>
+	<sentencia n="7">Cuando quiero sentir más una emoción positiva, cambio la manera de pensar sobre esa situación.</sentencia>
+	<sentencia n="8">Controlo mis emociones cambiando la manera de pensar sobre la situación en la que me encuentro.</sentencia>
+	<sentencia n="9">Cuando estoy sintiendo emociones negativas, me aseguro de no expresarlas.</sentencia>
+	<sentencia n="10">Cuando quiero sentir menos una emoción negativa, cambio la manera de pensar sobre esa situación.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

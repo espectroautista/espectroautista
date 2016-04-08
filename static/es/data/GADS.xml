@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * GADS.xml - Goldberg Ansiety and Depression Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="GADS.xml">
+	<!-- SUBESCALA DE ANSIEDAD -->
+	<sentencia n="1">¿Se ha sentido muy excitado, nervioso o en tensión?</sentencia>
+	<sentencia n="2">¿Ha estado muy preocupado por algo?</sentencia>
+	<sentencia n="3">¿Se ha sentido muy irritable?</sentencia>
+	<sentencia n="4">¿Ha tenido dificultad para relajarse?</sentencia>
+	<!-- (Si hay 2 o más respuestas afirmativas, continuar preguntando) -->
+	<sentencia n="5">¿Ha dormido mal, ha tenido dificultades para dormir?</sentencia>
+	<sentencia n="6">¿Ha tenido dolores de cabeza o nuca?</sentencia>
+	<sentencia n="7">¿Ha tenido alguno de los siguientes síntomas: temblores, hormigueos, mareos, sudores, diarrea?</sentencia>
+	<sentencia n="8">¿Ha estado preocupado por su salud?</sentencia>
+	<sentencia n="9">¿Ha tenido alguna dificultad para conciliar el sueño, para quedarse dormido?</sentencia>
+
+	<!-- SUBESCALA DE DEPRESIÓN -->
+	<sentencia n="10">¿Se ha sentido con poca energía?</sentencia>
+	<sentencia n="11">¿Ha perdido usted su interés por las cosas?</sentencia>
+	<sentencia n="12">¿Ha perdido la confianza en sí mismo?</sentencia>
+	<sentencia n="13">¿Se ha sentido usted desesperanzado, sin esperanzas?</sentencia>
+	<!-- (Si hay respuestas afirmativas a cualquiera de las preguntas anteriores, continuar) -->
+	<sentencia n="14">¿Ha tenido dificultades para concentrarse?</sentencia>
+	<sentencia n="15">¿Ha perdido peso (a causa de su falta de apetito)?</sentencia>
+	<sentencia n="16">¿Se ha estado despertando demasiado temprano?</sentencia>
+	<sentencia n="17">¿Se ha sentido usted enlentecido?</sentencia>
+	<sentencia n="18">¿Cree usted que ha tenido tendencia a encontrarse peor por las mañanas?</sentencia>
+</sentencias>
+
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

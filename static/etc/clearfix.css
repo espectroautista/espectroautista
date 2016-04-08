@@ -1,0 +1,16 @@
+/* clearfix hack */
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/*
+* vim:sw=4:ts=4:ai:fileencoding=utf8:syntax=css
+*/

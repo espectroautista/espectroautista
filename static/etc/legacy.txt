@@ -1,0 +1,2 @@
+/timidez.html	/tests/sociabilidad/habilidades-sociales
+/alexitimia.html	/tests/emotividad/expresividad-emocional

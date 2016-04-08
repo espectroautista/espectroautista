@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * PANAS.xml - Online Alexithymia Questionnaire
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="PANAS.xml">
+	<sentencia n='1'>Interesado</sentencia>
+	<sentencia n='2'>Afligido</sentencia>
+	<sentencia n='3'>Excitado</sentencia>
+	<sentencia n='4'>Alterado</sentencia>
+	<sentencia n='5'>Enérgico</sentencia>
+	<sentencia n='6'>Culpable</sentencia>
+	<sentencia n='7'>Asustado</sentencia>
+	<sentencia n='8'>Hostil</sentencia>
+	<sentencia n='9'>Entusiasta</sentencia>
+	<sentencia n='10'>Orgulloso</sentencia>
+	<sentencia n='11'>Irritable</sentencia>
+	<sentencia n='12'>Espabilado</sentencia>
+	<sentencia n='13'>Avergonzado</sentencia>
+	<sentencia n='14'>Inspirado</sentencia>
+	<sentencia n='15'>Nervioso</sentencia>
+	<sentencia n='16'>Resuelto</sentencia>
+	<sentencia n='17'>Atento</sentencia>
+	<sentencia n='18'>Agitado</sentencia>
+	<sentencia n='19'>Activo</sentencia>
+	<sentencia n='20'>Miedoso</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * SQ.xml - Test del Cociente de Sistematización
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="SQR.xml">
+	<sentencia n='1'  a='2' b='1' c='0' d='0'>Me es muy fácil aclararme con los horarios de los trenes, incluso cuando tengo que hacer varias conexiones.</sentencia>
+	<sentencia n='2'  a='2' b='1' c='0' d='0'>Me gustan las tiendas de música o libros porque están claramente organizadas.</sentencia>
+	<sentencia n='3'  a='0' b='0' c='1' d='2'>No me gustaría tener que organizar eventos, como por ejemplo reuniones para recaudar fondos, fiestas o conferencias.</sentencia>
+	<sentencia n='4'  a='2' b='1' c='0' d='0'>Cuando leo algo siempre me doy cuenta de si es correcto desde el punto de vista gramatical.</sentencia>
+	<sentencia n='5'  a='2' b='1' c='0' d='0'>A la que me doy cuenta, estoy clasificando mentalmente a las personas en categorías.</sentencia>
+	<sentencia n='6'  a='0' b='0' c='1' d='2'>Me cuesta leer e interpretar los mapas.</sentencia>
+	<sentencia n='7'  a='2' b='1' c='0' d='0'>Cuando miro una montaña pienso en el proceso detallado de su formación.</sentencia>
+	<sentencia n='8'  a='0' b='0' c='1' d='2'>No me interesan demasiado los detalles del cambio de divisas, tipos de interés, acciones bursátiles y participaciones.</sentencia>
+	<sentencia n='9'  a='2' b='1' c='0' d='0'>Si me comprase un coche querría obtener información específica sobre la potencia del motor.</sentencia>
+	<sentencia n='10' a='0' b='0' c='1' d='2'>Encuentro difícil aprender a programar los aparatos de vídeo.</sentencia>
+	<sentencia n='11' a='2' b='1' c='0' d='0'>Cuando me gusta algo, me encanta coleccionar muchos ejemplares de ese tipo de objeto, para así poder ver en que difieren unos de otros.</sentencia>
+	<sentencia n='12' a='2' b='1' c='0' d='0'>Cuando aprendo un idioma me siento intrigado por sus reglas gramaticales.</sentencia>
+	<sentencia n='13' a='2' b='1' c='0' d='0'>Me gusta saber como están organizados los comités, conociendo a quien representa cada uno de sus miembros y cuales son sus funciones.</sentencia>
+	<sentencia n='14' a='2' b='1' c='0' d='0'>Si tuviera una colección (por ejemplo de CDs, monedas o sellos) la tendría muy bien organizada.</sentencia>
+	<sentencia n='15' a='0' b='0' c='1' d='2'>Cuando he de conectar aparatos entre sí encuentro difícil entender los manuales de instrucciones.</sentencia>
+	<sentencia n='16' a='2' b='1' c='0' d='0'>Cuando miro un edificio tengo curiosidad por saber como ha sido construido.</sentencia>
+	<sentencia n='17' a='0' b='0' c='1' d='2'>No me interesa saber cómo funcionan las comunicaciones sin cables.</sentencia>
+	<sentencia n='18' a='2' b='1' c='0' d='0'>Cuando viajo en tren suelo preguntarme como está coordinada la red ferroviaria.</sentencia>
+	<sentencia n='19' a='2' b='1' c='0' d='0'>Me gusta consultar catálogos para ver los detalles de cada producto y así poder compararlos entre si.</sentencia>
+	<sentencia n='20' a='2' b='1' c='0' d='0'>Cuando en casa se me acaba cualquier cosa siempre la apunto a la lista de la compra.</sentencia>
+	<sentencia n='21' a='2' b='1' c='0' d='0'>Conozco, con una razonable exactitud, cuanto dinero ha entrado y salido este mes de mi cuenta bancaria.</sentencia>
+	<sentencia n='22' a='0' b='0' c='1' d='2'>De joven no me gustaba coleccionar cosas, como por ejemplo cromos o pegatinas.</sentencia>
+	<sentencia n='23' a='2' b='1' c='0' d='0'>Estoy interesado en el árbol genealógico de mi familia, y en comprender como cada uno de sus miembros está relacionado con los demás.</sentencia>
+	<sentencia n='24' a='0' b='0' c='1' d='2'>Cuando me informo sobre hechos históricos no presto atención a las fechas exactas.</sentencia>
+	<sentencia n='25' a='2' b='1' c='0' d='0'>Me resulta fácil comprender cómo funcionan las apuestas.</sentencia>
+	<sentencia n='26' a='0' b='0' c='1' d='2'>No me gustan los juegos que precisan de un alto grado de estrategia.</sentencia>
+	<sentencia n='27' a='2' b='1' c='0' d='0'>Cuando aprendo sobre una nueva categoría me gusta conocer todos los detalles, para así comprender las pequeñas diferencias existentes entre los diferentes miembros de esa categoría.</sentencia>
+	<sentencia n='28' a='0' b='0' c='1' d='2'>No me encuentro molesto si las personas que viven conmigo alteran mis rutinas.</sentencia>
+	<sentencia n='29' a='2' b='1' c='0' d='0'>Cuando veo un animal me gusta saber con exactitud a que especie pertenece.</sentencia>
+	<sentencia n='30' a='2' b='1' c='0' d='0'>Puedo recordar una gran cantidad de información sobre un tema que me interese, como por ejemplo las banderas del mundo o los logotipos de lineas aéreas.</sentencia>
+	<sentencia n='31' a='0' b='0' c='1' d='2'>En casa, no archivo cuidadosamente todos los documentos importantes, como por ejemplo garantías o pólizas de seguros.</sentencia>
+	<sentencia n='32' a='2' b='1' c='0' d='0'>Me fascina el funcionamiento de las máquinas.</sentencia>
+	<sentencia n='33' a='0' b='0' c='1' d='2'>Cuando miro un mueble me doy cuenta de los detalles de como  ha sido construido.</sentencia>
+	<sentencia n='34' a='0' b='0' c='1' d='2'>Conozco muy poco las diferentes fases del proceso legislativo de mi país.</sentencia>
+	<sentencia n='35' a='0' b='0' c='1' d='2'>No suelo mirar documentales científicos en la televisión o leer artículos sobre ciencias o naturaleza.</sentencia>
+	<sentencia n='36' a='2' b='1' c='0' d='0'>Si alguien me pregunta por una dirección, soy capaz de orientarle con cualquier dirección de mi propia ciudad.</sentencia>
+	<sentencia n='37' a='0' b='0' c='1' d='2'>Cuando miro un cuadro no acostumbro a pensar en la técnica con la que se ha realizado.</sentencia>
+	<sentencia n='38' a='2' b='1' c='0' d='0'>Prefiero las interacciones sociales que están estructuradas alrededor de una actividad claramente definida, como por ejemplo un hobby.</sentencia>
+	<sentencia n='39' a='0' b='0' c='1' d='2'>No siempre contrasto los recibos o facturas con mi extracto bancario.</sentencia>
+	<sentencia n='40' a='0' b='0' c='1' d='2'>No tengo interés en saber como se organiza el gobierno en diferentes ministerios y departamentos.</sentencia>
+	<sentencia n='41' a='2' b='1' c='0' d='0'>Me interesa conocer el camino que sigue un río desde su nacimiento hasta que llega al mar.</sentencia>
+	<sentencia n='42' a='2' b='1' c='0' d='0'>Tengo una gran colección, por ejemplo de libros, CDs, vídeos, etc.</sentencia>
+	<sentencia n='43' a='2' b='1' c='0' d='0'>Si tuviera en mi casa un problema con la instalación eléctrica sería capaz de arreglarlo yo mismo.</sentencia>
+	<sentencia n='44' a='0' b='0' c='1' d='2'>No tengo mi ropa cuidadosamente organizada en el armario según sus diferentes tipos.</sentencia>
+	<sentencia n='45' a='0' b='0' c='1' d='2'>Casi nunca leo artículos o páginas web sobre nuevas tecnologías.</sentencia>
+	<sentencia n='46' a='2' b='1' c='0' d='0'>Puedo visualizar fácilmente cómo se conectan las autovías de mi zona geográfica.</sentencia>
+	<sentencia n='47' a='0' b='0' c='1' d='2'>Cuando se celebran elecciones no me interesan especialmente los resultados específicos de cada circunscripción.</sentencia>
+	<sentencia n='48' a='0' b='0' c='1' d='2'>No me gusta especialmente aprender sobre acontecimientos y personajes históricos.</sentencia>
+	<sentencia n='49' a='0' b='0' c='1' d='2'>No suelo recordar la fecha de nacimiento de las personas.</sentencia>
+	<sentencia n='50' a='2' b='1' c='0' d='0'>Cuando paseo por el campo me entretengo en apreciar las diferencias que hay entre los diversos tipos de árboles.</sentencia>
+	<sentencia n='51' a='0' b='0' c='1' d='2'>Encuentro difícil de entender la información que me envía el banco sobre las diferentes opciones de inversión y de ahorro.</sentencia>
+	<sentencia n='52' a='0' b='0' c='1' d='2'>Si me comprase una cámara fotográfica no me preocuparía por conocer detalladamente la calidad del objetivo.</sentencia>
+	<sentencia n='53' a='2' b='1' c='0' d='0'>Si me comprase un ordenador querría saber exactamente la capacidad del  disco duro y la velocidad del procesador.</sentencia>
+	<sentencia n='54' a='0' b='0' c='1' d='2'>No leo los documentos legales con mucho detenimiento.</sentencia>
+	<sentencia n='55' a='2' b='1' c='0' d='0'>Cuando paso por caja en el supermercado, empaqueto las diferentes categorías de cosas en bolsas separadas.</sentencia>
+	<sentencia n='56' a='0' b='0' c='1' d='2'>No sigo ningún sistema particular cuando hago la limpieza de casa.</sentencia>
+	<sentencia n='57' a='0' b='0' c='1' d='2'>No me gustan discutir de política en profundidad.</sentencia>
+	<sentencia n='58' a='0' b='0' c='1' d='2'>No soy demasiado meticuloso cuando desarrollo mis propios proyectos.</sentencia>
+	<sentencia n='59' a='0' b='0' c='1' d='2'>No me lo pasaría bien planificando un negocio desde su gestación hasta su realización.</sentencia>
+	<sentencia n='60' a='2' b='1' c='0' d='0'>Si me comprase un equipo de música querría conocer con precisión sus prestaciones.</sentencia>
+	<sentencia n='61' a='2' b='1' c='0' d='0'>Suelo guardar cosas que otras personas tirarían, por si acaso me son de utilidad en el futuro.</sentencia>
+	<sentencia n='62' a='2' b='1' c='0' d='0'>Evito las situaciones que no puedo controlar.</sentencia>
+	<sentencia n='63' a='0' b='0' c='1' d='2'>No me preocupa saber el nombre de las plantas que veo.</sentencia>
+	<sentencia n='64' a='0' b='0' c='1' d='2'>Cuando escucho la previsión del tiempo no presto mucha atención a los patrones meteorológicos.</sentencia>
+	<sentencia n='65' a='0' b='0' c='1' d='2'>No me preocupa si en casa hay cosas que no están en su sitio.</sentencia>
+	<sentencia n='66' a='2' b='1' c='0' d='0'>De las matemáticas me intrigan las reglas y los patrones que gobiernan los números.</sentencia>
+	<sentencia n='67' a='0' b='0' c='1' d='2'>Me cuesta orientarme en una ciudad que visito por primera vez.</sentencia>
+	<sentencia n='68' a='2' b='1' c='0' d='0'>Puedo enumerar mis 10 libros favoritos, citando de memoria sus títulos y los nombres de los autores.</sentencia>
+	<sentencia n='69' a='2' b='1' c='0' d='0'>Cuando leo el periódico tengo tendencia a fijarme en las tablas informativas, como las de las clasificaciones deportivas o los índices bursátiles. </sentencia>
+	<sentencia n='70' a='0' b='0' c='1' d='2'>Cuando estoy en un avión no pienso en los aspectos aerodinámicos de su funcionamiento.</sentencia>
+	<sentencia n='71' a='0' b='0' c='1' d='2'>No mantengo un registro cuidadoso de las facturas de casa.</sentencia>
+	<sentencia n='72' a='2' b='1' c='0' d='0'>Cuando tengo que hacer muchas compras, me gusta planificar que tiendas visitaré y en que orden lo haré.</sentencia>
+	<sentencia n='73' a='0' b='0' c='1' d='2'>Cuando cocino no pienso con detenimiento en los procedimientos o en los ingredientes que contribuyen al resultado final.</sentencia>
+	<sentencia n='74' a='2' b='1' c='0' d='0'>Cuando escucho una pieza musical siempre me doy cuenta de como está estructurada.</sentencia>
+	<sentencia n='75' a='2' b='1' c='0' d='0'>Puedo enumerar de memoria mis 10 canciones favoritas, incluyendo sus títulos y el nombre del artista que interpreta cada canción.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

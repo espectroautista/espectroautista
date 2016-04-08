@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * ASDI.xml - 
+-->
+<!DOCTYPE sentencias [
+	<!ELEMENT sentencias (sentencia+)>
+	<!ATTLIST sentencias id ID #REQUIRED>
+	<!ELEMENT sentencia (#PCDATA)>
+	<!ATTLIST sentencia n NMTOKEN #REQUIRED>
+]>
+
+<sentencias id="ASDI.xml">
+
+	<sentencia n="1">¿Tiene dificultades para relacionarse con personas de su
+		edad? Si es así, ¿en qué forma?</sentencia>
+
+	<sentencia n="2">¿Muestra un interés escaso o parece carecer de interés, por
+		hacer amigos o relacionarse con personas de su edad? Si es así,
+		especifíquelo.</sentencia>
+
+	<sentencia n="3">¿Tiene problemas para apreciar las claves sociales? Por
+		ejemplo, ¿falla a la hora de notar cambios en las conversaciones o
+		interacciones sociales, o no se da cuenta de esos cambios cuando está
+		interactuando con otras personas? Si es así, por favor,
+		descríbalo.</sentencia>
+
+	<sentencia n="4">¿Muestra conductas social o emocionalmente inadecuadas? Si
+		es así, ¿de qué forma/s?</sentencia>
+
+	<sentencia n="5">¿Tiene alguna afición o algún interés específico que ocupe
+		la mayoría de su tiempo, o que restrinja claramente su dedicación a otras
+		actividades? Si es así, por favor, coméntelo.</sentencia>
+
+	<sentencia n="6">¿Hay algo de repetitivo en sus patrones de interés o
+		intereses específicos? Si lo hay, por favor, especifíquelo.</sentencia>
+
+	<sentencia n="7">Las cosas que le interesan, ¿están más basadas en la memoria
+		mecánica que en un auténtico significado?</sentencia>
+
+	<sentencia n="8">¿Intenta introducir o crear rutinas, rituales o
+		preferencias de un modo que acaba por crearle problemas a él/ella mismo/a?
+		Si es así, ¿de qué modo?</sentencia>
+
+	<sentencia n="9">¿Intenta introducir o crear rutinas, rituales o preferencias
+		de un modo que acaba por crearle problemas a los demás? Si es así, por
+		favor, descríbalo.</sentencia>
+
+	<sentencia n="10">Su desarrollo del lenguaje ¿fue retrasado? Si es así,
+		coméntelo, por favor.</sentencia>
+
+	<sentencia n="11">Su lenguaje, ¿es “superficialmente perfecto”, al margen de
+		que tenga o no problemas de comprensión, u otros problemas lingüísticos?
+		Si es así, coméntelo, por favor.</sentencia>
+
+	<sentencia n="12">Su lenguaje, ¿es formal, pedante, o “exageradamente
+		adulto”? Si es así, por favor, descríbalo.</sentencia>
+
+	<sentencia n="13">¿Hay alguna característica en su voz (tono, volumen, timbre,
+		entonación, forma de acentuar las palabras, “prosodia”, etc.) que usted
+		encuentre peculiar o inusual? Si es así, ¿de qué forma?</sentencia>
+
+	<sentencia n="14">¿Tiene problemas de comprensión (incluyendo interpretaciones
+		erróneas de significados literales o implicados? Si es así, ¿qué tipo de
+		problemas?</sentencia>
+
+	<sentencia n="15">¿Gesticula poco? Si es así, coméntelo, por
+		favor.</sentencia>
+
+	<sentencia n="16">Su lenguaje corporal, ¿es torpe, desgarbado, desmañado,
+		extraño o inusual? Si es así, coméntelo, por favor.</sentencia>
+
+	<sentencia n="17">Sus expresiones faciales, ¿son limitadas o poco variadas?
+		Si es así, descríbalas, por favor.</sentencia>
+
+	<sentencia n="18">Su expresión general (incluida su expresión facial) ¿resulta
+		a veces inadecuada? Si es así, descríbala, por favor.</sentencia>
+
+	<sentencia n="19">¿Su mirada es fija, extraña, peculiar, anormal o rara? Si
+		es así, descríbala.</sentencia>
+
+	<sentencia n="20">¿Se ha observado si tiene un rendimiento bajo en las
+		exploraciones neuroevolutivas, bien en el pasado o en la presente
+		exploración? Si es así, coméntelo, por favor.</sentencia>
+
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

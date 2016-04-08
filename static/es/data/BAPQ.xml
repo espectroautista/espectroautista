@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * BAPQ.xml - Broader Phenotype Autism Questionnaire
+-->
+<!DOCTYPE sentencias [
+	<!ELEMENT sentencias (sentencia+)>
+	<!ATTLIST sentencias id ID #REQUIRED>
+	<!ELEMENT sentencia (#PCDATA)>
+	<!ATTLIST sentencia n NMTOKEN #REQUIRED>
+]>
+
+<sentencias id="BAPQ.xml">
+	<sentencia n="1">Me gusta estar con otras personas.</sentencia>
+	<sentencia n="2">Encuentro difícil expresarme sin brusquedad.</sentencia>
+	<sentencia n="3">Me siento cómodo con los cambios inesperados de planes.</sentencia>
+	<sentencia n="4">Me cuesta mucho evitar el quedar marginado en las conversaciones.</sentencia>
+	<sentencia n="5">Prefiero antes hablar con la gente para pedir información que para socializarme.</sentencia>
+	<sentencia n="6">La gente tiene que convencerme para que pruebe algo nuevo.</sentencia>
+	<sentencia n="7">Sintonizo con la otra persona al conversar.</sentencia>
+	<sentencia n="8">Tengo que animarme a mi mismo para aceptar la idea de visitar un lugar que no me sea familiar.</sentencia>
+	<sentencia n="9">Disfruto estando en situaciones sociales.</sentencia>
+	<sentencia n="10">Mi voz tiene una entonación plana o monótona.</sentencia>
+	<sentencia n="11">Me siento desconectado o “fuera de sintonía” al conversar con otros.</sentencia>
+	<sentencia n="12">La gente encuentra fácil dirigirse a mí.</sentencia>
+	<sentencia n="13">Tengo una fuerte necesidad de que mis días discurran de forma muy similar.</sentencia>
+	<sentencia n="14">La gente me pide que repita cosas que he dicho por que no me han entendido.</sentencia>
+	<sentencia n="15">Soy flexible sobre como deben hacerse las cosas.</sentencia>
+	<sentencia n="16">Busco situaciones donde pueda encontrar gente nueva.</sentencia>
+	<sentencia n="17">Me han dicho que hablo demasiado sobre ciertos temas.</sentencia>
+	<sentencia n="18">Cuando doy conversación es sólo para ser educado.</sentencia>
+	<sentencia n="19">Busco probar cosas nuevas.</sentencia>
+	<sentencia n="20">Hablo con voz demasiado fuerte o demasiado floja.</sentencia>
+	<sentencia n="21">Sé cuando alguien no está interesado en lo que estoy diciendo.</sentencia>
+	<sentencia n="22">Me supone un gran esfuerzo enfrentarme a los cambios de mi rutina.</sentencia>
+	<sentencia n="23">Soy bueno en la charla insustancial.</sentencia>
+	<sentencia n="24">Me comporto de forma muy planificada en la diversas situaciones.</sentencia>
+	<sentencia n="25">Siento que estoy conectando realmente con las otras personas.</sentencia>
+	<sentencia n="26">La gente se frustra por mi falta de voluntad para adaptarme.</sentencia>
+	<sentencia n="27">Dar conversación me aburre.</sentencia>
+	<sentencia n="28">Soy cálido y amistoso en mis interacciones con los demás.</sentencia>
+	<sentencia n="29">Dejo largas pausas en la conversación.</sentencia>
+	<sentencia n="30">Altero mi rutina diaria probando algo diferente.</sentencia>
+	<sentencia n="31">Prefiero estar solo en lugar acompañado.</sentencia>
+	<sentencia n="32">Cuando hablo con la gente tengo tendencia a irme por las ramas.</sentencia>
+	<sentencia n="33">Me gusta seguir una rutina exacta cuando trabajo.</sentencia>
+	<sentencia n="34">Sé cuando es el momento de cambiar de tema en una conversación.</sentencia>
+	<sentencia n="35">Sigo haciendo las cosas como sé, incluso aunque hacerlas de otra forma pudiese ser mejor.</sentencia>
+	<sentencia n="36">Disfruto charlando con la gente.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

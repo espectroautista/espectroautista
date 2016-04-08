@@ -1,0 +1,29 @@
+/*****************************************************************
+ * object.css - Hoja de estilo CSS para marcar objectos
+ *****************************************************************/
+
+object {
+	font-weight: bold;
+	text-decoration: line-through;
+}
+
+p.Video {
+	text-align: center;
+	margin-top: 2em;
+}
+
+/*
+ * OBSOLETE
+ *
+object[class='structure'] {
+	background-color: Red;
+}
+
+object[class='id'] {
+	background-color: Yellow;
+}
+*/
+
+/*
+ * vim:sw=4:ts=4:ai:fileencoding=utf8:syntax=css
+ */

@@ -1,0 +1,52 @@
+# Files to be ignored by Git
+
+/conf/*.db
+/ficheros/EspectroAutista.Info.*
+
+/static/feed.*
+/static/sitemap.*
+/static/*.html
+!/static/googlee3a8e210f2b2aaca.html
+/static/es/meta/
+/static/es/*_[A-Z].html
+/static/es/*_[A-Z].html
+
+/static/ebooks/EPUB/
+/static/ebooks/HTML/
+/static/ebooks/leeme.txt
+/static/ebooks/images.sed
+
+/static/styles/blog.css
+/static/styles/choice.css
+/static/styles/content.css
+/static/styles/epub.css
+/static/styles/glosario.css
+/static/styles/likert.css
+/static/styles/mapa.css
+/static/styles/palabras.css
+/static/styles/print-buttons.css
+/static/styles/print.css
+/static/styles/pub.css
+/static/styles/screen.css
+
+# binary
+/static/etc/bib2xml
+# derived XML
+/static/etc/biblast.xml
+/static/etc/biblio.xml
+/static/etc/routes.xml
+# derived makefiles
+/static/etc/common.mak
+/static/etc/es-pages.mak
+/static/etc/es-rules.mak
+# derived Apache maps
+/static/etc/flat2tree.map
+/static/etc/flat2tree-URL.map
+/static/etc/tree2flat.map
+# generated data
+/static/etc/nopaper.txt
+#
+/static/etc/jsmin
+/static/etc/*.pyc
+
+# vim:syntax=config

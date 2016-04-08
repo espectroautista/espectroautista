@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * AAA.xml - Adult Asperger Assessment (AAA)
+-->
+<!DOCTYPE secciones [
+<!ELEMENT secciones (seccion+)>
+<!ATTLIST secciones id ID #REQUIRED>
+]>
+
+<secciones id="AAA.xml">
+	<seccion id="A" name="Déficit cualitativo en interacción social">
+		<sintoma m="1" n="1">Marcado déficit en el empleo de múltiples conductas no verbales como contacto ocular, expresión facial, posturas corporales y gestos que regulen la interacción social.</sintoma>
+		<sintoma m="2" n="2">Falla para establecer relaciones con pares apropiadas para su nivel de desarrollo.</sintoma>
+		<sintoma m="3" n="3">Falta de interés en agradar a los demás. Falta de interés en comunicar sus experiencias a otros. No busca espontáneamente a las otras personas para compartir diversión, intereses.  No muestra, comparte o señala objetos de su interés.</sintoma>
+		<sintoma m="4" n="4">Falta de reciprocidad social o emocional (por ejemplo, no saber como consolar a alguien y/o falta de empatía).</sintoma>
+		<sintoma m="5" n="5">Dificultad en comprender situaciones sociales. Dificultad en comprender los pensamientos y sentimientos de las otras personas.</sintoma>
+	</seccion>
+	<seccion id="B" name="Patrones de comportamiento, intereses y actividades restringidos, repetitivos y estereotipados">
+		<sintoma m="6" n="1">Presenta preocupaciones con uno o más intereses estereotipados y restringidos anormales en intensidad o enfoque.</sintoma>
+		<sintoma m="7" n="2">Adherencia aparentemente inflexible a rituales y rutinas especificas, no-funcionales.</sintoma>
+		<sintoma m="8" n="3">Manierismos motores estereotipados y repetitivos (por ejemplo, aleteo de manos o dedos).</sintoma>
+		<sintoma m="9" n="4">Preocupacion persistente sobre objetos/sistemas.</sintoma>
+		<sintoma m="10" n="5">Tendencia a pensar en todo o nada (por ejemplo, politica o moral) en lugar de aceptar con flexibilidad otros puntos de vista.</sintoma>
+	</seccion>
+	<seccion id="C" name="Déficit cualitativo en la comunicación verbal y no verbal">
+		<sintoma m="11" n="1">Tendencia a llevar cualquier conversación hacia si mismo o tema de interés.</sintoma>
+		<sintoma m="12" n="2">Marcada dificultad para iniciar o sostener una conversación. No comprende el contacto social de tipo superficial con otros, pasar un rato con otras personas sin que haya una discusión, debate o actividad. No comprende las sutilezas.</sintoma>
+		<sintoma m="13" n="3">Habla pedante incluyendo demasiados o muy pocos detalles.</sintoma>
+		<sintoma m="14" n="4">Falta de habilidad para reconocer aburrimiento o falta de interés del locutor. Incluso sabe que no debe hablar demasiado de su tema de interés pero esta dificultad se presenta si su tema aparece.</sintoma>
+		<sintoma m="15" n="5">Tendencia frecuente a decir cosas sin considerar el posible impacto emocional en el otro ("faux pas").</sintoma>
+	</seccion>
+	<seccion id="D" name="Déficit en imaginación">
+		<sintoma m="16" n="1">Juego simbólico sin la variación o espontáneidad según edad de desarrollo.</sintoma>
+		<sintoma m="17" n="2">Falta de habilidad para contar, escribir o crear espontaneamente una ficción sin copiar la historia.</sintoma>
+		<sintoma m="18" n="3">El interés en la ficción (libro o drama) se restringe a posibles hechos de la realidad (por ejemplo, ciencia ficción, historia, aspectos técnicos de la película).</sintoma>
+	</seccion>
+	<seccion id="E" name="Prerequisitos">
+		<sintoma m="19" n="1">Retraso o funcionamiento anormal en cada cada una de las secciones anteriores (A-D) durante todo su desarrollo.</sintoma>
+		<sintoma m="20" n="2">El trastorno causa déficits clínicamente significativos en el área social, laboral y otras areas de funcionamiento importantes.</sintoma>
+		<sintoma m="21" n="3">No ha presentado retraso general del lenguaje clinicamente significativo (por ejemplo, palabras sueltas a los 2 años, frases comunicativas a los 3 años).</sintoma>
+		<sintoma m="22" n="4">No ha presentado retraso clínicamente significativo del desarrollo cognitivo, en la adquisicion de las habilidades que le permiten valerse por si mismo adecuadas a la edad, de la conducta adaptativa (que no sea en interacción social o habilidades relacionadas con interacción social (por ejemplo, higiene personal).</sintoma>
+		<sintoma m="23" n="5">Los criterios no cumplen con otros trastornos generalizados del desarrollo o esquizofrenia.</sintoma>
+	</seccion>
+</secciones>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

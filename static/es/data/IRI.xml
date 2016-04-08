@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * IRI.xml - Interpersonal Reactivity Index
+-->
+<!DOCTYPE sentencias [
+	<!ELEMENT sentencias (sentencia+)>
+	<!ATTLIST sentencias id ID #REQUIRED>
+	<!ELEMENT sentencia (#PCDATA)>
+	<!ATTLIST sentencia n NMTOKEN #REQUIRED>
+]>
+
+<sentencias id="IRI.xml">
+	<sentencia n="1">Sueño despierto y fantaseo, con cierta regularidad, sobre cosas que podrían pasarme.</sentencia>
+	<sentencia n="2">Frecuentemente tengo sentimientos de compasión y preocupación respecto a gente menos afortunada que yo.</sentencia>
+	<sentencia n="3">En algunas ocasiones encuentro difícil ver las cosas desde el punto de vista de las otras personas.</sentencia>
+	<sentencia n="4">No suelo sentir mucha lástima por las otras personas cuando tienen problemas.</sentencia>
+	<sentencia n="5">Me siento realmente involucrado con los sentimientos de los personajes de una novela.</sentencia>
+	<sentencia n="6">En las situaciones de emergencia me siento aprensivo y a punto de enfermar.</sentencia>
+	<sentencia n="7">Generalmente soy objetivo cuando veo una película o representación teatral y no suelo sentirme completamente inmerso en ellas.</sentencia>
+	<sentencia n="8">Intento contemplar la posición de todo el mundo antes de tomar una decisión.</sentencia>
+	<sentencia n="9">Cuando veo a una persona de quien se aprovechan, me siento un tanto protector hacia ella.</sentencia>
+	<sentencia n="10">A veces me siento indefenso cuando estoy en medio de una situación con mucha carga emocional.</sentencia>
+	<sentencia n="11">A veces intento comprender mejor a mis amigos imaginando cómo se deben ver las cosas desde su punto de vista.</sentencia>
+	<sentencia n="12">Llegar a sentirme extremadamente involucrado en un buen libro o película es bastante raro para mí.</sentencia>
+	<sentencia n="13">Cuando veo que alguien se ha hecho daño suelo mantener la calma.</sentencia>
+	<sentencia n="14">Las desgracias de las otras personas no me suelen perturbar demasiado.</sentencia>
+	<sentencia n="15">Si estoy convencido de tener la certeza sobre algo no suelo perder demasiado tiempo escuchando las argumentaciones de otras personas.</sentencia>
+	<sentencia n="16">Después de ver una representación teatral o una película me he sentido como si yo hubiese sido uno de los personajes.</sentencia>
+	<sentencia n="17">Me asusta encontrarme en una situación emocional tensa.</sentencia>
+	<sentencia n="18">A veces no siento demasiada lástima cuando veo que tratan a una persona de forma injusta.</sentencia>
+	<sentencia n="19">Suelo ser bastante efectivo al enfrentarme a situaciones de emergencia.</sentencia>
+	<sentencia n="20">Frecuentemente me siento afectado por cosas que veo que pasan.</sentencia>
+	<sentencia n="21">Creo que cada situación presenta dos caras e intento contemplarlas a las dos.</sentencia>
+	<sentencia n="22">Me describiría a mi mismo como una persona con bastante buen corazón.</sentencia>
+	<sentencia n="23">Cuando veo una buena película me pongo fácilmente en el lugar del personaje principal.</sentencia>
+	<sentencia n="24">Suelo perder el control durante las situaciones de emergencia.</sentencia>
+	<sentencia n="25">Cuando alguien me hace enfadar, suelo intentar ponerme por un momento en su lugar.</sentencia>
+	<sentencia n="26">Cuando leo una historia interesante en un relato o novela, me imagino cómo me sentiría yo si los acontecimientos en la historia me sucedieran a mí.</sentencia>
+	<sentencia n="27">Cuando en una situación de emergencia veo que alguien necesita urgentemente ayuda me siento al borde del colapso nervioso.</sentencia>
+	<sentencia n="28">Antes de criticar a alguien intento imaginar como me sentiría yo si estuviera en su lugar.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

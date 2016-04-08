@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * error.html - 
+ *
+ * Joan Ordinas - <jordinas@gmail.com>
+-->
+
+<!DOCTYPE html
+					PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+					"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+[
+]>
+
+<html id="error" xml:lang="es" lang="es">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title id="title">Error <!--#echo var="REDIRECT_STATUS" --></title>
+	</head>
+
+	<body>
+
+<!-- 400 BAD REQUEST -->
+<!--#if expr="$REDIRECT_STATUS == 400" -->
+
+		<h1>¡Solicitud errónea!</h1>
+
+		<p> El navegador ha solicitado una operación que no puede ser procesada por
+		el servidor.  </p>
+
+<!-- 401 UNAUTHORIZED -->
+<!--#elif expr="$REDIRECT_STATUS == 401" -->
+
+		<h1>¡Autorización requerida!</h1>
+		<h4>La página que ha solicitado requiere autorización.</h4>
+
+		<p> Este servidor no ha podido verificar su autorización para acceder al
+		recurso <code><!--#echo encoding="none" var="REDIRECT_URL" --></code>.
+		 Bien ha proporcionado datos de autentificación
+		incorrectos o bien su navegador no interpreta correctamente cómo enviar la
+		información requerida.  </p>
+
+		<p>
+    En caso de que a usted le este permitido el uso del
+    documento requerido, le solicitamos encarecidamente
+    que por favor vuelva a intentar la operaci&oacute;n suministrando
+    nuevamente su identificador y su contrase&ntilde;a.
+		</p>
+
+		<p>
+			Si cree que se trata de un error, 
+			por favor escriba un mensaje de correo a
+			<a class="url" href="mailto:webmaster@espectroautista.info">webmaster@espectroautista.info</a>.
+		</p>
+
+<!-- 403 FORBIDDEN -->
+<!--#elif expr="$REDIRECT_STATUS == 403" -->
+
+		<h1>¡Acceso prohibido!</h1>
+
+		<p>
+			Usted no tiene permiso de acceder al recurso
+			<code><!--#echo encoding="none" var="REDIRECT_URL" --></code>.
+			Existe la posibilidad de que este protegido contra
+			lectura o que no haya podido ser leido por el servidor.
+		</p>
+
+<!-- 404 NOT FOUND -->
+<!--#elif expr="$REDIRECT_STATUS == 404" -->
+
+		<h1>¡Página no encontrada!</h1>
+		<h4>La página <code><!--#echo encoding="none" var="REDIRECT_URL" --></code> 
+			no se ha encontrado.</h4>
+
+		<p>Sugerencias:</p>
+		<ul>
+			<li>Si escribió la dirección directamente en su navegador, asegúrese de
+			que esté correctamente escrita.</li>
+
+			<li>Si hizo clic en un enlace desde alguna página externa, quizá exista
+			algún problema en esa página con dicho enlace.</li>
+
+			<li>Seleccione alguna de las opciones de navegación presentes en la parte
+			superior de esta página.</li>
+		</ul>
+
+		<p>
+			Si aún haciendo esto no encuentra la información buscada,
+			por favor escriba un mensaje de correo a
+			<a class="url" href="mailto:webmaster@espectroautista.info">webmaster@espectroautista.info</a>
+			indicando la dirección de la página no encontrada.
+		</p>
+
+<!-- 405 METHOD NOT ALLOWED -->
+<!--#elif expr="$REDIRECT_STATUS == 405" -->
+
+		<h1>¡Método no permitido!</h1>
+
+		<p>
+		El método <code><!--#echo var="REDIRECT_REQUEST_METHOD" --></code>
+			utilizado por su solicitud no está permitido.
+		</p>
+
+<!-- 408 REQUEST TIME OUT -->
+<!--#elif expr="$REDIRECT_STATUS == 408" -->
+
+		<h1>¡La solicitud ha excedido el tiempo de espera permitido!</h1>
+
+		<p>
+			El servidor ha cerrado la conexi&oacute;n de red 
+			debido a que el navegador no termin&oacute; la solicitud
+			dentro del tiempo especificado.
+		</p>
+
+<!-- 410 GONE -->
+<!--#elif expr="$REDIRECT_STATUS == 410" -->
+
+		<h1>¡Recurso no disponible!</h1>
+
+		<p>
+			El recurso
+			<code><!--#echo encoding="none" var="REDIRECT_URL" --></code>
+			ya no est&aacute;n disponible en
+			este servidor y no existe una direcci&oacute;n alternativa.
+			Si usted sigui&oacute; el enlace desde una p&aacute;gina externa, 
+			por favor contacte con el autor de esa p&aacute;gina.
+		</p>
+
+<!-- 411 LENGTH REQUIRED -->
+<!--#elif expr="$REDIRECT_STATUS == 411" -->
+
+		<h1>¡Content-Length err&oacute;neo!</h1>
+
+		<p>
+			Una solicitud con el m&eacute;todo
+			<code><!--#echo var="REDIRECT_REQUEST_METHOD" --></code>
+			necesita una cabecera <code>Content-Length</code> v&aacute;lida.
+		</p>
+
+<!-- 412 PRECONDITION FAILED -->
+<!--#elif expr="$REDIRECT_STATUS == 412" -->
+
+		<h1>¡Precondici&oacute;n err&oacute;nea!</h1>
+
+		<p>
+			La precondici&oacute;n para que exista una 
+			conexi&oacute;n a la direcci&oacute;n solicitada es falsa.
+		</p>
+
+<!-- 413 REQUEST ENTITY TOO LARGE -->
+<!--#elif expr="$REDIRECT_STATUS == 413" -->
+
+		<h1>¡Entidad solicitada demasiado larga!</h1>
+
+		<p>
+			Los recursos establecidos no permiten peticiones con el
+			<code><!--#echo var="REDIRECT_REQUEST_METHOD" --></code>
+			m&eacute;todo suministrado por su solicitud, o, la cantidad de datos 
+			provistos exceden los l&iacute;mites de capacidad.
+		</p>
+
+<!-- 414 REQUEST URI TOO LARGE -->
+<!--#elif expr="$REDIRECT_STATUS == 414" -->
+
+		<h1>¡Direcci&oacute;n suministrada demasiado larga!</h1>
+
+		<p>
+			Su solicitud no puede procesarse debido a que la
+			longitud del enlace excede la capacidad l&iacute;mite del 
+			servidor. 
+		</p>
+
+<!-- 415 UNSUPPORTED MEDIA TYPE -->
+<!--#elif expr="$REDIRECT_STATUS == 415" -->
+
+		<h1>¡Tipo de datos no soportados!</h1>
+
+		<p>
+				Los datos de su solicitud no se encuentran en
+				un formato aceptado por este recurso.
+		</p>
+
+<!-- 500 INTERNAL SERVER ERROR -->
+<!--#elif expr="$REDIRECT_STATUS == 500" -->
+
+		<h1>¡Error en el servidor!</h1>
+
+		<!--#if expr="$REDIRECT_ERROR_NOTES" -->
+
+		<p>
+			El servidor encontro un error interno y fue
+			imposible completar su solicitud. 
+		</p>
+		<p>
+				Mensaje de error:
+				<br /><!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+		</p>
+
+		<!--#else -->
+
+		<p>
+			El servidor encontro un error interno y fue
+			imposible completar su solicitud. 
+			Existe tambien la posibilidad de que el servidor 
+			este sobrecargado o de alg&uacute;n error en un 
+			programa de CGI.
+		</p>
+
+		<!--#endif -->
+
+<!-- 501 NOT IMPLEMENTED -->
+<!--#elif expr="$REDIRECT_STATUS == 501" -->
+
+		<h1>¡Solicitud no procesada!</h1>
+
+		<p>
+			El navegador est&aacute; solicitando una acci&oacute;n 
+			que no puede ser procesada.
+		</p>
+
+<!-- 502 BAD GATEWAY -->
+<!--#elif expr="$REDIRECT_STATUS == 502" -->
+
+		<h1>¡Puerta de enlace err&oacute;nea!</h1>
+
+		<p>
+			El servidor origen recibi&oacute; informaci&oacute;n 
+			inv&aacute;lida por parte del servidor destino.
+		</p>
+
+		<!--#if expr="$REDIRECT_ERROR_NOTES" -->
+		<p>
+			<!--#echo encoding="none" var="REDIRECT_ERROR_NOTES" -->
+		</p>
+		<!--#endif -->
+
+<!-- 503 SERVICE UNAVAILABLE -->
+<!--#elif expr="$REDIRECT_STATUS == 503" -->
+
+		<h1>¡Servicio no disponible!</h1>
+
+		<p>
+			El servidor no puede atender su solicitud por
+			el momento debido a problemas de mantenimiento
+			o de capacidad.
+
+			Le solicitamos que por favor repita la operaci&oacute;n
+			m&aacute;s tarde.
+		</p>
+
+<!-- 506 VARIANT ALSO VARIES -->
+<!--#elif expr="$REDIRECT_STATUS == 506" -->
+
+		<h1>¡Variante negociable!</h1>
+
+		<p>
+			No es posible tener acceso debido a que
+			una variante de la solicitud es por si 
+			misma un recurso negociable.
+		</p>
+
+<!--#else -->
+
+		<h1>¡Error inesperado!</h1>
+
+		<pre>
+			<!--             #printenv -->
+			&nbsp;
+		</pre>
+
+<!--#endif -->
+
+		<p>Le rogamos disculpe las inconveniencias que este error le pueda haber
+		causado.</p>
+
+	</body>
+</html>
+
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:syntax=xml:wrap
+-->

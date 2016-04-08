@@ -1,0 +1,15 @@
+#!/bin/sh
+
+for file in $@
+do
+	case "$file" in
+		*.js)
+			echo 2>&1 "$file"
+			jsmin < "$file" | sed '/^$/d' > TMP$$
+			mv TMP$$ "$file"
+			;;
+		*)
+			echo Unknow file type for "$file"
+			;;
+	esac
+done

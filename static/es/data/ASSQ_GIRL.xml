@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * ASSQ_GIRL.xml - 18 GIRL questions extra to ASSQ
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="ASSQ_GIRL.xml">
+	<sentencia n='1'>Imita a los adultos (puede que de forma muy discreta).</sentencia>
+	<sentencia n='2'>Episodios de problemas con la alimentación.</sentencia>
+	<sentencia n='3'>Sin percepción del tiempo.</sentencia>
+	<sentencia n='4'>Demasiada simpatía.</sentencia>
+	<sentencia n='5'>Extremadamente interesada en grupos de pop/rock, series televisivas, desastres naturales.</sentencia>
+	<sentencia n='6'>Evita hacer peticiones.</sentencia>
+	<sentencia n='7'>Muy resuelta.</sentencia>
+	<sentencia n='8'>Dificultades al elegir; siempre evita hacerlo.</sentencia>
+	<sentencia n='9'>Dificultades con el cuidado personal.</sentencia>
+	<sentencia n='10'>Descuidada o demasiado meticulosa en relación con su apariencia física o modo de vestir.</sentencia>
+	<sentencia n='11'>Ingenua.</sentencia>
+	<sentencia n='12'>Se acerca demasiado a las otras personas.</sentencia>
+	<sentencia n='13'>Interactúa principalmente con niños más pequeños.</sentencia>
+	<sentencia n='14'>Se involucra en actividades peligrosas.</sentencia>
+	<sentencia n='15'>Exageradamente fantasiosa.</sentencia>
+	<sentencia n='16'>Habla sin contenido.</sentencia>
+	<sentencia n='17'>Escribe largos relatos (puede que en flagrante contraste con su nivel verbal).</sentencia>
+	<sentencia n='18'>Actúa o vive diferentes papeles (estrellas de la televisión, videos, animales).</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

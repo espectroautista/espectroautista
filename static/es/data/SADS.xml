@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * SADS.xml - Escala de Estrés y Evitación Social
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="SADS.xml">
+	<sentencia n='1'  si='0' no='1'>Me siento relajado incluso en situaciones sociales desconocidas.</sentencia>
+	<sentencia n='2'  si='1' no='0'>Intento evitar situaciones que me obligan a ser muy sociable.</sentencia>
+	<sentencia n='3'  si='0' no='1'>Normalmente suelo estar relajado cuando estoy con personas extrañas.</sentencia>
+	<sentencia n='4'  si='0' no='1'>Generalmente no deseo evitar a las personas.</sentencia>
+	<sentencia n='5'  si='1' no='0'>A menudo encuentro desagradables las situaciones sociales.</sentencia>
+	<sentencia n='6'  si='0' no='1'>Generalmente me encuentro tranquilo y cómodo en situaciones sociales.</sentencia>
+	<sentencia n='7'  si='0' no='1'>Normalmente me encuentro a gusto cuando hablo con alguien del sexo opuesto.</sentencia>
+	<sentencia n='8'  si='1' no='0'>Procuro evitar hablar con la gente, a no ser que la conozca bien.</sentencia>
+	<sentencia n='9'  si='0' no='1'>Si tengo oportunidad de conocer a personas nuevas, normalmente suelo hacerlo.</sentencia>
+	<sentencia n='10' si='1' no='0'>A menudo me encuentro nervioso o intranquilo cuando por casualidad me encuentro con un grupo de personas de ambos sexos.</sentencia>
+	<sentencia n='11' si='1' no='0'>Si no conozco bien a la gente, generalmente suelo sentirme nervioso cuando estoy con ellos.</sentencia>
+	<sentencia n='12' si='0' no='1'>Normalmente me siento relajado cuando estoy con un grupo de personas.</sentencia>
+	<sentencia n='13' si='1' no='0'>A menudo quiero evadirme de la gente.</sentencia>
+	<sentencia n='14' si='0' no='1'>Normalmente me siento cómodo cuando estoy con un grupo de personas que no conozco.</sentencia>
+	<sentencia n='15' si='0' no='1'>Normalmente me siento relajado cuando conozco a alguien por primera vez.</sentencia>
+	<sentencia n='16' si='1' no='0'>Cuando me presentan a alguien me pongo nervioso y tenso.</sentencia>
+	<sentencia n='17' si='0' no='1'>Puedo entrar en una sala aunque esté llena de personas desconocidas.</sentencia>
+	<sentencia n='18' si='1' no='0'>Normalmente suelo evitar juntarme con un grupo grande de personas.</sentencia>
+	<sentencia n='19' si='0' no='1'>Cuando mis superiores quieren hablar conmigo, lo hago con gusto.</sentencia>
+	<sentencia n='20' si='1' no='0'>Cuando estoy con un grupo de gente suelo estar muy nervioso.</sentencia>
+	<sentencia n='21' si='1' no='0'>Procuro evitar a las personas.</sentencia>
+	<sentencia n='22' si='0' no='1'>No me importa hablar con gente en reuniones sociales.</sentencia>
+	<sentencia n='23' si='1' no='0'>Raras veces me encuentro a gusto cuando estoy con un grupo de gente.</sentencia>
+	<sentencia n='24' si='1' no='0'>Generalmente suelo inventar excusas para evitar los compromisos sociales.</sentencia>
+	<sentencia n='25' si='0' no='1'>Algunas veces acepto la responsabilidad de presentar a las personas.</sentencia>
+	<sentencia n='26' si='1' no='0'>Procuro evitar situaciones sociales formales.</sentencia>
+	<sentencia n='27' si='0' no='1'>Generalmente acudo siempre a cualquier compromiso social que tenga.</sentencia>
+	<sentencia n='28' si='0' no='1'>Creo que es fácil estar relajado en presencia de otras personas.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * SWLS.xml - Satisfaction with life scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="SWLS.xml">
+	<sentencia n='1'>En la mayoría de las cosas, mi vida está cerca de mi ideal.</sentencia>
+	<sentencia n='2'>Las condiciones de mi vida son excelentes.</sentencia>
+	<sentencia n='3'>Estoy satisfecho con mi vida.</sentencia>
+	<sentencia n='4'>Hasta ahora, he conseguido las cosas que para mí son importantes en la vida.</sentencia>
+	<sentencia n='5'>Si volviese a nacer, no cambiaría casi nada de mi vida.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

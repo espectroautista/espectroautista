@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % HTMLlat1 PUBLIC
+	"-//W3C//ENTITIES Latin 1 for XHTML//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">
+%HTMLlat1;
+
+<!ENTITY % HTMLspecial PUBLIC
+	"-//W3C//ENTITIES Special for XHTML//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent">
+%HTMLspecial;
+
+<!ENTITY % HTMLsymbol PUBLIC
+	"-//W3C//ENTITIES Symbols for XHTML//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent">
+%HTMLsymbol;
+
+<!ENTITY XHTMLNS "http://www.w3.org/1999/xhtml">
+<!ENTITY SITE "http://EspectroAutista.Info/">
+
+<!-- little triangles -->
+<!ENTITY UP	"&#x25B2;">
+<!ENTITY DOWN	"&#x25BC;">
+<!ENTITY LEFT	"&#x25C4;">
+<!ENTITY RIGHT	"&#x25BA;">
+
+<!-- little double line arrows
+<!ENTITY UP	"&uArr;">
+<!ENTITY DOWN	"&dArr;">
+<!ENTITY LEFT	"&lArr;">
+<!ENTITY RIGHT	"&rArr;">
+-->
+
+<!-- &raquo; &rarr; &rArr; &rsaquo; &gt; -->
+<!ENTITY ARROW	"&rsaquo;">
+
+<!--
+  vim:sw=8:ts=8:ai:fileencoding=utf8
+-->

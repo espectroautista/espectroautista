@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * EQ.xml - Berkeley Expressivity Questionnaire
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="BEQ.xml">
+	<sentencia n="1"  a="1" b="2" c="3" d="4" e="5" f="6" g="7">Cuando siento emociones positivas, las otras personas pueden fácilmente ver con exactitud tal como me siento.</sentencia>
+	<sentencia n="2"  a="1" b="2" c="3" d="4" e="5" f="6" g="7">En alguna ocasiones lloro mientras veo películas tristes.</sentencia>
+	<sentencia n="3"  a="7" b="6" c="5" d="4" e="3" f="2" g="1">Las otras personas no saben cómo me siento.</sentencia>
+	<sentencia n="4"  a="1" b="2" c="3" d="4" e="5" f="6" g="7">Me río ruidosamente cuando alguien me explica un chiste que me parece divertido.</sentencia>
+	<sentencia n="5"  a="1" b="2" c="3" d="4" e="5" f="6" g="7">Me resulta difícil ocultar mi miedo.</sentencia>
+	<sentencia n="6"  a="1" b="2" c="3" d="4" e="5" f="6" g="7">Cuando me siento feliz muestro mis sentimientos.</sentencia>
+	<sentencia n="7"  a="1" b="2" c="3" d="4" e="5" f="6" g="7">Mi cuerpo reacciona fuertemente en las situaciones emocionales.</sentencia>
+	<sentencia n="8"  a="7" b="6" c="5" d="4" e="3" f="2" g="1">He aprendido que es mejor reprimir mi cólera que mostrarla.</sentencia>
+	<sentencia n="9"  a="7" b="6" c="5" d="4" e="3" f="2" g="1">No importando cómo de nervioso o alterado me encuentre, tiendo a mostrarme calmado.</sentencia>
+	<sentencia n="10" a="1" b="2" c="3" d="4" e="5" f="6" g="7">Soy una persona emocionalmente expresiva.</sentencia>
+	<sentencia n="11" a="1" b="2" c="3" d="4" e="5" f="6" g="7">Tengo fuertes emociones.</sentencia>
+	<sentencia n="12" a="1" b="2" c="3" d="4" e="5" f="6" g="7">A veces soy incapaz de ocultar mis sentimientos, incluso aunque lo desee.</sentencia>
+	<sentencia n="13" a="1" b="2" c="3" d="4" e="5" f="6" g="7">Cuando siento emociones negativas, las otras personas pueden ver fácilmente qué es lo que siento.</sentencia>
+	<sentencia n="14" a="1" b="2" c="3" d="4" e="5" f="6" g="7">Ha habido ocasiones en las que no he sido capaz de dejar de llorar, incluso aunque lo haya intentado.</sentencia>
+	<sentencia n="15" a="1" b="2" c="3" d="4" e="5" f="6" g="7">Experimento fuertemente mis emociones.</sentencia>
+	<sentencia n="16" a="1" b="2" c="3" d="4" e="5" f="6" g="7">Lo que siento está escrito en mi cara.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

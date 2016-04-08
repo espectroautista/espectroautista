@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * CAST.xml - Test Infantil de Síndrome de Asperger
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="CAST.xml">
+	<sentencia n='1' si='0' no='1'>¿Le resulta fácil participar en los juegos con otros niños?</sentencia>
+	<sentencia n='2' si='0' no='1'>¿Se acerca de una forma espontánea a usted para conversar?</sentencia>
+	<sentencia n='3' si='0' no='0'>¿Comenzó el niño a hablar antes de cumplir los dos años?</sentencia>
+	<sentencia n='4' si='0' no='0'>¿Le gustan los deportes?</sentencia>
+	<sentencia n='5' si='0' no='1'>¿Da el niño importancia al hecho de llevarse bien con otros niños de la misma edad y parecer como ellos?</sentencia>
+	<sentencia n='6' si='1' no='0'>¿Se da cuenta de detalles inusuales que otros niños no observan?</sentencia>
+	<sentencia n='7' si='1' no='0'>¿Tiende a entender las cosas que se dicen literalmente?</sentencia>
+	<sentencia n='8' si='0' no='1'>¿A la edad de tres años, pasaba mucho tiempo jugando imaginativamente juegos de ficción? Por ejemplo, imaginando que era un superhéroe, u organizando una merienda para sus muñecos de peluche.</sentencia>
+	<sentencia n='9' si='1' no='0'>¿Le gusta hacer las cosas de manera repetida y de la misma forma todo el tiempo?</sentencia>
+	<sentencia n='10' si='0' no='1'>¿Le resulta fácil interactuar con otros niños?</sentencia>
+	<sentencia n='11' si='0' no='1'>¿Es capaz de mantener una conversación recíproca?</sentencia>
+	<sentencia n='12' si='0' no='0'>¿Lee de una forma apropiada para su edad?</sentencia>
+	<sentencia n='13' si='0' no='1'>¿Tiene los mismos intereses, en general, que los otros niños de su misma edad?</sentencia>
+	<sentencia n='14' si='1' no='0'>¿Tiene algún interés que le mantenga ocupado durante tanto tiempo que el niño no hace otra cosa?</sentencia>
+	<sentencia n='15' si='0' no='1'>¿Tiene amigos y no sólo "conocidos"?</sentencia>
+	<sentencia n='16' si='0' no='1'>¿Le trae a menudo cosas en las que está interesado con la intención de mostrárselas?</sentencia>
+	<sentencia n='17' si='0' no='1'>¿Le gusta bromear?</sentencia>
+	<sentencia n='18' si='1' no='0'>¿Tiene alguna dificultad para entender las reglas del comportamiento educado?</sentencia>
+	<sentencia n='19' si='1' no='0'>¿Parece tener una memoria excepcional para los detalles?</sentencia>
+	<sentencia n='20' si='1' no='0'>¿Es la voz del niño peculiar (demasiado adulta, aplanada y muy monótona)?</sentencia>
+	<sentencia n='21' si='0' no='1'>¿Es la gente importante para él?</sentencia>
+	<sentencia n='22' si='0' no='0'>¿Puede vestirse solo?</sentencia>
+	<sentencia n='23' si='0' no='1'>¿Muestra una buena capacidad para esperar turnos en una conversación?</sentencia>
+	<sentencia n='24' si='0' no='1'>¿Juega el niño de forma imaginativa con otros niños y participa en juegos sociales de roles?</sentencia>
+	<sentencia n='25' si='1' no='0'>¿Hace a menudo comentarios que son impertinentes, indiscretos o socialmente inapropiados?</sentencia>
+	<sentencia n='26' si='0' no='0'>¿Puede contar hasta cincuenta sin saltarse números?</sentencia>
+	<sentencia n='27' si='0' no='1'>¿Mantiene un contacto visual normal?</sentencia>
+	<sentencia n='28' si='1' no='0'>¿Muestra algún movimiento repetitivo e inusual?</sentencia>
+	<sentencia n='29' si='1' no='0'>¿Es su conducta social muy unilateral y siempre acorde a sus propias reglas y condiciones?</sentencia>
+	<sentencia n='30' si='1' no='0'>¿Utiliza algunas veces los pronombres "tú" y "él/ella" en lugar de "yo"?</sentencia>
+	<sentencia n='31' si='0' no='1'>¿Prefiere las actividades imaginativas, como los juegos de ficción y los cuentos, en lugar de números o listas de información?</sentencia>
+	<sentencia n='32' si='1' no='0'>¿En una conversación, confunde algunas veces al interlocutor por no haber explicado el asunto del que está hablando?</sentencia>
+	<sentencia n='33' si='0' no='0'>¿Puede montar en bicicleta (aunque sea con ruedas estabilizadoras)?</sentencia>
+	<sentencia n='34' si='1' no='0'>¿Intenta imponer sus rutinas sobre sí mismo o sobre los demás de tal forma que causa problemas?</sentencia>
+	<sentencia n='35' si='0' no='1'>¿Le importa al niño la opinión que el resto del grupo tenga de él?</sentencia>
+	<sentencia n='36' si='1' no='0'>¿Dirige a menudo la conversación hacia sus temas de interés en lugar de continuar con lo que la otra persona desea hablar?</sentencia>
+	<sentencia n='37' si='1' no='0'>¿Utiliza frases inusuales o extrañas?</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

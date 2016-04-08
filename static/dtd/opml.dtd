@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % date-time "(#PCDATA)*" > <!-- conforming to the Date and Time Specification of RFC 822.-->
+<!ENTITY % number "(#PCDATA)*" >
+<!ENTITY % string "(#PCDATA)*" >
+
+<!ELEMENT opml (head, body) >
+<!ATTLIST opml
+	version CDATA #IMPLIED> <!-- a version string, of the form, x.y, where x and y are both numeric strings.-->
+
+<!ELEMENT head (title?, dateCreated?, dateModified?,
+		ownerName?, ownerEmail?, expansionState?, vertScrollState?,
+		windowTop?, windowLeft?, windowBottom?, windowRight?) >
+
+<!ELEMENT title (#PCDATA)* > <!--the title of the document.-->
+<!ELEMENT dateCreated %date-time; > <!--a date-time, indicating when the document was created.-->
+<!ELEMENT dateModified %date-time;> <!--a date-time, indicating when the document was last modified.-->
+<!ELEMENT ownerName %string; > <!--a string, the owner of the document. -->
+<!ELEMENT ownerEmail %string; > <!--a string, the email address of the owner of the document.-->
+
+<!ELEMENT expansionState (#PCDATA)* >
+<!--
+a comma-separated list of line numbers that are expanded.
+The line numbers in the list tell you which headlines to expand.
+The order is important.
+For each element in the list, X, starting at the first summit, navigate 
+flatdown X times and expand.
+Repeat for each element in the list.
+-->
+
+<!ELEMENT vertScrollState %number; >
+<!--
+a number, saying which line of the outline is displayed on the top line of 
+the window.
+This number is calculated with the expansion state already applied.
+-->
+
+<!ELEMENT windowTop  %number; > <!-- a number, the pixel location of the top edge of the window.-->
+<!ELEMENT windowLeft  %number; > <!-- a number, the pixel location of the left edge of the window.-->
+<!ELEMENT windowBottom  %number; > <!-- a number, the pixel location of the bottom edge of the window.-->
+<!ELEMENT windowRight  %number; > <!-- a number, the pixel location of the right edge of the window.-->
+
+<!ELEMENT body (outline)+ >
+<!ELEMENT outline (outline)* >
+
+<!ENTITY % OtherAttributes  " ">
+<!ATTLIST outline
+	text CDATA #IMPLIED
+	type CDATA #IMPLIED
+	isComment (true|false) "false"
+	isBreakpoint (true|false) "false"
+	%OtherAttributes; >
+<!--
+text is the string of characters that's displayed when the outline is being browsed or edited. 
+type is a string, it says how the other attributes of the <outline> are interpreted.
+isComment indicates whether the outline is commented or not.
+By convention if an outline is commented, all subordinate outlines are considered to be commented as well.
+isBreakpoint indicates whether a breakpoint is set on this outline.This attribute is mainly necessary for outlines used to edit scripts that execute.
+
+You can add whatever other attributes on the outline element you want.
+-->
+
+<!--
+ vim:sw=2:ts=2:ai:fileencoding=utf8
+-->

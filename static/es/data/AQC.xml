@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * AQC.xml - Test del Cociente de Espectro Autista para Niños
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="AQA.xml">
+	<sentencia n='1'  a='0' b='1' c='2' d='3'>Prefiere hacer cosas con otros a hacerlas solo/a.</sentencia>
+	<sentencia n='2'  a='3' b='2' c='1' d='0'>Le gusta hacer las cosas siempre de la misma manera.</sentencia>
+	<sentencia n='3'  a='0' b='1' c='2' d='3'>Cuando trata de imaginarse algo, le resulta muy fácil hacerse una imagen en su mente.</sentencia>
+	<sentencia n='4'  a='3' b='2' c='1' d='0'>Con frecuencia queda tan absorto/a en una actividad que parece no darse cuenta de las cosas que suceden a su alrededor.</sentencia>
+	<sentencia n='5'  a='3' b='2' c='1' d='0'>A menudo le llaman la atención sonidos tenues que otras personas no suelen notar.</sentencia>
+	<sentencia n='6'  a='3' b='2' c='1' d='0'>A menudo le llaman la atención los números de las casas, matrículas de coches, números impresos en carteles o información similar.</sentencia>
+	<sentencia n='7'  a='3' b='2' c='1' d='0'>La gente suele decirle (o me dicen a mí) que ha hecho o dicho algo descortés, aunque mi hijo/a no sea consciente de ello.</sentencia>
+	<sentencia n='8'  a='0' b='1' c='2' d='3'>Cuando lee un cuento, le resulta fácil imaginarse cómo son los personajes.</sentencia>
+	<sentencia n='9'  a='3' b='2' c='1' d='0'>Le fascinan las fechas.</sentencia>
+	<sentencia n='10' a='0' b='1' c='2' d='3'>Cuando está con otras personas, puede seguir diferentes temas de conversación.</sentencia>
+	<sentencia n='11' a='0' b='1' c='2' d='3'>Se desenvuelve con facilidad en distintas situaciones sociales.</sentencia>
+	<sentencia n='12' a='3' b='2' c='1' d='0'>Suele fijarse en detalles que a otros no les llaman la atención.</sentencia>
+	<sentencia n='13' a='3' b='2' c='1' d='0'>Se sentiría más a gusto en una biblioteca que en una fiesta de cumpleaños.</sentencia>
+	<sentencia n='14' a='0' b='1' c='2' d='3'>Inventa historias con facilidad.</sentencia>
+	<sentencia n='15' a='0' b='1' c='2' d='3'>Le interesan más las personas que las cosas.</sentencia>
+	<sentencia n='16' a='3' b='2' c='1' d='0'>Algunas cosas le interesan mucho y se enoja cuando no se le/la deja dedicarse a ellas.</sentencia>
+	<sentencia n='17' a='0' b='1' c='2' d='3'>Le gusta la cháchara social.</sentencia>
+	<sentencia n='18' a='3' b='2' c='1' d='0'>Cuando habla no siempre es fácil para los demás meter baza.</sentencia>
+	<sentencia n='19' a='3' b='2' c='1' d='0'>Le fascinan los números.</sentencia>
+	<sentencia n='20' a='3' b='2' c='1' d='0'>Cuando lee un cuento le cuesta identificar las intenciones o sentimientos de los personajes.</sentencia>
+	<sentencia n='21' a='3' b='2' c='1' d='0'>No le gustan los cuentos de historias de ficción.</sentencia>
+	<sentencia n='22' a='3' b='2' c='1' d='0'>Le cuesta hacer nuevos amigos.</sentencia>
+	<sentencia n='23' a='3' b='2' c='1' d='0'>Siempre está encontrando patrones o regularidades en las cosas.</sentencia>
+	<sentencia n='24' a='0' b='1' c='2' d='3'>Le gusta más ir al cine que a un museo.</sentencia>
+	<sentencia n='25' a='0' b='1' c='2' d='3'>No se altera cuando se le cambia su rutina diaria.</sentencia>
+	<sentencia n='26' a='3' b='2' c='1' d='0'>No sabe como hacer para conversar con niños de su edad.</sentencia>
+	<sentencia n='27' a='0' b='1' c='2' d='3'>No le cuesta “leer entre líneas” cuando otras personas le dicen algo.</sentencia>
+	<sentencia n='28' a='0' b='1' c='2' d='3'>Cuando mira un dibujo, un cuadro, o una fotografía, presta más atención a la imagen completa que a los detalles.</sentencia>
+	<sentencia n='29' a='0' b='1' c='2' d='3'>No se le da bien memorizar números de teléfono.</sentencia>
+	<sentencia n='30' a='0' b='1' c='2' d='3'>No suele darse cuenta de pequeños cambios en la situación de objetos o en la apariencia de las personas.</sentencia>
+	<sentencia n='31' a='0' b='1' c='2' d='3'>Cuando habla, se da cuenta cuando la gente se aburre con lo que dice.</sentencia>
+	<sentencia n='32' a='0' b='1' c='2' d='3'>Le resulta fácil alternar entre distintas actividades.</sentencia>
+	<sentencia n='33' a='3' b='2' c='1' d='0'>Cuando habla por teléfono no sabe cuando es su turno para hablar.</sentencia>
+	<sentencia n='34' a='0' b='1' c='2' d='3'>Disfruta haciendo cosas espontáneamente.</sentencia>
+	<sentencia n='35' a='3' b='2' c='1' d='0'>Es el/la último/a en entender un chiste o una broma.</sentencia>
+	<sentencia n='36' a='0' b='1' c='2' d='3'>Se da cuenta fácilmente de lo que piensa o siente una persona sólo con mirarla a la cara.</sentencia>
+	<sentencia n='37' a='0' b='1' c='2' d='3'>Cuando hay alguna interrupción, puede volver facilidad a lo que estaba haciendo.</sentencia>
+	<sentencia n='38' a='0' b='1' c='2' d='3'>Es bueno para las conversaciones sociales.</sentencia>
+	<sentencia n='39' a='3' b='2' c='1' d='0'>La gente dice que él/ella siempre habla del mismo tema.</sentencia>
+	<sentencia n='40' a='0' b='1' c='2' d='3'>Cuando estaba en preescolar  le gustaba jugar a juegos de simulación con otros niños.</sentencia>
+	<sentencia n='41' a='3' b='2' c='1' d='0'>Le gusta juntar información sobre categorías de cosas (autos, trenes, aviones, plantas, animales, etc.).</sentencia>
+	<sentencia n='42' a='3' b='2' c='1' d='0'>Le cuesta imaginarse como sería ser otra persona.</sentencia>
+	<sentencia n='43' a='3' b='2' c='1' d='0'>Le gusta planificar cuidadosamente cualquier actividad en la que vaya a participar.</sentencia>
+	<sentencia n='44' a='0' b='1' c='2' d='3'>Disfruta de situaciones o eventos sociales.</sentencia>
+	<sentencia n='45' a='3' b='2' c='1' d='0'>Le es difícil darse cuenta de las intenciones de las otras personas.</sentencia>
+	<sentencia n='46' a='3' b='2' c='1' d='0'>Las situaciones nuevas le generan ansiedad.</sentencia>
+	<sentencia n='47' a='0' b='1' c='2' d='3'>Disfruta conociendo gente nueva.</sentencia>
+	<sentencia n='48' a='0' b='1' c='2' d='3'>Va con cuidado para no herir los sentimientos de la gente.</sentencia>
+	<sentencia n='49' a='0' b='1' c='2' d='3'>No se le da bien recordar las fechas de cumpleaños.</sentencia>
+	<sentencia n='50' a='0' b='1' c='2' d='3'>Le resulta fácil jugar con otros niños interpretando diversos personajes.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

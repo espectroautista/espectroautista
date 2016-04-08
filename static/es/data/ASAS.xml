@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * ASAS.xml - Test Australiano
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="ASAS.xml">
+	<sentencia n='1'>¿Carece el niño de entendimiento sobre cómo jugar con otros niños? Por ejemplo, ¿ignora las reglas no  escritas sobre juego social?</sentencia>
+	<sentencia n='2'>Cuando tiene libertad para jugar con otros niños, como en el recreo, ¿evita el contacto social con los demás? Por ejemplo, busca un  lugar retirado o se va a la  biblioteca.</sentencia>
+	<sentencia n='3'>¿Parece el niño ignorar las convenciones sociales o los códigos de conducta, y realiza acciones o comentarios inapropiados? Por ejemplo, un comentario personal sin ser consciente de que puede ofender  a los demás.</sentencia>
+	<sentencia n='4'>¿Carece el niño de empatía, del entendimiento intuitivo de los sentimientos de otras personas? Por ejemplo, no darse cuenta de que una disculpa ayudará a la otra persona a sentirse mejor.</sentencia>
+	<sentencia n='5'>¿Parece que el niño espere que las demás personas conozcan sus pensamientos, experiencias y opiniones? Por ejemplo, no darse cuenta de que Vd. no puede saber acerca de un tema concreto porque no estaba con el niño en ese momento.</sentencia>
+	<sentencia n='6'>¿Necesita el niño una cantidad excesiva de consuelo,  especialmente si se le cambian las cosas o algo le sale mal?</sentencia>
+	<sentencia n='7'>¿Carece el niño de sutileza en sus  expresiones o emociones? Por ejemplo,  muestra angustia o cariño de  manera desproporcionada a la   situación.</sentencia>
+	<sentencia n='8'>¿Carece el niño de precisión en  sus expresiones o emociones? Por  ejemplo, no ser capaz de entender los  niveles de expresión emocional  apropiados para diferentes  personas.</sentencia>
+	<sentencia n='9'>¿Carece el niño de interés en participar en juegos, deportes o  actividades competitivas? 0  significa que el niño disfruta de  ellos.</sentencia>
+	<sentencia n='10'>¿Es el niño indiferente a las presiones de sus compañeros? 0  significa que sigue las modas en  ropa o juguetes, por ejemplo.</sentencia>
+	<sentencia n='11'>¿Interpreta el niño de manera  literal todos los comentarios? Por  ejemplo, se muestra confuso por frases  del tipo "estás frito", "las miradas  matan" o "muérete".</sentencia>
+	<sentencia n='12'>¿Tiene el niño un tono de voz  poco usual? Por ejemplo, que parezca  tener un acento "extranjero", o  monótono, y carece de énfasis en  las palabras clave.</sentencia>
+	<sentencia n='13'>Cuando habla con él, ¿muestra el niño desinterés en su parte de la conversación? Por ejemplo, no  pregunta ni comenta sus ideas  con otros.</sentencia>
+	<sentencia n='14'>Cuando se conversa con él,  ¿mantiene menos contacto ocular  del que cabría esperar?</sentencia>
+	<sentencia n='15'>¿Tiene el niño un lenguaje  excesivamente preciso o pedante? Por ejemplo, habla de manera formal o como un diccionario andante.</sentencia>
+	<sentencia n='16'>¿Tiene el niño problemas para  reparar una conversación? Por ejemplo,  cuando está confuso no pide  aclaraciones, sino que cambia a  un tema que le resulte familiar, o   tarde un tiempo muy largo en  pensar una respuesta.</sentencia>
+	<sentencia n='17'>¿Lee el niño libros en busca de  información, sin parecer  interesarle los temas de ficción?  Por ejemplo, es un ávido lector de  enciclopedias y de libros de  ciencias, pero no le interesan las aventuras.</sentencia>
+	<sentencia n='18'>¿Posee el niño una extraordinaria  memoria a largo plazo para eventos y hechos? Por ejemplo, recordar años después la matrícula del coche de un vecino, o recordar con detalle escenas que ocurrieron mucho tiempo atrás.</sentencia>
+	<sentencia n='19'>¿Carece el niño de juego  imaginativo social? Por ejemplo, no  incluye a otros niños en sus  juegos imaginarios, o se muestra confuso por los juegos de imaginación de otros niños.</sentencia>
+	<sentencia n='20'>¿Está el niño fascinado por un  tema en particular y colecciona  ávidamente información o  estadísticas sobre ese tema? Por  ejemplo, el niño se convierte en una  enciclopedia andante sobre vehículos, mapas, clasificaciones  de ligas deportivas u otro tema?</sentencia>
+	<sentencia n='21'>¿Se muestra el niño exageradamente molesto por  cambios en su rutina o expectativas? Por ejemplo, se angustia si va a la escuela por una ruta diferente.</sentencia>
+	<sentencia n='22'>¿Ha desarrollado el niño complejas rutinas o rituales que deben ser completados  necesariamente? Por ejemplo, alienar  todos sus juguetes antes de irse a dormir.</sentencia>
+	<sentencia n='23'>Tiene el niño una pobre coordinación motriz? Por ejemplo, no  puede atrapar un balón.</sentencia>
+	<sentencia n='24'>¿Tiene el niño un modo extraño de correr?</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

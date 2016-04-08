@@ -1,0 +1,46 @@
+#!/bin/sh
+
+step1()
+{
+	sed '
+# remove multiline C (and CSS) comments
+/\/\*/ {
+	:loop
+		s|\(.*\)/\*.*\*/|\1|
+		t loop
+	/\/\*/ {
+		N
+		b loop
+	}
+}
+
+# trim spaces
+s/^[ \t]\+//
+s/[ \t]\+$//
+
+# delete empty lines
+/^$/d
+
+# remove more spaces
+s/[\t ]*\([{}:,;>+~]\)[\t ]*/\1/g
+'
+}
+
+step2()
+{
+	sed '
+# join rules in one big line
+/[^@]\+{$/,/}$/ {
+	:loop
+	N;
+	/}$/! b loop
+	s/\n//g
+}
+'
+}
+
+step1 | step2
+
+exit
+
+# vim:sw=4:ts=4:ai:fileencoding=utf8:syntax=sh

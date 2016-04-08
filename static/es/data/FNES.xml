@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * FNES.xml - Escala de Miedo a la Evaluación Negativa
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="FNES.xml">
+	<sentencia n='1'  si='0' no='1'>Casi nunca me preocupa parecer tonto ante los demás.</sentencia>
+	<sentencia n='2'  si='1' no='0'>Me preocupa lo que la gente pensará de mí, incluso cuando sé que no me creará ningún problema.</sentencia>
+	<sentencia n='3'  si='1' no='0'>Me pongo tenso y nervioso si sé que alguien me está analizando/evaluando.</sentencia>
+	<sentencia n='4'  si='0' no='1'>No me preocupa saber si la gente está formándose una impresión desfavorable de mí.</sentencia>
+	<sentencia n='5'  si='1' no='0'>Me siento muy afectado cuando cometo algún error en una situación social.</sentencia>
+	<sentencia n='6'  si='0' no='1'>Las opiniones que la gente que considero importante tiene de mí me causan poca ansiedad.</sentencia>
+	<sentencia n='7'  si='1' no='0'>Temo a menudo que pueda parecer ridículo o hacer alguna tontería.</sentencia>
+	<sentencia n='8'  si='1' no='0'>Apenas sé cómo reaccionar cuando otras personas me censuran.</sentencia>
+	<sentencia n='9'  si='1' no='0'>Temo a menudo que la gente se dé cuenta de mis defectos.</sentencia>
+	<sentencia n='10' si='0' no='1'>La desaprobación de los demás podría tener poco efecto sobre mí.</sentencia>
+	<sentencia n='11' si='1' no='0'>Si alguien me está evaluando, tiendo a esperar lo peor.</sentencia>
+	<sentencia n='12' si='0' no='1'>Raramente me preocupo de la impresión que estoy causando en alguna persona.</sentencia>
+	<sentencia n='13' si='1' no='0'>Tengo miedo de que otros no aprueben mi conducta.</sentencia>
+	<sentencia n='14' si='1' no='0'>Me da miedo que la gente me critique.</sentencia>
+	<sentencia n='15' si='0' no='1'>Las opiniones de los demás sobre mí no me preocupan.</sentencia>
+	<sentencia n='16' si='0' no='1'>No me siento necesariamente afectado si no le caigo bien a alguien.</sentencia>
+	<sentencia n='17' si='1' no='0'>Cuando estoy hablando con alguien, me preocupa lo que pueda estar pensando acerca de mí.</sentencia>
+	<sentencia n='18' si='0' no='1'>Creo que se pueden cometer errores sociales algunas veces. Entonces, ¿por qué preocuparme?</sentencia>
+	<sentencia n='19' si='1' no='0'>Generalmente me preocupa la impresión que pueda causar.</sentencia>
+	<sentencia n='20' si='1' no='0'>Me preocupa bastante lo que mis jefes piensen de mí.</sentencia>
+	<sentencia n='21' si='0' no='1'>Si sé que alguien me está juzgando, esto tiene poco efecto sobre mí.</sentencia>
+	<sentencia n='22' si='1' no='0'>Me preocupa que los demás piensen que no valgo la pena.</sentencia>
+	<sentencia n='23' si='1' no='0'>Me preocupa poco lo que los demás puedan pensar de mí.</sentencia>
+	<sentencia n='24' si='1' no='0'>A veces pienso que estoy demasiado preocupado por lo que otras personas piensen de mí.</sentencia>
+	<sentencia n='25' si='1' no='0'>A menudo me preocupa que pueda decir o cometer equivocaciones.</sentencia>
+	<sentencia n='26' si='0' no='1'>A menudo soy indiferente acerca de las opiniones que los demás tienen de mí.</sentencia>
+	<sentencia n='27' si='0' no='1'>Generalmente confío en que los demás tendrán una impresión favorable de mí.</sentencia>
+	<sentencia n='28' si='1' no='0'>A menudo me preocupa que la gente que me es importante no piense muy favorablemente de mí.</sentencia>
+	<sentencia n='29' si='1' no='0'>Me obsesiono por las opiniones que mis amigos tienen de mí.</sentencia>
+	<sentencia n='30' si='1' no='0'>Me pongo tenso y nervioso si sé que estoy siendo juzgado por mis jefes.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

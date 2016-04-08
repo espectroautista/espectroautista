@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * RSAS.xml - Escala Revisada de Anhedonia Social
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="RSAS.xml">
+		<sentencia n='1'  si='1' no='0'>Tener amigos íntimos no es tan importante como alguna gente dice.</sentencia>
+		<sentencia n='2'  si='1' no='0'>Le doy muy poca importancia a tener amigos íntimos.</sentencia>
+		<sentencia n='3'  si='1' no='0'>Prefiero mirar la televisión a salir con otras personas.</sentencia>
+		<sentencia n='4'  si='0' no='1'>Un viaje en coche es más agradable si alguien me acompaña.</sentencia>
+		<sentencia n='5'  si='0' no='1'>Me gusta hacer llamadas de larga distancia a amigos y parientes.</sentencia>
+		<sentencia n='6'  si='1' no='0'>Jugar con niños es una tarea realmente engorrosa.</sentencia>
+		<sentencia n='7'  si='0' no='1'>Siempre me ha gustado mirar fotografías de amigos.</sentencia>
+		<sentencia n='8'  si='0' no='1'>Aunque hay cosas que me gusta hacer solo, me suelo divertir más cuando hago cosas con otras personas.</sentencia>
+		<sentencia n='9'  si='0' no='1'>A veces acabo sintiéndome muy unido a gente con la que paso mucho tiempo.</sentencia>
+		<sentencia n='10' si='1' no='0'>A veces la gente piensa que soy tímido, cuando en realidad lo único que quiero es estar solo.</sentencia>
+		<sentencia n='11' si='0' no='1'>Cuando las cosas les van muy bien a mis amigos, yo también me siento bien.</sentencia>
+		<sentencia n='12' si='0' no='1'>Cuando alguien cercano a mi se deprime, yo también me deprimo.</sentencia>
+		<sentencia n='13' si='1' no='0'>Mis respuestas emocionales parecen muy diferentes de las de otras personas.</sentencia>
+		<sentencia n='14' si='1' no='0'>Cuando estoy solo me molesta mucho que la gente me telefonee o llame a mi puerta.</sentencia>
+		<sentencia n='15' si='0' no='1'>Simplemente estar con amigos me hace sentir muy bien.</sentencia>
+		<sentencia n='16' si='0' no='1'>Cuando hay cosas que me preocupan me gusta hablar con otras personas sobre ello.</sentencia>
+		<sentencia n='17' si='1' no='0'>Prefiero que mis aficiones y actividades a realizar en mi tiempo libre no necesiten de otras personas.</sentencia>
+		<sentencia n='18' si='0' no='1'>Saber que tengo amigos que se preocupan por mí me da seguridad.</sentencia>
+		<sentencia n='19' si='0' no='1'>Es divertido cantar con otras personas.</sentencia>
+		<sentencia n='20' si='0' no='1'>Cuando me traslado a una nueva ciudad siento una fuerte necesidad de hacer nuevos amigos.</sentencia>
+		<sentencia n='21' si='1' no='0'>A la gente las cosas les suelen ir mejor si se mantienen distanciadas emocionalmente de los demás.</sentencia>
+		<sentencia n='22' si='1' no='0'>Aunque sé que tendría que sentir cariño por ciertas personas, realmente no lo siento.</sentencia>
+		<sentencia n='23' si='1' no='0'>La gente espera de mí que me dedique más tiempo a hablar con ellos del que yo querría.</sentencia>
+		<sentencia n='24' si='0' no='1'>Me siento complacido y gratificado a medida que aprendo más y más sobre la vida emocional de mis amigos.	</sentencia>
+		<sentencia n='25' si='0' no='1'>Cuando los demás intentan explicarme sus líos y problemas suelo escucharles con interés y atención.</sentencia>
+		<sentencia n='26' si='1' no='0'>Nunca tuve amigos realmente cercanos en el bachillerato.</sentencia>
+		<sentencia n='27' si='1' no='0'>Suelo sentirme satisfecho simplemente estando solo, pensando y soñando despierto.</sentencia>
+		<sentencia n='28' si='1' no='0'>Soy demasiado independiente para vincularme realmente con otras personas.</sentencia>
+		<sentencia n='29' si='1' no='0'>Hay pocas cosas más cansadas que tener una larga discusión personal con alguien.</sentencia>
+		<sentencia n='30' si='0' no='1'>Me sentí realmente triste al ver a todos los amigos de mi clase seguir caminos separados cuando acabamos el      </sentencia>
+		<sentencia n='31' si='0' no='1'>Suelo encontrar difícil resistirme a hablar con un buen amigo, incluso cuando tengo otras cosas que hacer.</sentencia>
+		<sentencia n='32' si='1' no='0'>Hacer nuevos amigos no recompensa la energía que hay que emplear para ello.</sentencia>
+		<sentencia n='33' si='0' no='1'>Para mí hay cosas más importantes que mi privacidad.</sentencia>
+		<sentencia n='34' si='1' no='0'>La gente que intenta conocerme mejor suele abandonar su intento tras un cierto tiempo.</sentencia>
+		<sentencia n='35' si='1' no='0'>Yo podría ser feliz viviendo solo en una cabaña en el bosque o la montaña.</sentencia>
+		<sentencia n='36' si='0' no='1'>Si puedo escoger, prefiero estar con otras personas que solo.</sentencia>
+		<sentencia n='37' si='1' no='0'>Encuentro que la gente asume demasiado a menudo que sus opiniones y actividades diarias me perecerán interesantes</sentencia>
+		<sentencia n='38' si='1' no='0'>No me siento realmente cercano a mis amigos.</sentencia>
+		<sentencia n='39' si='1' no='0'>Mis relaciones con otras personas nunca son muy intensas.</sentencia>
+		<sentencia n='40' si='1' no='0'>En muchos sentidos, prefiero la compañía de las mascotas a la de la gente.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

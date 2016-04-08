@@ -1,0 +1,13 @@
+Sitemap: http://EspectroAutista.Info/sitemap.xml.gz
+User-agent: *
+Disallow: /ayuda/etiquetas
+Disallow: /ayuda/mapa
+Disallow: /bibliografia/autores/
+Disallow: /bibliograf%C3%ADa/autores/
+Disallow: /bibliografia/palabras-clave/
+Disallow: /bibliograf%C3%ADa/palabras-clave/
+Disallow: /error
+Disallow: /feed.
+Disallow: /ficheros
+Disallow: /scripts
+Disallow: /styles

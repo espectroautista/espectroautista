@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * TMMS24.xml - Trait Meta-Mood Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="TMMS24.xml">
+	<sentencia n="1">Presto mucha atención a los sentimientos.</sentencia>
+	<sentencia n="2">Normalmente me preocupo mucho por lo que siento.</sentencia>
+	<sentencia n="3">Normalmente dedico tiempo a pensar en mis emociones.</sentencia>
+	<sentencia n="4">Pienso que merece la pena prestar atención a mis emociones y estado de ánimo.</sentencia>
+	<sentencia n="5">Dejo que mis sentimientos afecten a mis pensamientos.</sentencia>
+	<sentencia n="6">Pienso en mi estado de ánimo constantemente.</sentencia>
+	<sentencia n="7">A menudo pienso en mis sentimientos.</sentencia>
+	<sentencia n="8">Presto mucha atención a cómo me siento.</sentencia>
+	<sentencia n="9">Tengo claros mis sentimientos.</sentencia>
+	<sentencia n="10">Frecuentemente puedo definir mis sentimientos.</sentencia>
+	<sentencia n="11">Casi siempre sé cómo me siento.</sentencia>
+	<sentencia n="12">Normalmente conozco mis sentimientos sobre las personas.</sentencia>
+	<sentencia n="13">A menudo me doy cuenta de mis sentimientos en diferentes situaciones.</sentencia>
+	<sentencia n="14">Siempre puedo decir cómo me siento.</sentencia>
+	<sentencia n="15">A veces puedo decir cuáles son mis emociones.</sentencia>
+	<sentencia n="16">Puedo llegar a comprender mis sentimientos.</sentencia>
+	<sentencia n="17">Aunque a veces me siento triste, suelo tener una visión optimista.</sentencia>
+	<sentencia n="18">Aunque me sienta mal, procuro pensar en cosas agradables.</sentencia>
+	<sentencia n="19">Cuando estoy triste, pienso en todos los placeres de la vida.</sentencia>
+	<sentencia n="20">Intento tener pensamientos positivos aunque me sienta mal.</sentencia>
+	<sentencia n="21">Si doy demasiadas vueltas a las cosas, complicándolas, trato de calmarme.</sentencia>
+	<sentencia n="22">Me preocupo por tener un buen estado de ánimo.</sentencia>
+	<sentencia n="23">Tengo mucha energía cuando me siento feliz.</sentencia>
+	<sentencia n="24">Cuando estoy enfadado intento cambiar mi estado de ánimo.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

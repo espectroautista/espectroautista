@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * SAS-A.xml - Social Anxiety Scale for Adolescents
+-->
+<!DOCTYPE sentencias [
+	<!ELEMENT sentencias (sentencia+)>
+	<!ATTLIST sentencias id ID #REQUIRED>
+	<!ELEMENT sentencia (#PCDATA)>
+	<!ATTLIST sentencia n NMTOKEN #REQUIRED>
+]>
+
+<sentencias id="SASA.xml">
+	<sentencia n="1">Me preocupa hacer algo que nunca he hecho delante de los demás.</sentencia>
+	<sentencia n="2">Me gusta practicar deportes.</sentencia>
+	<sentencia n="3">Me preocupa que me tomen el pelo.</sentencia>
+	<sentencia n="4">Me da vergüenza estar rodeado de personas que no conozco.</sentencia>
+	<sentencia n="5">Sólo hablo con personas que conozco bien.</sentencia>
+	<sentencia n="6">Creo que mis compañeros hablan de mí a mis espaldas.</sentencia>
+	<sentencia n="7">Me gusta pasear por el campo.</sentencia>
+	<sentencia n="8">Me preocupa lo que los demás piensen de mí.</sentencia>
+	<sentencia n="9">Pienso que no gustaré a los demás.</sentencia>
+	<sentencia n="10">Me pongo nervioso cuando hablo con gente de mi edad que no conozco bien.</sentencia>
+	<sentencia n="11">Mirar la televisión me relaja.</sentencia>
+	<sentencia n="12">Me preocupa lo que los demás digan de mí.</sentencia>
+	<sentencia n="13">Me pongo nervioso cuando me presentan a personas desconocidas.</sentencia>
+	<sentencia n="14">Me preocupa no gustar a los demás.</sentencia>
+	<sentencia n="15">Me quedo callado cuando estoy con un grupo de personas.</sentencia>
+	<sentencia n="16">Escucho música siempre que tengo oportunidad.</sentencia>
+	<sentencia n="17">Creo que los demás se burlan de mí.</sentencia>
+	<sentencia n="18">Si en un debate doy mi opinión, me preocupa no gustar a los demás.</sentencia>
+	<sentencia n="19">Me da miedo pedir a los demás que hagan cosas conmigo ya que podrían decirme que no.</sentencia>
+	<sentencia n="20">Me pongo nervioso cuando estoy con cierta gente.</sentencia>
+	<sentencia n="21">Siento vergüenza incluso cuando estoy con gente que conozco bien.</sentencia>
+	<sentencia n="22">Me cuesta trabajo pedir a los demás que hagan cosas conmigo.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * GHQ28.xml - General health Questionnaire
+-->
+<!DOCTYPE preguntas [
+<!ELEMENT preguntas (pregunta+)>
+<!ATTLIST preguntas id ID #REQUIRED>
+<!ENTITY XHTMLNS "http://www.w3.org/1999/xhtml">
+]>
+
+<preguntas id="GHQ28.xml">
+
+	<pregunta n="1">
+		<texto xmlns="&XHTMLNS;">¿Se ha sentido perfectamente bien de salud y en plena forma?</texto>
+		<opcion v='0'>Mejor que lo habitual.</opcion>
+		<opcion v='0'>Igual que lo habitual.</opcion>
+		<opcion v='1'>Peor que lo habitual.</opcion>
+		<opcion v='1'>Mucho peor que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="2">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido la sensación de que necesitaba un reconstituyente?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+
+	</pregunta>
+
+	<pregunta n="3">
+		<texto xmlns="&XHTMLNS;">¿Se ha sentido agotado y sin fuerzas para nada?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="4">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido la sensación de que estaba enfermo?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="5">
+		<texto xmlns="&XHTMLNS;">¿Ha padecido dolores de cabeza?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="6">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido sensación de opresión en la cabeza, o de que la cabeza le iba a estallar?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="7">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido oleadas de calor o escalofríos?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="8">
+		<texto xmlns="&XHTMLNS;">¿Sus preocupaciones le han hecho perder mucho sueño?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="9">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido dificultades para seguir durmiendo de un tirón toda la noche?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="10">
+		<texto xmlns="&XHTMLNS;">¿Se ha notado constantemente agobiado y en tensión?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="11">
+		<texto xmlns="&XHTMLNS;">¿Se ha sentido con los nervios a flor de piel y malhumorado?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="12">
+		<texto xmlns="&XHTMLNS;">¿Se ha asustado o ha tenido pánico sin motivo?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="13">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido la sensación de que todo se le viene encima?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="14">
+		<texto xmlns="&XHTMLNS;">¿Se ha notado nervioso y "a punto de explotar" constantemente?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="15">
+		<texto xmlns="&XHTMLNS;">¿Se las ha arreglado para mantenerse ocupado y activo?</texto>
+		<opcion v='0'>Más activo que lo habitual.</opcion>
+		<opcion v='0'>Igual que lo habitual.</opcion>
+		<opcion v='1'>Bastante menos que lo habitual.</opcion>
+		<opcion v='1'>Mucho menos que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="16">
+		<texto xmlns="&XHTMLNS;">¿Le cuesta más tiempo hacer las cosas?</texto>
+		<opcion v='0'>Más rápido que lo habitual.</opcion>
+		<opcion v='0'>Igual que lo habitual.</opcion>
+		<opcion v='1'>Más tiempo que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="17">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido la impresión, en conjunto, de que está haciendo las cosas bien?</texto>
+		<opcion v='0'>Mejor que lo habitual.</opcion>
+		<opcion v='0'>Aproximadamente lo mismo.</opcion>
+		<opcion v='1'>Peor que lo habitual.</opcion>
+		<opcion v='1'>Mucho peor que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="18">
+		<texto xmlns="&XHTMLNS;">¿Se ha sentido satisfecho con su manera de hacer las cosas?</texto>
+		<opcion v='0'>Más satisfecho.</opcion>
+		<opcion v='0'>Aproximadamente lo mismo.</opcion>
+		<opcion v='1'>Menos que lo habitual.</opcion>
+		<opcion v='1'>Mucho menos satisfecho que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="19">
+		<texto xmlns="&XHTMLNS;">¿Ha sentido que está jugando un papel útil en la vida?</texto>
+		<opcion v='0'>Más útil que lo habitual.</opcion>
+		<opcion v='0'>Igual que lo habitual.</opcion>
+		<opcion v='1'>Menos útil que lo habitual.</opcion>
+		<opcion v='1'>Mucho menos que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="20">
+		<texto xmlns="&XHTMLNS;">¿Se ha sentido capaz de tomar decisiones?</texto>
+		<opcion v='0'>Más que lo habitual.</opcion>
+		<opcion v='0'>Igual que lo habitual.</opcion>
+		<opcion v='1'>Menos que lo habitual.</opcion>
+		<opcion v='1'>Mucho menos que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="21">
+		<texto xmlns="&XHTMLNS;">¿Ha sido capaz de disfrutar sus actividades normales de cada día?</texto>
+		<opcion v='0'>Más que lo habitual.</opcion>
+		<opcion v='0'>Igual que lo habitual.</opcion>
+		<opcion v='1'>Menos que lo habitual.</opcion>
+		<opcion v='1'>Mucho menos que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="22">
+		<texto xmlns="&XHTMLNS;">¿Ha pensado que usted es una persona que no vale para nada?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="23">
+		<texto xmlns="&XHTMLNS;">¿Ha venido viviendo la vida totalmente sin esperanza?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="24">
+		<texto xmlns="&XHTMLNS;">¿Ha tenido el sentimiento de que la vida no merece la pena vivirse?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="25">
+		<texto xmlns="&XHTMLNS;">¿Ha pensado en la posibilidad de “quitarse de en medio”?</texto>
+		<opcion v='0'>Claramente, no.</opcion>
+		<opcion v='0'>Me parece que no.</opcion>
+		<opcion v='1'>Se me ha pasado por la mente.</opcion>
+		<opcion v='1'>Claramente lo he pensado.</opcion>
+	</pregunta>
+
+	<pregunta n="26">
+		<texto xmlns="&XHTMLNS;">¿Ha notado que a veces no puede hacer nada porque tiene los nervios desquiciados?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="27">
+		<texto xmlns="&XHTMLNS;">¿Ha notado que desea estar muerto y lejos de todo?</texto>
+		<opcion v='0'>No, en absoluto.</opcion>
+		<opcion v='0'>No más de lo habitual.</opcion>
+		<opcion v='1'>Bastante más que lo habitual.</opcion>
+		<opcion v='1'>Mucho más que lo habitual.</opcion>
+	</pregunta>
+
+	<pregunta n="28">
+		<texto xmlns="&XHTMLNS;">¿Ha notado que la idea de quitarse la vida le viene repentinamente a la cabeza?</texto>
+		<opcion v='0'>Claramente, no.</opcion>
+		<opcion v='0'>Me parece que no.</opcion>
+		<opcion v='1'>Se me ha pasado por la mente.</opcion>
+		<opcion v='1'>Claramente lo he pensado.</opcion>
+	</pregunta>
+
+</preguntas>
+
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

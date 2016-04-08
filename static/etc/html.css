@@ -1,0 +1,90 @@
+/* CSS1 */
+
+body { 
+	background: white;
+	color: black; 
+	margin: 1em;
+	font-family: serif;
+	line-height: 1.1;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, dir, menu, div, 
+dt, dd, address, blockquote, pre, br, hr, form, dl { 
+	display: block;
+}
+
+b, strong, i, em, cite, var, tt, code, kbd,
+samp, img, span {
+	display: inline;
+}
+
+li {
+	display: list-item;
+}
+
+h1, h2, h3, h4 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+h5, h6 {
+	margin-top: 1em;
+}
+h1 {
+	text-align: center;
+}
+h1, h2, h4, h6 {
+	font-weight: bold;
+}
+h3, h5 {
+	font-style: italic;
+}
+
+h1 { font-size: xx-large; }
+h2 { font-size: x-large; }
+h3 { font-size: large; }
+
+b, strong { font-weight: bolder; }  /* relative to the parent */
+i, cite, em, var, address, blockquote { font-style: italic; }
+pre, tt, code, kbd, samp { font-family: monospace; }
+
+pre { white-space: pre; }
+
+address { margin-left: 3em; }
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+ul, dir { list-style: disc; }
+ol { list-style: decimal; }
+menu { margin: 0; }              /* tight formatting */
+li { margin-left: 3em; }
+
+dt { margin-bottom: 0; }
+dd {
+	margin-top: 0;
+	margin-left: 3em;
+}
+
+hr { border-top: solid }        /* 'border-bottom' could also have been used */
+
+a:link { color: blue }          /* unvisited link */
+a:visited { color: red }        /* visited links */
+a:active { color: lime }        /* active links */
+
+/* setting the anchor border around IMG elements
+   requires contextual selectors */
+
+a:link img {
+	border: 2px solid blue;
+}
+a:visited img {
+	border: 2px solid red;
+}
+a:active img {
+	border: 2px solid lime;
+}
+
+/*
+ * vim:sw=4:ts=4:ai:fileencoding=utf8:syntax=css
+ */

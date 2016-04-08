@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * AQS.xml - Test del Cociente de Espectro Autistas Abreviado
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="AQS.xml">
+	<sentencia n='1'  a='1' b='2' c='3' d='4'>Prefiero hacer cosas con otras personas en lugar de hacerlas solo.</sentencia>
+	<sentencia n='2'  a='4' b='3' c='2' d='1'>Prefiero hacer las cosas de la misma manera una y otra vez.</sentencia>
+	<sentencia n='3'  a='1' b='2' c='3' d='4'>Si intento imaginar algo me es muy fácil construir una imagen en mi mente.</sentencia>
+	<sentencia n='4'  a='4' b='3' c='2' d='1'>Con frecuencia me quedo tan profundamente absorto en un tema que pierdo de vista todo lo demás.</sentencia>
+	<sentencia n='5'  a='4' b='3' c='2' d='1'>A menudo me fijo en las matrículas de los coches u otras cadenas de información similares.</sentencia>
+	<sentencia n='6'  a='1' b='2' c='3' d='4'>Cuando leo un relato puedo imaginarme con claridad cómo podrían ser los personajes.</sentencia>
+	<sentencia n='7'  a='4' b='3' c='2' d='1'>Me fascinan las fechas.</sentencia>
+	<sentencia n='8'  a='1' b='2' c='3' d='4'>En un grupo social puedo llevar con facilidad el hilo de las diferentes conversaciones de la gente.</sentencia>
+	<sentencia n='9'  a='1' b='2' c='3' d='4'>Me encuentro cómodo en las situaciones sociales.</sentencia>
+	<sentencia n='10' a='4' b='3' c='2' d='1'>Prefiero antes ir a una biblioteca que a una fiesta.</sentencia>
+	<sentencia n='11' a='1' b='2' c='3' d='4'>Me resulta fácil inventarme historias.</sentencia>
+	<sentencia n='12' a='1' b='2' c='3' d='4'>Me siento más atraído por las personas que por las cosas.</sentencia>
+	<sentencia n='13' a='4' b='3' c='2' d='1'>Me fascinan los números.</sentencia>
+	<sentencia n='14' a='4' b='3' c='2' d='1'>Cuando leo novelas encuentro difícil entender las intenciones de los personajes.</sentencia>
+	<sentencia n='15' a='4' b='3' c='2' d='1'>Encuentro difícil hacer nuevos amigos.</sentencia>
+	<sentencia n='16' a='4' b='3' c='2' d='1'>Continuamente me doy cuenta de patrones en las cosas.</sentencia>
+	<sentencia n='17' a='1' b='2' c='3' d='4'>No me molesta que mi rutina diaria sea interrumpida.</sentencia>
+	<sentencia n='18' a='1' b='2' c='3' d='4'>Encuentro fácil hacer más de una cosa a la vez.</sentencia>
+	<sentencia n='19' a='1' b='2' c='3' d='4'>Me gusta hacer cosas de forma espontánea.</sentencia>
+	<sentencia n='20' a='1' b='2' c='3' d='4'>Encuentro fácil adivinar lo que una persona está pensando o sintiendo simplemente mirando a su cara.</sentencia>
+	<sentencia n='21' a='1' b='2' c='3' d='4'>En caso de ser interrumpido puedo volver a lo que estaba haciendo de forma muy rápida.</sentencia>
+	<sentencia n='22' a='4' b='3' c='2' d='1'>Me gusta coleccionar información sobre categorías de cosas (por ejemplo tipos de coches, pájaros, trenes, plantas, etc.).</sentencia>
+	<sentencia n='23' a='4' b='3' c='2' d='1'>Me cuesta imaginarme cómo me sentiría siendo otra persona.</sentencia>
+	<sentencia n='24' a='1' b='2' c='3' d='4'>Me gustan las ocasiones sociales.</sentencia>
+	<sentencia n='25' a='4' b='3' c='2' d='1'>Encuentro difícil adivinar las intenciones de las otras personas.</sentencia>
+	<sentencia n='26' a='4' b='3' c='2' d='1'>Las situaciones nuevas me generan ansiedad.</sentencia>
+	<sentencia n='27' a='1' b='2' c='3' d='4'>Me gusta conocer a gente nueva.</sentencia>
+	<sentencia n='28' a='1' b='2' c='3' d='4'>Encuentro muy fácil jugar con niños a juegos que implican fingir o simular.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * outline.xml -
+ *
+-->
+<!DOCTYPE opml SYSTEM "../dtd/opml.dtd" [
+	<!ENTITY % OtherAttributes  "
+		id			ID				#REQUIRED
+		xid			CDATA			#IMPLIED
+		utf			CDATA			#IMPLIED
+	 	suffix		(lang|none)		'none'
+		data		(no|yes)		'no'
+		tree		(no|yes)		'yes'
+		tags		(no|yes)		'yes'
+		siblings	(no|yes)		'yes'
+		kind		(choice|likert|generic|tests|blog|biblist|error|pub|pubs|
+							mapa|glosario|etiquetas|textos|autores|palabras)
+									#IMPLIED
+		related	IDREFS				#IMPLIED
+		depend	CDATA				#IMPLIED
+	">
+]>
+
+<!--
+á %C3%A1
+é %C3%A9
+í %C3%AD
+ó %C3%B3
+ú %C3%BA
+ñ %C3%B1
+-->
+
+<opml version="1.0">
+<head>
+	<title>Site outline</title>
+</head>
+<body>
+	<!-- portal -->
+	<outline xid="/" id="index" tags="no" kind="blog"
+			related="CSBSDP ASSQ_REV ASSQ_GIRL que AQS IDEA CEA dsm5tea"
+			depend=""> 
+		<!--
+		 ! Ayuda
+		 !-->
+		<outline utf="ayuda" xid="ayuda" id="ayuda" kind="generic" siblings="no">
+			<outline utf="orientación" xid="orientaci%C3%B3n" id="orientacion" tags="no" kind="generic" depend="index.html">
+				<outline utf="afectados" xid="afectados" id="afectados" tags="no" kind="generic"/>
+				<outline utf="cónyuges" xid="c%C3%B3nyuges" id="conyuges" tags="no" kind="generic"/>
+				<outline utf="educadores" xid="educadores" id="educadores" tags="no" kind="generic"/>
+				<outline utf="estudiantes" xid="estudiantes" id="estudiantes" tags="no" kind="generic"/>
+				<outline utf="madres-y-padres" xid="madres-y-padres" id="madres" tags="no" kind="generic"/>
+				<outline utf="profesionales" xid="profesionales" id="profesionales" tags="no" kind="generic"/>
+			</outline>	<!-- orientacion -->
+
+			<outline utf="etiquetas" xid="etiquetas" id="etiquetas" tags="no" kind="etiquetas">
+				<outline utf="A" xid="A" id="etiquetas_A" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="B" xid="B" id="etiquetas_B" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="C" xid="C" id="etiquetas_C" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="D" xid="D" id="etiquetas_D" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="E" xid="E" id="etiquetas_E" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="F" xid="F" id="etiquetas_F" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="G" xid="G" id="etiquetas_G" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="H" xid="H" id="etiquetas_H" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="I" xid="I" id="etiquetas_I" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="J" xid="J" id="etiquetas_J" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="K" xid="K" id="etiquetas_K" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="L" xid="L" id="etiquetas_L" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="M" xid="M" id="etiquetas_M" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="N" xid="N" id="etiquetas_N" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="O" xid="O" id="etiquetas_O" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="P" xid="P" id="etiquetas_P" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="Q" xid="Q" id="etiquetas_Q" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="R" xid="R" id="etiquetas_R" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="S" xid="S" id="etiquetas_S" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="T" xid="T" id="etiquetas_T" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="U" xid="U" id="etiquetas_U" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="V" xid="V" id="etiquetas_V" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="W" xid="W" id="etiquetas_W" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="X" xid="X" id="etiquetas_X" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="Y" xid="Y" id="etiquetas_Y" tags="no" kind="etiquetas" tree="no"/>
+				<outline utf="Z" xid="Z" id="etiquetas_Z" tags="no" kind="etiquetas" tree="no"/>
+			</outline> 	<!-- etiquetas -->
+
+			<outline utf="mapa" xid="mapa" id="mapa" tags="no" kind="mapa" depend="scripts/related.js"/>
+			<!--<outline utf="cómo-se-ha-hecho" xid="c%C3%B3mo-se-ha-hecho" id="how" tags="no" kind="generic"/>-->
+		</outline> <!-- ayuda -->
+
+		<!--
+		 ! Bibliografía
+		 !-->
+		<outline utf="bibliografía" xid="bibliograf%C3%ADa" id="bibliografia" related="pubprof" kind="biblist">
+			<outline utf="autores" xid="autores" id="bibautores" kind="autores">
+				<outline utf="A" xid="A" id="bibautores_A" tags="no" kind="autores" tree="no"/>
+				<outline utf="B" xid="B" id="bibautores_B" tags="no" kind="autores" tree="no"/>
+				<outline utf="C" xid="C" id="bibautores_C" tags="no" kind="autores" tree="no"/>
+				<outline utf="D" xid="D" id="bibautores_D" tags="no" kind="autores" tree="no"/>
+				<outline utf="E" xid="E" id="bibautores_E" tags="no" kind="autores" tree="no"/>
+				<outline utf="F" xid="F" id="bibautores_F" tags="no" kind="autores" tree="no"/>
+				<outline utf="G" xid="G" id="bibautores_G" tags="no" kind="autores" tree="no"/>
+				<outline utf="H" xid="H" id="bibautores_H" tags="no" kind="autores" tree="no"/>
+				<outline utf="I" xid="I" id="bibautores_I" tags="no" kind="autores" tree="no"/>
+				<outline utf="J" xid="J" id="bibautores_J" tags="no" kind="autores" tree="no"/>
+				<outline utf="K" xid="K" id="bibautores_K" tags="no" kind="autores" tree="no"/>
+				<outline utf="L" xid="L" id="bibautores_L" tags="no" kind="autores" tree="no"/>
+				<outline utf="M" xid="M" id="bibautores_M" tags="no" kind="autores" tree="no"/>
+				<outline utf="N" xid="N" id="bibautores_N" tags="no" kind="autores" tree="no"/>
+				<outline utf="O" xid="O" id="bibautores_O" tags="no" kind="autores" tree="no"/>
+				<outline utf="P" xid="P" id="bibautores_P" tags="no" kind="autores" tree="no"/>
+				<outline utf="Q" xid="Q" id="bibautores_Q" tags="no" kind="autores" tree="no"/>
+				<outline utf="R" xid="R" id="bibautores_R" tags="no" kind="autores" tree="no"/>
+				<outline utf="S" xid="S" id="bibautores_S" tags="no" kind="autores" tree="no"/>
+				<outline utf="T" xid="T" id="bibautores_T" tags="no" kind="autores" tree="no"/>
+				<outline utf="U" xid="U" id="bibautores_U" tags="no" kind="autores" tree="no"/>
+				<outline utf="V" xid="V" id="bibautores_V" tags="no" kind="autores" tree="no"/>
+				<outline utf="W" xid="W" id="bibautores_W" tags="no" kind="autores" tree="no"/>
+				<outline utf="X" xid="X" id="bibautores_X" tags="no" kind="autores" tree="no"/>
+				<outline utf="Y" xid="Y" id="bibautores_Y" tags="no" kind="autores" tree="no"/>
+				<outline utf="Z" xid="Z" id="bibautores_Z" tags="no" kind="autores" tree="no"/>
+			</outline> <!-- autores -->
+
+			<outline utf="palabras-clave" xid="palabras-clave" id="palabras" kind="palabras">
+				<outline utf="A" xid="A" id="palabras_A" tags="no" kind="palabras" tree="no"/>
+				<outline utf="B" xid="B" id="palabras_B" tags="no" kind="palabras" tree="no"/>
+				<outline utf="C" xid="C" id="palabras_C" tags="no" kind="palabras" tree="no"/>
+				<outline utf="D" xid="D" id="palabras_D" tags="no" kind="palabras" tree="no"/>
+				<outline utf="E" xid="E" id="palabras_E" tags="no" kind="palabras" tree="no"/>
+				<outline utf="F" xid="F" id="palabras_F" tags="no" kind="palabras" tree="no"/>
+				<outline utf="G" xid="G" id="palabras_G" tags="no" kind="palabras" tree="no"/>
+				<outline utf="H" xid="H" id="palabras_H" tags="no" kind="palabras" tree="no"/>
+				<outline utf="I" xid="I" id="palabras_I" tags="no" kind="palabras" tree="no"/>
+				<outline utf="J" xid="J" id="palabras_J" tags="no" kind="palabras" tree="no"/>
+				<outline utf="K" xid="K" id="palabras_K" tags="no" kind="palabras" tree="no"/>
+				<outline utf="L" xid="L" id="palabras_L" tags="no" kind="palabras" tree="no"/>
+				<outline utf="M" xid="M" id="palabras_M" tags="no" kind="palabras" tree="no"/>
+				<outline utf="N" xid="N" id="palabras_N" tags="no" kind="palabras" tree="no"/>
+				<outline utf="O" xid="O" id="palabras_O" tags="no" kind="palabras" tree="no"/>
+				<outline utf="P" xid="P" id="palabras_P" tags="no" kind="palabras" tree="no"/>
+				<outline utf="Q" xid="Q" id="palabras_Q" tags="no" kind="palabras" tree="no"/>
+				<outline utf="R" xid="R" id="palabras_R" tags="no" kind="palabras" tree="no"/>
+				<outline utf="S" xid="S" id="palabras_S" tags="no" kind="palabras" tree="no"/>
+				<outline utf="T" xid="T" id="palabras_T" tags="no" kind="palabras" tree="no"/>
+				<outline utf="U" xid="U" id="palabras_U" tags="no" kind="palabras" tree="no"/>
+				<outline utf="V" xid="V" id="palabras_V" tags="no" kind="palabras" tree="no"/>
+				<outline utf="W" xid="W" id="palabras_W" tags="no" kind="palabras" tree="no"/>
+				<outline utf="X" xid="X" id="palabras_X" tags="no" kind="palabras" tree="no"/>
+				<outline utf="Y" xid="Y" id="palabras_Y" tags="no" kind="palabras" tree="no"/>
+				<outline utf="Z" xid="Z" id="palabras_Z" tags="no" kind="palabras" tree="no"/>
+			</outline> <!-- palabras clave -->
+
+			<outline utf="idioma-español" xid="idioma-espa%C3%B1ol" id="ponencias" related="pub lecturas" kind="biblist"/>
+			<!-- RETIRADO POR FALTA DE MANTENIMIENTO
+			<outline utf="publicaciones-recientes" xid="publicaciones-recientes" id="bibrec" kind="biblist"/>
+			-->
+			<outline utf="tests-autoaplicados" xid="tests-autoaplicados" id="bibtests" related="tests" kind="biblist"/>
+			<outline utf="últimos-artículos" xid="%C3%BAltimos-art%C3%ADculos" id="biblast" kind="biblist"/>
+		</outline> <!-- bibliografia -->
+
+		<!--
+		 ! Criterios diagnósticos
+		 !-->
+		<outline utf="criterios-diagnósticos" xid="criterios-diagn%C3%B3sticos" id="criterios" kind="generic">
+			<outline utf="gillberg" xid="gillberg" id="gillberg" related="ASDI" kind="generic"/>
+			<outline utf="szatmari" xid="szatmari" id="szatmari" kind="generic"/>
+			<outline utf="CIE-10" xid="CIE-10" id="cie10" kind="generic"/>
+			<outline utf="asperger" xid="asperger" id="asperger1944" kind="generic"/>
+			<outline utf="tantam" xid="tantam" id="tantam" kind="generic"/>
+			<outline utf="wing" xid="wing" id="wing" kind="generic"/>
+			<outline utf="DSM-IV" xid="DSM-IV" id="dsmiv" kind="generic"/>
+			<outline utf="propuesta-cuestionario-asperger-adulto" xid="propuesta-cuestionario-asperger-adulto" id="propuesta" related="adultos deteccion" kind="generic"/>
+			<outline utf="DSM-5" xid="DSM-5" id="dsm5" kind="generic"/>
+			<outline utf="DSM-V-SA" xid="DSM-V-SA" id="dsm5sa" kind="generic"/>
+			<outline utf="DSM-V-TEA" xid="DSM-V-TEA" id="dsm5tea" kind="generic"/>
+		</outline> <!-- criterios -->
+
+		<!--
+		 ! Enlaces recomendados
+		 !-->
+		<outline utf="enlaces-recomendados" xid="enlaces-recomendados" id="enlaces" kind="generic">
+			<outline utf="asociaciones" xid="asociaciones" id="asoclnk" kind="generic"/>
+			<outline utf="formación" xid="formaci%C3%B3n" id="formlnk" kind="generic"/>
+			<outline utf="grupos" xid="grupos" id="grplnk" kind="generic"/>
+			<outline utf="profesionales" xid="profesionales" id="proflnk" kind="generic"/>
+		</outline> <!-- criterios -->
+
+		<!--
+		 ! Publicaciones
+		 !-->
+		<outline utf="publicaciones" xid="publicaciones" id="pub" kind="pubs" depend="es/pubadultos.html es/pubeduc.html es/pubfamiliares.html es/pubgeneral.html es/pubincl.html es/pubnas.html es/pubprof.html">
+			<outline utf="familiares" xid="familiares" id="pubfamiliares" kind="pub">
+				<outline utf="guías-the-national-autistic-society" xid="gu%C3%ADas-the-national-autistic-society" id="pubnas" kind="pub"/>
+			</outline>
+			<outline utf="educadores" xid="educadores" id="pubeduc" related="pubnas" kind="pub">
+				<outline utf="inclusión" xid="inclusi%C3%B3n" id="pubincl" kind="pub"/>
+			</outline>
+			<outline utf="orientación-adultos" xid="orientaci%C3%B3n-adultos" id="pubadultos" related="adultos" kind="pub"/>
+			<outline utf="interés-general" xid="inter%C3%A9s-general" id="pubgeneral" kind="pub" related="ponencias lecturas"/>
+			<outline utf="profesionales-de-la-salud" xid="profesionales-de-la-salud" id="pubprof" related="bibliografia" kind="pub"/>
+		</outline>	<!-- publicaciones -->
+
+		<!--
+		 ! Tests autoaplicados
+		 !-->
+		<outline utf="tests" xid="tests" id="tests" related="bibtests" kind="tests">
+			<outline utf="emotividad" xid="emotividad" id="emotividad" related="EQ IRI" kind="tests">
+				<outline utf="bienestar-emocional" xid="bienestar-emocional" id="bienestar" kind="tests">
+					<outline utf="GHQ28" xid="GHQ28" id="GHQ28" related="ansiedad sociabilidad" data="yes" kind="choice" suffix="lang" depend="scripts/GHQ28.js"/>
+					<outline utf="GADS" xid="GADS" id="GADS" related="ansiedad" data="yes" kind="likert" suffix="lang" depend="scripts/GADS.js"/>
+					<outline utf="RSES" xid="RSES" id="RSES" data="yes" kind="likert" suffix="lang" depend="scripts/RSES.js"/>
+					<outline utf="ZDS" xid="ZDS" id="ZDS" data="yes" kind="likert" suffix="lang" depend="scripts/ZDS.js"/>
+					<outline utf="SWLS" xid="SWLS" id="SWLS" data="yes" kind="likert" suffix="lang" depend="scripts/SWLS.js"/>
+					<outline utf="GAD7" xid="GAD7" id="GAD7" data="yes" kind="likert" suffix="lang" depend="scripts/GAD7.js"/>
+					<!--
+					<outline utf="BAI" xid="BAI" id="BAI" related="ansiedad" data="yes" kind="likert" suffix="lang" depend="scripts/BAI.js"/>
+					<outline utf="BDI" xid="BDI" id="BDI" data="yes" kind="choice" suffix="lang" depend="scripts/BDI.js"/>
+					-->
+				</outline>
+				<outline utf="experiencia-emocional" xid="experiencia-emocional" id="experiencia" kind="tests">
+					<outline utf="PANAS" xid="PANAS" id="PANAS" data="yes" kind="likert" suffix="lang" depend="scripts/PANAS.js"/>
+				</outline>
+				<outline utf="expresividad-emocional" xid="expresividad-emocional" id="expresividad" kind="tests">
+					<outline utf="BEQ" xid="BEQ" id="BEQ" data="yes" kind="likert" suffix="lang" depend="scripts/BEQ.js"/>
+					<outline utf="OAQ" xid="OAQ" id="OAQ" data="yes" kind="likert" suffix="lang" depend="scripts/OAQ.js"/>
+					<outline utf="TAS20" xid="TAS20" id="TAS20" data="yes" kind="likert" suffix="lang" depend="scripts/TAS20.js"/>
+					<outline utf="OAS" xid="OAS" id="OAS" data="yes" kind="likert" suffix="lang" depend="scripts/OAS.js"/>
+					<outline utf="EES" xid="EES" id="EES" data="yes" kind="likert" suffix="lang" depend="scripts/EES.js"/>
+				</outline>
+				<outline utf="regulación-emocional" xid="regulaci%C3%B3n-emocional" id="regulacion" kind="tests">
+					<outline utf="ERQ" xid="ERQ" id="ERQ" data="yes" kind="likert" suffix="lang" depend="scripts/ERQ.js"/>
+					<outline utf="TMMS24" xid="TMMS24" id="TMMS24" data="yes" kind="likert" suffix="lang" depend="scripts/TMMS24.js"/>
+				</outline>
+			</outline>	<!-- tests => emotividad -->
+
+			<outline utf="espectro-autista" xid="espectro-autista" id="asperger" kind="tests">
+				<outline utf="adultos" xid="adultos" id="adultos" kind="tests" related="deteccion propuesta pubadultos tc_eqsq">
+					<outline utf="EQ" xid="EQ" id="EQ" data="yes" kind="likert" suffix="lang" related="CBS tc_eqsq EQC_SQC emotividad IRI" depend="scripts/EQ.js"/>
+					<outline utf="AQ" xid="AQ" id="AQ" data="yes" kind="likert" suffix="lang" related="AQA AQC AQS BAPQ" depend="scripts/AQ.js"/>
+					<outline utf="AQS" xid="AQS" id="AQS" data="yes" kind="likert" suffix="lang" related="AQ" depend="scripts/AQS.js"/>
+					<outline utf="SQ" xid="SQ" id="SQ" data="yes" kind="likert" suffix="lang" related="tc_eqsq EQC_SQC SQR" depend="scripts/SQ.js scripts/C.js scripts/AQ.js"/>
+					<outline utf="SQR" xid="SQR" id="SQR" data="yes" kind="likert" suffix="lang" related="tc_eqsq EQC_SQC SQ" depend="scripts/SQR.js scripts/AQ.js"/>
+					<outline utf="FQ" xid="FQ" id="FQ" data="yes" kind="choice" suffix="lang" related="sociabilidad" depend="scripts/FQ.js"/>
+					<outline utf="BAPQ" xid="BAPQ" id="BAPQ" data="yes" kind="likert" suffix="lang" related="AQ mirada manifiesto sula" depend="scripts/BAPQ.js"/>
+					<outline utf="CBS" xid="CBS" id="CBS" data="yes" kind="likert" suffix="lang" related="EQ tc_eqsq EQC_SQC emotividad IRI" depend="scripts/CBS.js"/>
+					<outline utf="AAA" xid="AAA" id="AAA" data="yes" kind="likert" suffix="lang" related="AQ" depend="scripts/AAA.js"/>
+				</outline>
+				<outline utf="infantil" xid="infantil" id="infantil" kind="tests" related="psicopatas_autisticos">
+					<outline utf="AQA" xid="AQA" id="AQA" data="yes" kind="likert" suffix="lang" related="AQ AQC SASA" depend="scripts/AQA.js"/>
+					<outline utf="AQC" xid="AQC" id="AQC" data="yes" kind="likert" suffix="lang" related="AQ AQA" depend="scripts/AQC.js"/>
+					<outline utf="EQC_SQC" xid="EQC_SQC" id="EQC_SQC" data="yes" kind="likert" suffix="lang" related="tc_eqsq EQ SQ SQR" depend="scripts/EQC_SQC.js"/>
+					<outline utf="ASSQ" xid="ASSQ" id="ASSQ" data="yes" kind="likert" suffix="lang" related="ASSQ_GIRL ASSQ_REV" depend="scripts/ASSQ.js"/>
+					<outline utf="ASSQ_GIRL" xid="ASSQ_GIRL" id="ASSQ_GIRL" data="yes" kind="likert" suffix="lang" related="ASSQ ASSQ_REV" depend="scripts/ASSQ_GIRL.js"/>
+					<outline utf="ASSQ_REV" xid="ASSQ_REV" id="ASSQ_REV" data="yes" kind="likert" suffix="lang" related="ASSQ ASSQ_GIRL" depend="scripts/ASSQ_REV.js"/>
+					<outline utf="CSBSDP" xid="CSBSDP" id="CSBSDP" data="yes" kind="choice" suffix="lang" depend="scripts/CSBSDP.js"/>
+					<outline utf="ASDI" xid="ASDI" id="ASDI" data="yes" kind="likert" suffix="lang" related="gillberg" depend="scripts/ASDI.js"/>
+					<outline utf="ASAS" xid="ASAS" id="ASAS" data="yes" kind="likert" suffix="lang" depend="scripts/ASAS.js"/>
+					<outline utf="EA" xid="EA" id="EA" data="yes" kind="likert" suffix="lang" depend="scripts/EA.js"/>
+					<outline utf="IDEA" xid="IDEA" id="IDEA" data="yes" kind="choice" suffix="lang" related="que" depend="scripts/IDEA.js"/>
+					<outline utf="QCHAT" xid="QCHAT" id="QCHAT" data="yes" kind="choice" suffix="lang" related="CHAT MCHAT" depend="scripts/QCHAT.js"/>
+					<outline utf="CHAT" xid="CHAT" id="CHAT" data="yes" kind="likert" suffix="lang" related="MCHAT QCHAT" depend="scripts/CHAT.js"/>
+					<outline utf="MCHAT" xid="MCHAT" id="MCHAT" data="yes" kind="likert" suffix="lang" related="CHAT QCHAT" depend="scripts/MCHAT.js"/>
+					<outline utf="CAST" xid="CAST" id="CAST" data="yes" kind="likert" suffix="lang" depend="scripts/CAST.js"/>
+				</outline>
+			</outline>	<!-- tests => espectro-autista -->
+
+			<outline utf="sociabilidad" xid="sociabilidad" id="sociabilidad" kind="tests" related="FQ">
+				<outline utf="acoso-psicológico" xid="acoso-psicol%C3%B3gico" id="acoso" kind="generic">
+					<outline utf="LIPT60"   xid="LIPT60"   id="LIPT60"   data="yes" kind="likert" suffix="lang" depend="scripts/LIPT60.js"/>
+					<outline utf="CISNEROS" xid="CISNEROS" id="CISNEROS" data="yes" kind="likert" suffix="lang" depend="scripts/CISNEROS.js"/>
+				</outline>
+				<outline utf="ansiedad-social" xid="ansiedad-social" id="ansiedad" kind="tests" related="GHQ28 GADS">
+					<outline utf="BFNE" xid="BFNE" id="BFNE" data="yes" kind="likert" suffix="lang" depend="scripts/BFNE.js"/>
+					<outline utf="DASA" xid="DASA" id="DASA" data="yes" kind="likert" suffix="lang" depend="scripts/DASA.js"/>
+					<outline utf="SASA" xid="SASA" id="SASA" data="yes" kind="likert" suffix="lang" depend="scripts/SASA.js" related="AQA"/>
+					<outline utf="SADS" xid="SADS" id="SADS" data="yes" kind="likert" suffix="lang" depend="scripts/SADS.js"/>
+					<outline utf="LSAS" xid="LSAS" id="LSAS" data="yes" kind="likert" suffix="lang" depend="scripts/LSAS.js"/>
+					<outline utf="FNES" xid="FNES" id="FNES" data="yes" kind="likert" suffix="lang" depend="scripts/FNES.js"/>
+					<outline utf="SPIN" xid="SPIN" id="SPIN" data="yes" kind="likert" suffix="lang" depend="scripts/SPIN.js"/>
+				</outline>
+				<outline utf="habilidades-sociales" xid="habilidades-sociales" id="habilidades" kind="tests">
+					<outline utf="SOC3" xid="SOC3" id="SOC3" data="yes" kind="likert" suffix="lang" depend="scripts/SOC3.js"/>
+					<outline utf="ULS" xid="ULS" id="ULS" data="yes" kind="likert" suffix="lang" depend="scripts/ULS.js"/>
+					<outline utf="RCBS13" xid="RCBS13" id="RCBS13" data="yes" kind="likert" suffix="lang" depend="scripts/RCBS13.js scripts/OAQ.js"/>
+					<outline utf="RCBS20" xid="RCBS20" id="RCBS20" data="yes" kind="likert" suffix="lang" depend="scripts/RCBS20.js scripts/OAQ.js"/>
+					<outline utf="RSAS" xid="RSAS" id="RSAS" data="yes" kind="likert" suffix="lang" depend="scripts/RSAS.js"/>
+					<outline utf="IRI" xid="IRI" id="IRI" data="yes" kind="likert" suffix="lang" depend="scripts/IRI.js" related="emotividad EQ"/>
+				</outline>
+			</outline>	<!-- tests => sociabilidad -->
+		</outline>	<!-- tests -->
+
+		<!--
+		 ! Textos seleccionados
+		 !-->
+		<outline utf="textos" xid="textos" id="lecturas" kind="textos" related="pub ponencias">
+			<outline utf="detección" xid="detecci%C3%B3n" id="deteccion" kind="textos" related="adultos propuesta">
+				<outline utf="consejero-matrimonial" xid="consejero-matrimonial" id="consejero" related="adultos" kind="generic"/>
+				<outline utf="guía-médicos" xid="gu%C3%ADa-m%C3%A9dicos" id="guia" related="adultos" kind="generic"/>
+				<outline utf="adultos-no-diagnosticados" xid="adultos-no-diagnosticados" id="globe" related="adultos" kind="generic"/>
+				<outline utf="trastorno-deprivación-afectiva" xid="trastorno-deprivaci%C3%B3n-afectiva" id="casandra" kind="generic"/>
+			</outline>	<!-- textos => deteccion -->
+
+			<outline utf="temple-grandin" xid="temple-grandin" id="grandin" kind="textos">
+				<outline utf="genio-como-anormalidad" xid="genio-como-anormalidad" id="tg_genio" kind="generic"/>
+				<outline utf="elección-trabajo-correcto" xid="elecci%C3%B3n-trabajo-correcto" id="tg_trabajo" kind="generic"/>
+				<outline utf="emociones-autistas" xid="emociones-autistas" id="tg_emociones" kind="generic"/>
+				<outline utf="entrevista" xid="entrevista" id="tg_entrevista" kind="generic"/>
+				<outline utf="pensar-como-animales" xid="pensar-como-animales" id="tg_pensar" kind="generic"/>
+				<outline utf="visión-personal" xid="visi%C3%B3n-personal" id="tg_vision" kind="generic"/>
+			</outline>	<!-- textos => grandin -->
+
+			<outline utf="aspectos-cognitivos" xid="aspectos-cognitivos" id="txttc" kind="textos">
+				<outline utf="aplicaciones-teoría-de-la-mente" xid="aplicaciones-teor%C3%ADa-de-la-mente" id="tc_aplicaciones" kind="generic"/>
+				<outline utf="entender-la-mente" xid="entender-la-mente" id="tc_piezas" kind="generic"/>
+				<outline utf="función-ejecutiva" xid="funci%C3%B3n-ejecutiva" id="tc_fe" kind="generic"/>
+				<outline utf="déficit-teoría-de-la-mente" xid="d%C3%A9ficit-teor%C3%ADa-de-la-mente" id="tc_deficit" kind="generic"/>
+				<outline utf="teoría-empatía-sistematización" xid="teor%C3%ADa-empat%C3%ADa-sistematizaci%C3%B3n" id="tc_eqsq" kind="generic" related="psicopatas_autisticos EQ SQ SQR EQC_SQC"/>
+				<outline utf="teoría-de-la-mente" xid="teor%C3%ADa-de-la-mente" id="tc_tmyea" kind="generic"/>
+			</outline>	<!-- textos => aspectos cognitivos -->
+
+			<outline utf="trastornos-comunicación" xid="trastornos-comunicaci%C3%B3n" id="txtcom" kind="textos">
+				<outline utf="límites-entre-trastornos" xid="l%C3%ADmites-entre-trastornos" id="limites" kind="generic"/>
+				<outline utf="dificultades-aprendizaje-no-verbal" xid="dificultades-aprendizaje-no-verbal" id="tanv_dificultades" kind="generic"/>
+				<outline utf="mirada-autistas" xid="mirada-autistas" id="mirada" related="BAPQ" kind="generic"/>
+				<outline utf="comprensión-verbal" xid="comprensi%C3%B3n-verbal" id="comprension_verbal" kind="generic"/>
+				<outline utf="aprendizaje-no-verbal" xid="aprendizaje-no-verbal" id="tanv_que" kind="generic"/>
+				<outline utf="aprendizaje-no-verbal-1997" xid="aprendizaje-no-verbal-1997" id="tanv_revision" kind="generic"/>
+			</outline>	<!-- textos => trastornos de la comunicación  -->
+
+			<outline utf="divulgación" xid="divulgaci%C3%B3n" id="txttea" kind="textos">
+				<outline utf="condiciones-del-espectro-autista " xid="condiciones-del-espectro-autista " id="CEA" kind="generic"/>
+				<outline utf="prevalencia-espectro-autista" xid="prevalencia-espectro-autista" id="prevalencia" kind="generic"/>
+				<outline utf="biografía-hans-asperger" xid="biograf%C3%ADa-hans-asperger" id="hans" kind="generic"/>
+				<outline utf="conclusiones-II-congreso-internacional" xid="conclusiones-II-congreso-internacional" id="conclusiones" kind="generic"/>
+				<outline utf="diferencias-autismo-alto-funcionamiento-síndrome-asperger" xid="diferencias-autismo-alto-funcionamiento-s%C3%ADndrome-asperger" id="aaf_sa" kind="generic"/>
+				<outline utf="diagnóstico-diferencial-síndrome-asperger" xid="diagn%C3%B3stico-diferencial-s%C3%ADndrome-asperger" id="diferencial" kind="generic"/>
+				<outline utf="trastorno-autístico" xid="trastorno-aut%C3%ADstico" id="trastorno_autistico" kind="generic"/>
+				<outline utf="fray-junípero-y-el-autismo" xid="fray-jun%C3%ADpero-y-el-autismo" id="fray_junipero" kind="generic"/>
+				<outline utf="psicópatas-autísticos" xid="psic%C3%B3patas-aut%C3%ADsticos" id="psicopatas_autisticos" kind="generic" related="tc_eqsq infantil"/>
+				<outline utf="más-allá-síndrome-asperger" xid="m%C3%A1s-all%C3%A1-s%C3%ADndrome-asperger" id="sula" related="BAPQ" kind="generic"/>
+				<outline utf="preguntas-frecuentes-autismo" xid="preguntas-frecuentes-autismo" id="faq_tea" kind="generic"/>
+				<outline utf="que" xid="que" id="que" related="IDEA" kind="generic"/>
+				<outline utf="síndrome-asperger" xid="s%C3%ADndrome-asperger" id="sa" kind="generic"/>
+				<outline utf="preguntas-frecuentes-síndrome-asperger" xid="preguntas-frecuentes-s%C3%ADndrome-asperger" id="faq_sa" kind="generic"/>
+				<outline utf="soy-especial" xid="soy-especial" id="especial" kind="generic"/>
+				<outline utf="trastornos-autistas-contacto-afectivo" xid="trastornos-autistas-contacto-afectivo" id="kanner" kind="generic"/>
+			</outline>	<!-- textos => textos teóricos y divulgativos sobre los TEA  -->
+
+			<outline utf="glosario-acrónimos" xid="glosario-acr%C3%B3nimos" id="glosario" kind="glosario"/>
+		</outline> 	<!-- textos -->
+
+		<!--
+		 ! Manifiesto por la extensión del espectro autista
+		 !-->
+		<outline utf="manifiesto-extensión-espectro-autista" xid="manifiesto-extensi%C3%B3n-espectro-autista" id="manifiesto" related="BAPQ" kind="generic"/>
+
+		<!--
+		 ! BEGIN: out of the tree (mantain here)
+		 -->
+		<outline utf="error" xid="error" id="error" tags="no" kind="error" tree="no" siblings="no"/>
+		<outline utf="error404" xid="error404" id="error404" tags="no" kind="error" tree="no" siblings="no"/>
+		<!-- END: out of the tree -->
+
+	</outline>	<!-- index -->
+</body>
+</opml>
+
+<!--
+vim:sw=4:ts=4:ai:fileencoding=utf8:nowrap
+-->

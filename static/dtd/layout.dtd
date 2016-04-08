@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % OtherAttributes  "
+	id		ID	#REQUIRED
+	page		NMTOKEN	#REQUIRED
+	xid		CDATA	#REQUIRED
+	url		CDATA	#REQUIRED
+	utf		CDATA	#REQUIRED
+	data		NMTOKEN	#REQUIRED
+	tree		NMTOKEN	#REQUIRED
+	tags		NMTOKEN	#REQUIRED
+	siblings	NMTOKEN	#REQUIRED
+	kind		NMTOKEN #REQUIRED
+	filename	CDATA	#REQUIRED
+	source		CDATA	#REQUIRED
+	related		IDREFS	#IMPLIED
+	depend		CDATA	#IMPLIED
+	first-paragraph	CDATA	#IMPLIED
+">
+
+<!ENTITY % OPML SYSTEM "opml.dtd">
+%OPML;
+
+<!--
+	vim:sw=8:ts=8:ai:fileencoding=utf8:nowrap
+-->

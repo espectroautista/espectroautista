@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * SOC3.xml - Spheres of Control Scale: Version 3
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="SOC3.xml">
+	<sentencia n='1'  v='P'>Usualmente puedo conseguir lo que me propongo si trabajo duro para ello.</sentencia>
+	<sentencia n='2'  v='N'>En mis relaciones personales la otra persona suele tener más control que yo.</sentencia>
+	<sentencia n='3'  v='P'>Tomando parte activa en los asuntos políticos y sociales las personas podemos influir en los acontecimientos mundiales.</sentencia>
+	<sentencia n='4'  v='P'>Una vez hechos mis planes estoy prácticamente seguro de que los llevaré a cabo.</sentencia>
+	<sentencia n='5'  v='P'>No tengo problemas en hacer y mantener amistades.</sentencia>
+	<sentencia n='6'  v='P'>El ciudadano común puede tener influencia en las decisiones del gobierno.</sentencia>
+	<sentencia n='7'  v='N'>Prefiero los juegos en los que interviene en parte la suerte a los juegos que requieren pura técnica.</sentencia>
+	<sentencia n='8'  v='N'>No soy bueno dirigiendo el curso de una conversación entre varias personas.</sentencia>
+	<sentencia n='9'  v='N'>Es difícil para nosotros tener mucho control sobre las cosas que hacen los políticos en sus despachos.</sentencia>
+	<sentencia n='10' v='P'>Puedo aprender casi cualquier cosa si concentro mi mente en ello.</sentencia>
+	<sentencia n='11' v='P'>Usualmente puedo desarrollar una relación personal con quien encuentro atrayente.</sentencia>
+	<sentencia n='12' v='N'>Las malas situaciones económicas se deben a acontecimientos mundiales que están más allá de nuestro control.</sentencia>
+	<sentencia n='13' v='P'>Mis mayores logros se deben por completo a mi esfuerzo y habilidad.</sentencia>
+	<sentencia n='14' v='P'>Usualmente puedo guiar una conversación hacia temas de los que quiero hablar.</sentencia>
+	<sentencia n='15' v='P'>Dedicando los esfuerzos necesarios podremos eliminar la corrupción política.</sentencia>
+	<sentencia n='16' v='N'>Usualmente no me fijo objetivos por que me cuesta seguir el camino para alcanzarlos.</sentencia>
+	<sentencia n='17' v='N'>Cuando necesito ayuda sobre algo me suele costar encontrar a quien me quiera ayudar.</sentencia>
+	<sentencia n='18' v='P'>Una de las principales razones de que exista la guerra es que la gente no toma suficiente interés en la política.</sentencia>
+	<sentencia n='19' v='N'>La mala suerte ha conseguido en algunas ocasiones impedirme alcanzar mis propósitos.</sentencia>
+	<sentencia n='20' v='P'>Si hay alguien con quien quiero reunirme, usualmente lo consigo hacer.</sentencia>
+	<sentencia n='21' v='N'>No hay nada que, como consumidores , podamos hacer para evitar la subida del coste de la vida.</sentencia>
+	<sentencia n='22' v='P'>Casi todo es posible para mí si realmente lo deseo.</sentencia>
+	<sentencia n='23' v='N'>Me suele costar imponer mi punto de vista sobre el de los demás.</sentencia>
+	<sentencia n='24' v='N'>Es imposible tener alguna influencia real sobre lo que hacen las grandes empresas.</sentencia>
+	<sentencia n='25' v='N'>Gran parte de lo que ocurre en mi carrera está más allá de mi control.</sentencia>
+	<sentencia n='26' v='N'>Al intentar suavizar las diferencias en un desacuerdo, a veces empeoro las cosas.</sentencia>
+	<sentencia n='27' v='N'>Prefiero concentrar mis energías en otras cosas antes que en intentar solucionar los problemas del mundo.</sentencia>
+	<sentencia n='28' v='N'>No le encuentro sentido a seguir trabajando en algo que es demasiado difícil para mí.</sentencia>
+	<sentencia n='29' v='P'>Encuentro fácil jugar un papel importante en muchas situaciones de grupo.</sentencia>
+	<sentencia n='30' v='P'>A la larga, los votantes somos responsables del mal gobierno, tanto a nivel nacional como local.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

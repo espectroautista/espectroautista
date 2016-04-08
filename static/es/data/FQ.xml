@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * FQ.xml - Test del Cociente de Amigabilidad
+-->
+<!DOCTYPE preguntas [
+<!ELEMENT preguntas (pregunta+)>
+<!ATTLIST preguntas id ID #REQUIRED>
+<!ENTITY XHTMLNS "http://www.w3.org/1999/xhtml">
+]>
+
+<preguntas id="FQ.xml">
+	<pregunta n='1' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='5'>Tengo uno o dos amigos a los que considero mis mejores amigos.</opcion>
+		<opcion v='2'>Tengo varios amigos a los que podría considerar como mis mejores amigos.</opcion>
+		<opcion v='0'>No tengo a nadie a quien pueda considerar como mi mejor amigo.</opcion>
+	</pregunta>
+
+	<pregunta n='2' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='5'>Lo más importante de una amistad es tener a alguien en quien confiar.</opcion>
+		<opcion v='0'>Lo más importante de una amistad es tener a alguien con quien divertirse.</opcion>
+	</pregunta>
+
+	<pregunta n='3' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='0'>Si tuviese que escoger, preferiría tener un amigo a quien le gustase hacer las mismas cosas que a mí, antes que tener un amigo que tuviese el mismo concepto de la vida que yo.</opcion>
+		<opcion v='5'>Si tuviese que escoger, preferiría tener un amigo que tuviese el mismo concepto de la vida que yo, antes que tener un amigo a quien le gustase hacer las mismas cosas que a mí.</opcion>
+	</pregunta>
+
+	<pregunta n='4' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='5'>Me gusta sentirme cercano a la gente.</opcion>
+		<opcion v='0'>Me gusta mantener una cierta distancia con la gente. </opcion>
+	</pregunta>
+
+	<pregunta n='5' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='0'>Cuando hablo con los amigos por teléfono suele ser más para quedar que para charlar.</opcion>
+		<opcion v='5'>Cuando hablo con los amigos por teléfono suele ser más para charlar que para quedar.</opcion>
+	</pregunta>
+
+	<pregunta n='6' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='0'>Suelo pensar primero en una actividad que quiero hacer y después trato de encontrar a alguien con quien hacerla.</opcion>
+		<opcion v='5'>Suelo quedar primero con alguien y después pienso en algo que podamos hacer juntos.</opcion>
+	</pregunta>
+
+	<pregunta n='7' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='0'>Prefiero encontrarme con un amigo para hacer una actividad específica, por ejemplo ir al cine o jugar al golf.</opcion>
+		<opcion v='5'>Prefiero encontrarme con un amigo para charlar, por ejemplo en un bar o un café.</opcion>
+	</pregunta>
+
+	<pregunta n='8' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='0'>Si me mudase a otra zona, me esforzaría más en seguir en contacto con mis antiguas amistades que en hacer nuevas amistades.</opcion>
+		<opcion v='0'>Si me mudase a una otra zona, me esforzaría más en hacer nuevas amistades que en seguir en contacto con mis antiguas amistades.</opcion>
+	</pregunta>
+
+	<pregunta n='9' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='5'>Mis amigos me valoran más como  alguien en quien pueden apoyarse que como  alguien con quien pueden divertirse.</opcion>
+		<opcion v='0'>Mis amigos me valoran más como  alguien con quien pueden divertirse  que como  alguien en quien pueden apoyarse.</opcion>
+	</pregunta>
+
+	<pregunta n='10' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='5'>Si un amigo mio tuviese un problema yo le sería más útil como confidente que aportando soluciones prácticas.</opcion>
+		<opcion v='0'>Si un amigo mio tuviese un problema yo le sería más útil aportando soluciones prácticas que como confidente.</opcion>
+	</pregunta>
+
+	<pregunta n='11' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='0'>Si un amigo mio tuviese problemas personales esperaría a que fuese él quien se pusiera en contacto conmigo, ya que no desearía entrometerme.</opcion>
+		<opcion v='0'>Si un amigo mio tuviera problemas personales me pondría en contacto con él para hablar de sus problemas.</opcion>
+	</pregunta>
+
+	<pregunta n='12' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='0'>Cuando tengo un problema personal pienso que es mejor que lo resuelva yo solo.</opcion>
+		<opcion v='5'>Cuando tengo un problema personal pienso que es mejor que lo comparta con un amigo.</opcion>
+		<opcion v='0'>Cuando tengo un problema personal pienso que es mejor intentar olvidarlo.</opcion>
+	</pregunta>
+
+	<pregunta n='13' t='o'>
+		<texto xmlns="&XHTMLNS;">Escoja la frase con la que más se identifique.</texto>
+		<opcion v='5'>Si tengo que hacer una crítica a un amigo prefiero abordar el tema con delicadeza.</opcion>
+		<opcion v='0'>Si tengo que hacer una crítica a un amigo prefiero decírsela directamente, sin rodeos.</opcion>
+	</pregunta>
+
+	<pregunta n='14' t='o'>
+		<texto xmlns="&XHTMLNS;">Si me pelease con un buen amigo mio y pensase que no había sido por mi culpa…</texto>
+		<opcion v='5'>…haría lo que fuese para reparar la relación.</opcion>
+		<opcion v='3'>…estaría dispuesto a dar el primer paso para reconciliarme, siempre que viera que la intención es recíproca.</opcion>
+		<opcion v='1'>…estaría dispuesto a solucionar el problema siempre que  él diese el primer paso.</opcion>
+		<opcion v='0'>…no podría volver otra vez a tener la misma amistad con él.</opcion>
+	</pregunta>
+
+	<pregunta n='15' t='o'>
+		<texto xmlns="&XHTMLNS;">Mi espacio de trabajo ideal sería…</texto>
+		<opcion v='0'>…en una oficina para mí solo y sin recibir visitas durante la jornada laboral.</opcion>
+		<opcion v='1'>…en una oficina para mí solo, recibiendo visitas ocasionales durante la jornada laboral.</opcion>
+		<opcion v='3'>…en una oficina compartida con dos o tres personas más.</opcion>
+		<opcion v='5'>…en un espacio abierto, sin separaciones de ningún tipo.</opcion>
+	</pregunta>
+
+	<pregunta n='16'>
+		<texto xmlns="&XHTMLNS;">¿Le resulta fácil hablar de sus sentimientos con sus amistades?</texto>
+		<opcion v='5'>Muy fácil</opcion>
+		<opcion v='4'>Bastante fácil</opcion>
+		<opcion v='2'>No muy fácil</opcion>
+		<opcion v='1'>Bastante difícil</opcion>
+		<opcion v='0'>Muy difícil</opcion>
+	</pregunta>
+
+	<pregunta n='17'>
+		<texto xmlns="&XHTMLNS;">¿Le resulta fácil hablar de sus sentimientos con desconocidos?</texto>
+		<opcion v='0'>Muy fácil</opcion>
+		<opcion v='0'>Bastante fácil</opcion>
+		<opcion v='0'>No muy fácil</opcion>
+		<opcion v='0'>Bastante difícil</opcion>
+		<opcion v='0'>Muy difícil</opcion>
+	</pregunta>
+
+	<pregunta n='18'>
+		<texto xmlns="&XHTMLNS;">En términos de <em>personalidad</em> ¿cuánto se parece usted a sus amistades?</texto>
+		<opcion v='5'>Me parezco mucho</opcion>
+		<opcion v='3'>Me parezco bastante</opcion>
+		<opcion v='1'>No me parezco mucho</opcion>
+		<opcion v='0'>Soy muy diferente</opcion>
+	</pregunta>
+
+	<pregunta n='19'>
+		<texto xmlns="&XHTMLNS;">En términos de <em>intereses</em> ¿cuánto se parece usted a sus amistades?</texto>
+		<opcion v='0'>Me parezco mucho</opcion>
+		<opcion v='0'>Me parezco bastante</opcion>
+		<opcion v='0'>No me parezco mucho</opcion>
+		<opcion v='0'>Soy muy diferente</opcion>
+	</pregunta>
+
+	<pregunta n='20'>
+		<texto xmlns="&XHTMLNS;">¿Cuánto le importa lo que piensen de usted sus amistades?</texto>
+		<opcion v='0'>No me importa</opcion>
+		<opcion v='1'>No me importa mucho</opcion>
+		<opcion v='2'>Me importa bastante</opcion>
+		<opcion v='4'>Me importa mucho</opcion>
+		<opcion v='5'>Es sumamente importante para mí</opcion>
+	</pregunta>
+
+	<pregunta n='21'>
+		<texto xmlns="&XHTMLNS;">¿Cuánto le importa lo que piensen de usted los desconocidos?</texto>
+		<opcion v='0'>No me importa</opcion>
+		<opcion v='0'>No me importa mucho</opcion>
+		<opcion v='0'>Me importa bastante</opcion>
+		<opcion v='0'>Me importa mucho</opcion>
+		<opcion v='0'>Es sumamente importante para mí</opcion>
+	</pregunta>
+
+
+	<pregunta n='22'>
+		<texto xmlns="&XHTMLNS;">¿Cuánto le cuesta admitir ante sus amistades que estaba equivocado?</texto>
+		<opcion v='5'>No me cuesta nada</opcion>
+		<opcion v='4'>Me cuesta poco</opcion>
+		<opcion v='2'>Me cuesta bastante</opcion>
+		<opcion v='1'>Me cuesta mucho</opcion>
+		<opcion v='0'>Es sumamente difícil para mí</opcion>
+	</pregunta>
+
+	<pregunta n='23'>
+		<texto xmlns="&XHTMLNS;">¿Le resulta fácil mostrar a sus amistades sus debilidades y fracasos?</texto>
+		<opcion v='5'>Muy fácil</opcion>
+		<opcion v='4'>Bastante fácil</opcion>
+		<opcion v='2'>No muy fácil</opcion>
+		<opcion v='1'>Bastante difícil</opcion>
+		<opcion v='0'>Muy difícil</opcion>
+	</pregunta>
+
+	<pregunta n='24'>
+		<texto xmlns="&XHTMLNS;">¿Le resulta fácil  mostrar a sus amistades sus logros y sus éxitos?</texto>
+		<opcion v='0'>Muy fácil</opcion>
+		<opcion v='0'>Bastante fácil</opcion>
+		<opcion v='0'>No muy fácil</opcion>
+		<opcion v='0'>Bastante difícil</opcion>
+		<opcion v='0'>Muy difícil</opcion>
+	</pregunta>
+
+	<pregunta n='25'>
+		<texto xmlns="&XHTMLNS;">¿Está interesado en los detalles del día a día  de sus <em>amistades  más cercanas</em>? Por ejemplo sus relaciones, su familia, cómo les va la vida, etc.</texto>
+		<opcion v='0'>Completamente desinteresado</opcion>
+		<opcion v='1'>No muy interesado</opcion>
+		<opcion v='3'>Bastante interesado</opcion>
+		<opcion v='5'>Muy interesado</opcion>
+	</pregunta>
+
+	<pregunta n='26'>
+		<texto xmlns="&XHTMLNS;">¿Está interesado en los detalles del día a día  de sus  <em>amistades ocasionales</em>? Por ejemplo sus relaciones, su familia, cómo les va la vida, etc.</texto>
+		<opcion v='0'>Completamente desinteresado</opcion>
+		<opcion v='1'>No muy interesado</opcion>
+		<opcion v='3'>Bastante interesado</opcion>
+		<opcion v='5'>Muy interesado</opcion>
+	</pregunta>
+
+	<pregunta n='27'>
+		<texto xmlns="&XHTMLNS;">Cuando está en un grupo, por ejemplo en el trabajo, en la iglesia o en un grupo de padres y madres ¿Cuan importante es para usted saber los chismes o habladurías? Por ejemplo a quien le gusta quien, quien tiene una relación con quien, secretos, etc.</texto>
+		<opcion v='0'>De ninguna importancia</opcion>
+		<opcion v='1'>De poca importancia</opcion>
+		<opcion v='2'>De bastante importancia</opcion>
+		<opcion v='4'>De mucha importancia</opcion>
+		<opcion v='5'>De gran importancia</opcion>
+	</pregunta>
+
+	<pregunta n='28'>
+		<texto xmlns="&XHTMLNS;">¿Dedica más tiempo a su carrera que a mantener las relaciones con sus amistades?</texto>
+		<opcion v='0'>Si</opcion>
+		<opcion v='5'>No</opcion>
+		<opcion v='2'>Igual</opcion>
+	</pregunta>
+
+	<pregunta n='29'>
+		<texto xmlns="&XHTMLNS;">¿Cada cuándo planea encuentros con sus amistades?</texto>
+		<opcion v='0'>Una o dos veces al año</opcion>
+		<opcion v='1'>Una vez cada dos o tres meses</opcion>
+		<opcion v='2'>Una vez al mes</opcion>
+		<opcion v='4'>Una vez cada dos semanas</opcion>
+		<opcion v='4'>Una o dos veces por semana</opcion>
+		<opcion v='5'>Tres o cuatro veces por semana</opcion>
+		<opcion v='5'>Más frecuentemente de lo arriba indicado</opcion>
+	</pregunta>
+
+	<pregunta n='30' t='3'>
+		<texto xmlns="&XHTMLNS;">¿Cual sería su forma preferida de seguir en contacto con sus amistades?</texto>
+		<opcion v='0'>Contacto personal</opcion>
+		<opcion v='0'>E-mail/carta</opcion>
+		<opcion v='0'>Llamadas telefónicas</opcion>
+	</pregunta>
+
+	<pregunta n='31'>
+		<texto xmlns="&XHTMLNS;">¿Le resulta fácil hacer nuevas amistades?</texto>
+		<opcion v='5'>Muy fácil</opcion>
+		<opcion v='4'>Bastante fácil</opcion>
+		<opcion v='2'>No muy fácil</opcion>
+		<opcion v='1'>Bastante difícil</opcion>
+		<opcion v='0'>Muy difícil</opcion>
+	</pregunta>
+
+	<pregunta n='32'>
+		<texto xmlns="&XHTMLNS;">¿Cual sería el contacto social <em>mínimo</em> que necesitaría para pasar <em>un día</em>?</texto>
+		<opcion v='0'>Ningún contacto, no me siento solo.</opcion>
+		<opcion v='1'>Simplemente estando cerca de la gente, aunque no hablase con nadie.</opcion>
+		<opcion v='2'>Conversaciones ocasionales, por ejemplo con el tendero o el peluquero.</opcion>
+		<opcion v='3'>Una charla diaria con un amigo.</opcion>
+		<opcion v='4'>Dos o tres charlas con amigos durante el día.</opcion>
+		<opcion v='5'>Más contactos que en las opciones anteriores.</opcion>
+	</pregunta>
+
+	<pregunta n='33'>
+		<texto xmlns="&XHTMLNS;">¿Cual sería el contacto social <em>mínimo</em> que necesitaría para pasar <em>una semana</em>?</texto>
+		<opcion v='0'>Ningún contacto, no me siento solo.</opcion>
+		<opcion v='1'>Simplemente estando cerca de la gente, aunque no hablase con nadie.</opcion>
+		<opcion v='2'>Conversaciones ocasionales, por ejemplo con el tendero o el peluquero.</opcion>
+		<opcion v='3'>Una conversación semanal con un amigo.</opcion>
+		<opcion v='3'>Dos o tres charlas a la semana con los amigos.</opcion>
+		<opcion v='4'>Cada día de la semana una charla con un amigo.</opcion>
+		<opcion v='5'>Cada día de la semana dos o tres charlas con amigos.</opcion>
+		<opcion v='5'>Más contactos que en las opciones anteriores.</opcion>
+	</pregunta>
+
+	<pregunta n='34' t='3'>
+		<texto xmlns="&XHTMLNS;">Cuando habla con sus amistades, qué proporción de tiempo dedica a hablar de los siguientes temas:</texto>
+		<opcion v='1'>Política y actualidad.</opcion>
+		<opcion v='2'>Aficiones e intereses (por ejemplo deportes, televisión, música, cine, moda, vacaciones, jardinería).</opcion>
+		<opcion v='3'>Asuntos personales (por ejemplo decisiones vitales importantes, disgustos, sentimientos).</opcion>
+		<opcion v='4'>Trabajo.</opcion>
+		<opcion v='5'>Familia y amigos.</opcion>
+		<opcion v='6'>El tiempo.</opcion>
+		<opcion v='7'>Lo que ha hecho desde la última vez que hablaron.</opcion>
+	</pregunta>
+
+	<pregunta n='35' t='3'>
+		<texto xmlns="&XHTMLNS;">En las situaciones sociales, cuando se encuentra con alguien por primera vez, a cuales de los siguientes temas recurre para mantener una conversación.</texto>
+		<opcion v='1'>Política y actualidad.</opcion>
+		<opcion v='2'>Aficiones e intereses (por ejemplo deportes, televisión, música, cine, moda, vacaciones, jardinería).</opcion>
+		<opcion v='3'>Asuntos personales (por ejemplo decisiones vitales importantes, disgustos, sentimientos).</opcion>
+		<opcion v='4'>Trabajo.</opcion>
+		<opcion v='5'>Familia y amigos.</opcion>
+		<opcion v='6'>El tiempo.</opcion>
+		<opcion v='7'>Lo que ha estado haciendo últimamente.</opcion>
+	</pregunta>
+
+	<instrucciones>
+
+		<instruccion n='30' xmlns="&XHTMLNS;">
+			Por favor, seleccione:<br/>
+			1 en la opción  que sea su primera preferencia<br/>
+			2 en la opción  que sea su segunda preferencia<br/>
+			3 en la opción  que sea su tercera preferencia
+		</instruccion>
+
+		<instruccion n='34' xmlns="&XHTMLNS;">
+			Por favor, seleccione:<br/>
+			1 en el tema del que hable más<br/>
+			2 en el segundo tema del que hable más, etc., y así hasta <br/>
+			7 en el tema del que hable menos.<br/>
+			Utilice cada número sólo una vez, sin repeticiones.
+		</instruccion>
+
+		<instruccion n='35' xmlns="&XHTMLNS;">
+			Por favor, seleccione:<br/>
+			1 en el tema del que hable más<br/>
+			2 en el segundo tema del que hable más, etc., y así hasta <br/>
+			7 en el tema del que hable menos.<br/>
+			Utilice cada número sólo una vez, sin repeticiones.
+		</instruccion>
+
+	</instrucciones>
+</preguntas>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

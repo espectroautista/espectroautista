@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * CHAT.xml -
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="CHAT.xml">
+	<!-- SECCIÓN A: PREGUNTAS A LOS PADRES:-->
+	<sentencia n='1'>¿Disfruta su hijo/a cuando es mecido, hamacado en sus rodillas, etc.?</sentencia>
+	<sentencia n='2'>¿Se interesa su hijo/a por otros niños?</sentencia>
+	<sentencia n='3'>¿Le gusta a su hijo/a subirse a sitios, como escaleras por ejemplo?</sentencia>
+	<sentencia n='4'>¿Disfruta su hijo/a jugando a “¿dónde está? - ¡aquí está!” (taparse los ojos y luego descubrirlos; jugar a esconderse y aparecer de repente) o al escondite?</sentencia>
+	<sentencia n='5'>¿SIMULA su hijo/a alguna vez, por ejemplo, servir una taza de té o café con una tetera o cafetera y taza de juguete, o simula otras cosas?</sentencia>
+	<sentencia n='6'>¿Utiliza alguna vez su hijo/a el dedo índice para señalar para PEDIR algo?</sentencia>
+	<sentencia n='7'>¿Usa alguna vez su hijo/a el dedo índice para señalar, para indicar INTERÉS por algo?</sentencia>
+	<sentencia n='8'>¿Puede su hijo/a jugar adecuadamente con juguetes pequeños (or ejemplo cohecitos o bloques) y no solo llevárselos a la boca, manosearlos o tirarlos?</sentencia>
+	<sentencia n='9'>¿Alguna vez su hijo/a le ha llevado objetos para MOSTRARLE algo?</sentencia>
+	<!--SECCIÓN B: PARA OBSERVACIÓN DEL PEDIATRA-->
+	<sentencia n='10'>¿Durante la consulta, ha hecho el niño/a contacto visual con usted?</sentencia>
+	<sentencia n='11'>Consiga la atención del niño/a, luego señale un objeto interesante en la habitación y diga “¡Mirá! ¡Hay un (nombre del juguete)” Observe la cara del niño: ¿Mira lo que usted está señalando?</sentencia>
+	<sentencia n='12'>Consiga la atención del niño/a, luego dele una tetera y una tacita de juguete y diga: “¿Podés servir una taza de té?” ¿Juega el niño a servir el té, tomarlo, etc.?</sentencia>
+	<sentencia n='13'>Pregunte al niño “¿Dónde está la luz?”, o “Muestrame la luz”. ¿SEÑALA el niño con su dedo índice la luz?</sentencia>
+	<sentencia n='14'>¿Puede el niño/a construir una torre de cubos? (Si es así, ¿cuántos cubos? Tome nota de ello.)</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

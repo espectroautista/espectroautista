@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * ASSQ_REV.xml - ASSQ + ASSQ_GIRL
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="ASSQ_REV.xml">
+	<sentencia n='1'>Parece anticuado y precoz</sentencia>
+	<sentencia n='2'>Es considerado por otros chicos como un "profesor excéntrico".</sentencia>
+	<sentencia n='3'>Vive en cierta forma en su propio mundo, con intereses intelectuales idiosincrásicos y restrictivos.</sentencia>
+	<sentencia n='4'>Acumula hechos o datos relativos a ciertos temas (buena memoria mecánica) pero sin comprender realmente su significado.</sentencia>
+	<sentencia n='5'>Posee una comprensión literal del lenguaje metafórico o ambiguo.</sentencia>
+	<sentencia n='6'>Posee un estilo de comunicación desviado, con un lenguaje formal, detallado, anticuado o con la entonación similar a la de "un robot".</sentencia>
+	<sentencia n='7'>Inventa palabras o expresiones idiosincrásicas.</sentencia>
+	<sentencia n='8'>Posee una voz o una forma de hablar diferente.</sentencia>
+	<sentencia n='9'>Expresa sonidos involuntariamente; carraspeos, especies de "ronquidos", ruidos con la boca, gritos o risas nerviosas.</sentencia>
+	<sentencia n='10'>Es sorprendentemente capaz para algunas cosas y sorprendentemente torpe para otras.</sentencia>
+	<sentencia n='11'>Usa el lenguaje libremente, pero falla al realizar ajustes para adaptarse a contextos sociales o las necesidades de los diferentes interlocutores.</sentencia>
+	<sentencia n='12'>Le falta empatía.</sentencia>
+	<sentencia n='13'>Realiza comentarios ingenuos o embarazosos.</sentencia>
+	<sentencia n='14'>Tiende a desviar la mirada.</sentencia>
+	<sentencia n='15'>Desea ser sociable, pero falla al establecer relaciones con pares.</sentencia>
+	<sentencia n='16'>Puede estar con otros chicos, pero sólo estableciendo sus propios términos.</sentencia>
+	<sentencia n='17'>Le falta un mejor amigo.</sentencia>
+	<sentencia n='18'>Le falta sentido común.</sentencia>
+	<sentencia n='19'>Es pobre en los juegos: no tiene idea de cooperación en un equipo, marca sus "propios goles" (en contra).</sentencia>
+	<sentencia n='20'>Posee torpeza motora, gestos o movimientos mal coordinados, desmañados.</sentencia>
+	<sentencia n='21'>Realiza movimientos involuntarios de la cara o del cuerpo.</sentencia>
+	<sentencia n='22'>Tiene dificultades para completar simples actividades diarias a causa de la repetición compulsiva de ciertas acciones o pensamientos.</sentencia>
+	<sentencia n='23'>Tiene rutinas especiales: insiste en no cambiar.</sentencia>
+	<sentencia n='24'>Muestra apego idiosincrásico a objetos.</sentencia>
+	<sentencia n='25'>Otros chicos se burlan de él o lo ridiculizan.</sentencia>
+	<sentencia n='26'>Tiene una expresión facial notablemente inusual.</sentencia>
+	<sentencia n='27'>Tiene una postura inusual notable.</sentencia>
+	<sentencia n='28'>Imita a los adultos (puede que de forma muy discreta).</sentencia>
+	<sentencia n='29'>Episodios de problemas con la alimentación.</sentencia>
+	<sentencia n='30'>Sin percepción del tiempo.</sentencia>
+	<sentencia n='31'>Demasiada simpatía.</sentencia>
+	<sentencia n='32'>Extremadamente interesada en grupos de pop/rock, series televisivas, desastres naturales.</sentencia>
+	<sentencia n='33'>Evita hacer peticiones.</sentencia>
+	<sentencia n='34'>Muy resuelta.</sentencia>
+	<sentencia n='35'>Dificultades al elegir; siempre evita hacerlo.</sentencia>
+	<sentencia n='36'>Dificultades con el cuidado personal.</sentencia>
+	<sentencia n='37'>Descuidada o demasiado meticulosa en relación con su apariencia física o modo de vestir.</sentencia>
+	<sentencia n='38'>Ingenua.</sentencia>
+	<sentencia n='39'>Se acerca demasiado a las otras personas.</sentencia>
+	<sentencia n='40'>Interactúa principalmente con niños más pequeños.</sentencia>
+	<sentencia n='41'>Se involucra en actividades peligrosas.</sentencia>
+	<sentencia n='42'>Exageradamente fantasiosa.</sentencia>
+	<sentencia n='43'>Habla sin contenido.</sentencia>
+	<sentencia n='44'>Escribe largos relatos (puede que en flagrante contraste con su nivel verbal).</sentencia>
+	<sentencia n='45'>Actúa o vive diferentes papeles (estrellas de la televisión, videos, animales).</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

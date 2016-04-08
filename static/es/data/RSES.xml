@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * RSES.xml - Rosenberg Self-Esteem Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="RSES.xml">
+	<sentencia n='1'  v='P'>En general, estoy satisfecho conmigo mismo.</sentencia>
+	<sentencia n='2'  v='N'>A veces pienso que no soy bueno en nada.</sentencia>
+	<sentencia n='3'  v='P'>Tengo la sensación de que poseo algunas buenas cualidades.</sentencia>
+	<sentencia n='4'  v='P'>Soy capaz de hacer las cosas tan bien como la mayoría de las personas.</sentencia>
+	<sentencia n='5'  v='N'>Siento que no tengo demasiadas cosas de las que sentirme orgulloso.</sentencia>
+	<sentencia n='6'  v='N'>A veces me siento realmente inútil.</sentencia>
+	<sentencia n='7'  v='P'>Tengo la sensación de que soy una persona de valía, al menos igual que la mayoría de la gente.</sentencia>
+	<sentencia n='8'  v='N'>Ojalá me respetara más a mí mismo.</sentencia>
+	<sentencia n='9'  v='N'>En definitiva, tiendo a pensar que soy un fracasado.</sentencia>
+	<sentencia n='10' v='P'>Tengo una actitud positiva hacia mí mismo.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

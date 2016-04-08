@@ -1,0 +1,35 @@
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body { line-height: normal; }
+
+ol { list-style: decimal; }
+ul { list-style: disc; }
+
+blockquote { quotes: none; }
+blockquote:before, blockquote:after { content: normal; }
+
+/*:focus { outline: 0; }*/
+
+ins { text-decoration: underline; }
+del { text-decoration: line-through; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*
+ * vim:sw=4:ts=4:ai:fileencoding=utf8:syntax=css
+ */

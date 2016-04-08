@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * AQA.xml - Test del Cociente de Espectro Autista para Adolescentes
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="AQA.xml">
+	<sentencia n='1'  a='0' b='0' c='1' d='1'>Prefiere hacer cosas con otras personas en lugar de hacerlas solo.</sentencia>
+	<sentencia n='2'  a='1' b='1' c='0' d='0'>Prefiere hacer las cosas de la misma manera una y otra vez.</sentencia>
+	<sentencia n='3'  a='0' b='0' c='1' d='1'>Si intenta imaginar algo le es muy fácil construir una imagen en su mente.</sentencia>
+	<sentencia n='4'  a='1' b='1' c='0' d='0'>Con frecuencia se queda tan profundamente absorto en un tema que pierde de vista todo lo demás.</sentencia>
+	<sentencia n='5'  a='1' b='1' c='0' d='0'>A menudo percibe ligeros sonidos que los demás no aprecian.</sentencia>
+	<sentencia n='6'  a='1' b='1' c='0' d='0'>A menudo se fija en las matrículas de los coches u otras cadenas de información similares.</sentencia>
+	<sentencia n='7'  a='1' b='1' c='0' d='0'>A menudo otras personas le comentan que lo que he dicho es de mala  educación, a pesar de que a el no se lo parece.</sentencia>
+	<sentencia n='8'  a='0' b='0' c='1' d='1'>Cuando lee un relato puede imaginar con claridad cómo podrían ser los personajes.</sentencia>
+	<sentencia n='9'  a='1' b='1' c='0' d='0'>Le fascinan las fechas.</sentencia>
+	<sentencia n='10' a='0' b='0' c='1' d='1'>En un grupo social puede llevar con facilidad el hilo de las diferentes conversaciones de la gente.</sentencia>
+	<sentencia n='11' a='0' b='0' c='1' d='1'>Se encuentra cómodo en las situaciones sociales.</sentencia>
+	<sentencia n='12' a='1' b='1' c='0' d='0'>Suele darse cuenta de detalles que otras personas pasan por alto.</sentencia>
+	<sentencia n='13' a='1' b='1' c='0' d='0'>Prefiere antes ir a una biblioteca que a una fiesta.</sentencia>
+	<sentencia n='14' a='0' b='0' c='1' d='1'>Le resulta fácil inventarse historias.</sentencia>
+	<sentencia n='15' a='0' b='0' c='1' d='1'>Se siente más atraído por las personas que por las cosas.</sentencia>
+	<sentencia n='16' a='1' b='1' c='0' d='0'>Tiende a tener intereses muy intensos y se molesta si no los puede ejercer.</sentencia>
+	<sentencia n='17' a='0' b='0' c='1' d='1'>Le gusta la cháchara social.</sentencia>
+	<sentencia n='18' a='1' b='1' c='0' d='0'>Cuando habla no siempre es fácil para los demás meter baza.</sentencia>
+	<sentencia n='19' a='1' b='1' c='0' d='0'>Le fascinan los números.</sentencia>
+	<sentencia n='20' a='1' b='1' c='0' d='0'>Cuando lee novelas encuentra difícil entender las intenciones de los personajes.</sentencia>
+	<sentencia n='21' a='1' b='1' c='0' d='0'>No le gusta especialmente leer novelas.</sentencia>
+	<sentencia n='22' a='1' b='1' c='0' d='0'>Encuentra difícil hacer nuevos amigos.</sentencia>
+	<sentencia n='23' a='1' b='1' c='0' d='0'>Continuamente se da cuenta de patrones en las cosas.</sentencia>
+	<sentencia n='24' a='0' b='0' c='1' d='1'>Prefiere ir antes al teatro que a un museo.</sentencia>
+	<sentencia n='25' a='0' b='0' c='1' d='1'>No le molesta que su rutina diaria sea interrumpida.</sentencia>
+	<sentencia n='26' a='1' b='1' c='0' d='0'>A menudo le ocurre que no sabe como mantener una conversación.</sentencia>
+	<sentencia n='27' a='0' b='0' c='1' d='1'>Encuentra fácil "leer entre líneas" cuando alguien le habla.</sentencia>
+	<sentencia n='28' a='0' b='0' c='1' d='1'>Suele concentrarse más en la visión general que en los pequeños detalles.</sentencia>
+	<sentencia n='29' a='0' b='0' c='1' d='1'>No es bueno recordando números de teléfono.</sentencia>
+	<sentencia n='30' a='0' b='0' c='1' d='1'>Normalmente no observa los pequeños detalles de una situación o de la apariencia de una persona.</sentencia>
+	<sentencia n='31' a='0' b='0' c='1' d='1'>Es capaz de darse cuenta si una persona que le está escuchando se aburre.</sentencia>
+	<sentencia n='32' a='0' b='0' c='1' d='1'>Encuentra fácil hacer más de una cosa a la vez.</sentencia>
+	<sentencia n='33' a='1' b='1' c='0' d='0'>Al hablar por teléfono no esta seguro de cuando es su turno para hablar.</sentencia>
+	<sentencia n='34' a='0' b='0' c='1' d='1'>Le gusta hacer cosas de forma espontánea.</sentencia>
+	<sentencia n='35' a='1' b='1' c='0' d='0'>A menudo es el último en entender la gracia de un chiste.</sentencia>
+	<sentencia n='36' a='0' b='0' c='1' d='1'>Encuentra fácil adivinar lo que una persona está pensando o sintiendo simplemente mirando a su cara.</sentencia>
+	<sentencia n='37' a='0' b='0' c='1' d='1'>En caso de ser interrumpido puede volver a lo que estaba haciendo de forma muy rápida.</sentencia>
+	<sentencia n='38' a='0' b='0' c='1' d='1'>Es bueno en la cháchara social.</sentencia>
+	<sentencia n='39' a='1' b='1' c='0' d='0'>La gente a menudo le dice que vuelve una y otra vez sobre el mismo tema.</sentencia>
+	<sentencia n='40' a='0' b='0' c='1' d='1'>En su infancia le gustaba jugar a fingir o simular con otros niños.</sentencia>
+	<sentencia n='41' a='1' b='1' c='0' d='0'>Le gusta coleccionar información sobre categorías de cosas (por ejemplo tipos de coches, pájaros, trenes, plantas, etc.).</sentencia>
+	<sentencia n='42' a='1' b='1' c='0' d='0'>Le cuesta imaginarse cómo se sentiría siendo otra persona.</sentencia>
+	<sentencia n='43' a='1' b='1' c='0' d='0'>Le gusta planear con cuidado todas las actividades en las que participa.</sentencia>
+	<sentencia n='44' a='0' b='0' c='1' d='1'>Le gustan las ocasiones sociales.</sentencia>
+	<sentencia n='45' a='1' b='1' c='0' d='0'>Encuentra difícil adivinar las intenciones de las otras personas.</sentencia>
+	<sentencia n='46' a='1' b='1' c='0' d='0'>Las situaciones nuevas le generan ansiedad.</sentencia>
+	<sentencia n='47' a='0' b='0' c='1' d='1'>Le gusta conocer a gente nueva.</sentencia>
+	<sentencia n='48' a='0' b='0' c='1' d='1'>Es un buen diplomático.</sentencia>
+	<sentencia n='49' a='0' b='0' c='1' d='1'>No es bueno recordando las fechas de nacimiento de la gente.</sentencia>
+	<sentencia n='50' a='0' b='0' c='1' d='1'>Encuentra muy fácil jugar con niños a juegos que implican fingir o simular.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

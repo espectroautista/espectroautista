@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * OAQ.xml - Online Alexithymia Questionnaire
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="OAQ.xml">
+	<sentencia n='1' a='5' b='4' c='3' d='2' e='1'>Cuando me preguntan qué emoción estoy sintiendo, a menudo no sé que responder. </sentencia>
+	<sentencia n='2' a='5' b='4' c='3' d='2' e='1'>Me siento inseguro sobre las palabras que he de utilizar al describir mis sentimientos.</sentencia>
+	<sentencia n='3' a='1' b='2' c='3' d='4' e='5'>Prefiero explorar la complejidad emocional de mis problemas a describirlos sólo en base a hechos prácticos.</sentencia>
+	<sentencia n='4' a='5' b='4' c='3' d='2' e='1'>Cuando otras personas se sienten ofendidas o disgustadas, es difícil para mí imaginar qué es lo que sienten.</sentencia>
+	<sentencia n='5' a='5' b='4' c='3' d='2' e='1'>La gente suele decirme que describa mejor mis sentimientos, como si no los hubiese elaborado suficientemente.</sentencia>
+	<sentencia n='6' a='5' b='4' c='3' d='2' e='1'>El sexo como diversión me parece carente de sentido.</sentencia>
+	<sentencia n='7' a='1' b='2' c='3' d='4' e='5'>Puedo describir fácilmente mis emociones.</sentencia>
+	<sentencia n='8' a='1' b='2' c='3' d='4' e='5'>No se puede funcionar en la vida sin ser consciente de tus emociones más profundas.</sentencia>
+	<sentencia n='9' a='5' b='4' c='3' d='2' e='1'>A veces la gente se enfada conmigo sin que yo pueda imaginar el motivo.</sentencia>
+	<sentencia n='10' a='5' b='4' c='3' d='2' e='1'>La gente me dice que no presto la debida atención a sus sentimientos, cuando de hecho ¡hago todo lo que puedo para entender lo que me dicen!</sentencia>
+	<sentencia n='11' a='5' b='4' c='3' d='2' e='1'>Cuando me disgusto encuentro difícil identificar los sentimientos que me han llevado a ese estado.</sentencia>
+	<sentencia n='12' a='5' b='4' c='3' d='2' e='1'>Usualmente me resulta difícil describir mis sentimientos hacia otras personas.</sentencia>
+	<sentencia n='13' a='5' b='4' c='3' d='2' e='1'>Prefiero quedar para realizar actividades físicas con mis amigos en lugar de discutir las experiencias emocionales de cada uno de nosotros.</sentencia>
+	<sentencia n='14' a='5' b='4' c='3' d='2' e='1'>No suelo soñar despierto.</sentencia>
+	<sentencia n='15' a='5' b='4' c='3' d='2' e='1'>No me gusta que la gente dé por hecho que yo debo entender o adivinar sus necesidades... ¡es como si quisieran que yo les leyera el pensamiento!</sentencia>
+	<sentencia n='16' a='5' b='4' c='3' d='2' e='1'>A veces mi cuerpo me produce sensaciones confusas.</sentencia>
+	<sentencia n='17' a='5' b='4' c='3' d='2' e='1'>Para mí el sexo es más una actividad funcional que emocional.</sentencia>
+	<sentencia n='18' a='5' b='4' c='3' d='2' e='1'>Algunas personas me han dicho que soy frío o que no sé reaccionar ante sus necesidades.</sentencia>
+	<sentencia n='19' a='5' b='4' c='3' d='2' e='1'>No sueño a menudo y, cuando lo hago, mis sueños me parecen bastante aburridos.</sentencia>
+	<sentencia n='20' a='5' b='4' c='3' d='2' e='1'>Mis amigos me suelen indicar de alguna manera que actúo más con el cerebro que con el corazón.</sentencia>
+	<sentencia n='21' a='5' b='4' c='3' d='2' e='1'>No puedo identificar sentimientos que vagamente intuyo desarrollándose dentro de mí.</sentencia>
+	<sentencia n='22' a='5' b='4' c='3' d='2' e='1'>A menudo pregunto a otras personas cómo se sentirían ellas si estuviesen en mi situación personal (sea cual sea la situación), ya que ello me ayuda a entender lo que debo hacer.</sentencia>
+	<sentencia n='23' a='1' b='2' c='3' d='4' e='5'>Cuando establezco mis prioridades doy la misma importancia a los sentimientos que a las cuestiones prácticas.</sentencia>
+	<sentencia n='24' a='5' b='4' c='3' d='2' e='1'>Utilizo mi imaginación principalmente para fines prácticos, por ejemplo para solucionar un problema, desarrollar una idea o construir un objeto útil.</sentencia>
+	<sentencia n='25' a='5' b='4' c='3' d='2' e='1'>A menudo me siento incompetente, molesto, incómodo o incluso llego ocasionalmente a sentir malestar físico en situaciones sexuales.</sentencia>
+	<sentencia n='26' a='5' b='4' c='3' d='2' e='1'>Algunas veces, cuando estoy implicado en relaciones personales difíciles o turbulentas, desarrollo síntomas físicos confusos.</sentencia>
+	<sentencia n='27' a='5' b='4' c='3' d='2' e='1'>Tengo tendencia a valerme de otras personas para interpretar los detalles emocionales de las situaciones personales o sociales.</sentencia>
+	<sentencia n='28' a='5' b='4' c='3' d='2' e='1'>No me gustan las conversaciones en las que la mayor parte del tiempo se dedica a discutir sobre cuestiones emocionales en vez de dedicarlo a hablar de actividades cotidianas, ya que ello va en detrimento de mi diversión.</sentencia>
+	<sentencia n='29' a='5' b='4' c='3' d='2' e='1'>Con frecuencia experimento confusión acerca de lo que la otra persona desea en una relación sexual.</sentencia>
+	<sentencia n='30' a='5' b='4' c='3' d='2' e='1'>Las personas con las que he tenido relaciones más estrechas se han quejado de que las he descuidado desde el punto de vista emocional.</sentencia>
+	<sentencia n='31' a='5' b='4' c='3' d='2' e='1'>Me gusta cuando alguien describe los sentimientos que experimenta en circunstancias similares a las mías, porqué eso me ayuda a ver cuales podrían ser mis propios sentimientos.</sentencia>
+	<sentencia n='32' a='1' b='2' c='3' d='4' e='5'>Mi imaginación es frecuentemente espontánea, impredecible e involuntaria.</sentencia>
+	<sentencia n='33' a='5' b='4' c='3' d='2' e='1'>Cuando ayudo a otras personas prefiero asistirlas en tareas prácticas antes que aconsejarlas sobre sus sentimientos.</sentencia>
+	<sentencia n='34' a='5' b='4' c='3' d='2' e='1'>Tengo sensaciones físicas desconcertantes que incluso son incomprensibles para mis amigos, mis conocidos u otras personas.</sentencia>
+	<sentencia n='35' a='5' b='4' c='3' d='2' e='1'>Siento confusión cuando trato de describir cómo me siento ante un acontecimiento importante.</sentencia>
+	<sentencia n='36' a='5' b='4' c='3' d='2' e='1'>Mi imaginación no suele ser espontánea y sorprendente, sino que más bien la utilizo de forma controlada.</sentencia>
+	<sentencia n='37' a='5' b='4' c='3' d='2' e='1'>Tomo las decisiones basándome más en mis principios que en mis sentimientos viscerales.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

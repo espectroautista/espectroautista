@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * GAD-7.xml - Generalized Anxiety Disorder
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="GAD7.xml">
+	<sentencia n='1'>Sentirse nervioso, ansioso, notar que se le ponen los nervios de punta.</sentencia>
+	<sentencia n='2'>No ser capaz de parar o controlar sus preocupaciones.</sentencia>
+	<sentencia n='3'>Preocuparse demasiado sobre diferentes cosas.</sentencia>
+	<sentencia n='4'>Dificultad para relajarse.</sentencia>
+	<sentencia n='5'>Estar tan desasosegado que le resulta difícil parar quieto.</sentencia>
+	<sentencia n='6'>Sentirse fácilmente disgustado o irritable.</sentencia>
+	<sentencia n='7'>Sentirse asustado como si algo horrible pudiese pasar.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

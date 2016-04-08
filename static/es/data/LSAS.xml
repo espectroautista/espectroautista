@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * LSAS.xml - Liebowits Social Anxiety Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="LSAS.xml">
+	<sentencia n="1">Telefonear en público.</sentencia>
+	<sentencia n="2">Participar en pequeños grupos.</sentencia>
+	<sentencia n="3">Comer en lugares públicos.</sentencia>
+	<sentencia n="4">Beber con otras personas en lugares públicos.</sentencia>
+	<sentencia n="5">Hablar con gente importante.</sentencia>
+	<sentencia n="6">Actuar o dar una charla frente a una audiencia.</sentencia>
+	<sentencia n="7">Ir a una fiesta.</sentencia>
+	<sentencia n="8">Trabajar mientras le observan.</sentencia>
+	<sentencia n="9">Escribir mientras le observan.</sentencia>
+	<sentencia n="10">Telefonear a alguien que no conoce muy bien.</sentencia>
+	<sentencia n="11">Hablar con gente que no conoce muy bien.</sentencia>
+	<sentencia n="12">Reunirse con desconocidos.</sentencia>
+	<sentencia n="13">Orinar en unos lavabos públicos.</sentencia>
+	<sentencia n="14">Entrar en una sala cuando otros ya están sentados.</sentencia>
+	<sentencia n="15">Ser el centro de atención.</sentencia>
+	<sentencia n="16">Tomar la palabra en una reunión.</sentencia>
+	<sentencia n="17">Realizar un test.</sentencia>
+	<sentencia n="18">Expresar desacuerdo o desaprobación a gente que no conoce muy bien.</sentencia>
+	<sentencia n="19">Mirar a los ojos a gente que no conoce muy bien.</sentencia>
+	<sentencia n="20">Presentar un informe a un grupo.</sentencia>
+	<sentencia n="21">Intentar ligar con alguien.</sentencia>
+	<sentencia n="22">Devolver una compra a una tienda.</sentencia>
+	<sentencia n="23">Dar una fiesta.</sentencia>
+	<sentencia n="24">Resistir las presiones de un vendedor insistente.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

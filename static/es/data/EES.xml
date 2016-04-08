@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * EES.xml - Emotional Expressivity Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="EES.xml">
+	<sentencia n="1"  a="1" b="2" c="3" d="4" e="5" f="6">Me considero a mi mismo emocionalmente expresivo.</sentencia>
+	<sentencia n="2"  a="6" b="5" c="4" d="3" e="2" f="1">La gente me considera una persona emotiva.</sentencia>
+	<sentencia n="3"  a="6" b="5" c="4" d="3" e="2" f="1">Guardo mis sentimientos para mi mismo.</sentencia>
+	<sentencia n="4"  a="6" b="5" c="4" d="3" e="2" f="1">A menudo se me considera indiferente hacia los demás.</sentencia>
+	<sentencia n="5"  a="1" b="2" c="3" d="4" e="5" f="6">La gente puede darse cuenta de mis emociones.</sentencia>
+	<sentencia n="6"  a="1" b="2" c="3" d="4" e="5" f="6">Muestro mis emociones a las otras personas.</sentencia>
+	<sentencia n="7"  a="6" b="5" c="4" d="3" e="2" f="1">No me gusta dejar que las otras personas vean como me siento.</sentencia>
+	<sentencia n="8"  a="1" b="2" c="3" d="4" e="5" f="6">Soy capaz de llorar delante de otras personas.</sentencia>
+	<sentencia n="9"  a="6" b="5" c="4" d="3" e="2" f="1">Incluso si me siento muy emocionado, no dejo que los otros vean mis sentimientos.</sentencia>
+	<sentencia n="10" a="6" b="5" c="4" d="3" e="2" f="1">Las otras personas no lo tienen fácil para observar lo que siento.</sentencia>
+	<sentencia n="11" a="6" b="5" c="4" d="3" e="2" f="1">No soy muy expresivo emocionalmente.</sentencia>
+	<sentencia n="12" a="6" b="5" c="4" d="3" e="2" f="1">Incluso cuando experimento fuertes sentimientos, no los expreso externamente.</sentencia>
+	<sentencia n="13" a="1" b="2" c="3" d="4" e="5" f="6">No puedo ocultar la forma en que me siento.</sentencia>
+	<sentencia n="14" a="1" b="2" c="3" d="4" e="5" f="6">Las otras personas creen que soy muy emocional.</sentencia>
+	<sentencia n="15" a="6" b="5" c="4" d="3" e="2" f="1">No expreso mis emociones a las otras personas.</sentencia>
+	<sentencia n="16" a="6" b="5" c="4" d="3" e="2" f="1">La forma en que me siento es diferente de como los otros piensan que me siento.</sentencia>
+	<sentencia n="17" a="6" b="5" c="4" d="3" e="2" f="1">Mantengo mis sentimientos dentro de mi.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

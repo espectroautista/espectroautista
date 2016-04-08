@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * TAS20.xml - Toronto Alexithymia Scale 20
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="TAS20.xml">
+	<sentencia n='1' a='5' b='4' c='3' d='2' e='1'>A menudo estoy confuso con las emociones que estoy sintiendo.</sentencia>
+	<sentencia n='2' a='5' b='4' c='3' d='2' e='1'>Me es difícil encontrar las palabras correctas para expresar mis sentimientos.</sentencia>
+	<sentencia n='3' a='5' b='4' c='3' d='2' e='1'>Tengo sensaciones físicas que incluso ni los doctores entienden.</sentencia>
+	<sentencia n='4' a='1' b='2' c='3' d='4' e='5'>Soy capaz de expresar mis sentimientos fácilmente.</sentencia>
+	<sentencia n='5' a='1' b='2' c='3' d='4' e='5'>Prefiero pensar bien acerca de un problema en lugar de solo mencionarlo.</sentencia>
+	<sentencia n='6' a='5' b='4' c='3' d='2' e='1'>Cuando estoy mal no sé si estoy triste, asustado o enfadado.</sentencia>
+	<sentencia n='7' a='5' b='4' c='3' d='2' e='1'>A menudo estoy confundido con las sensaciones de mi cuerpo.</sentencia>
+	<sentencia n='8' a='5' b='4' c='3' d='2' e='1'>Prefiero dejar que las cosas sucedan solas, sin preguntarme por qué suceden de ese modo.</sentencia>
+	<sentencia n='9' a='5' b='4' c='3' d='2' e='1'>Tengo sentimientos que casi no puedo identificar.</sentencia>
+	<sentencia n='10' a='1' b='2' c='3' d='4' e='5'>Estar en contacto con las emociones es muy importante.</sentencia>
+	<sentencia n='11' a='5' b='4' c='3' d='2' e='1'>Me es difícil expresar lo que siento acerca de las personas.</sentencia>
+	<sentencia n='12' a='5' b='4' c='3' d='2' e='1'>La gente me dice que exprese más mis sentimientos.</sentencia>
+	<sentencia n='13' a='5' b='4' c='3' d='2' e='1'>No sé qué pasa dentro de mí.</sentencia>
+	<sentencia n='14' a='5' b='4' c='3' d='2' e='1'>A menudo no sé por qué estoy enfadado.</sentencia>
+	<sentencia n='15' a='5' b='4' c='3' d='2' e='1'>Prefiero hablar con la gente de sus actividades diarias mejor que de sus sentimientos.</sentencia>
+	<sentencia n='16' a='5' b='4' c='3' d='2' e='1'>Prefiero ver espectáculos simples, pero entretenidos, que dramas psicológicos.</sentencia>
+	<sentencia n='17' a='5' b='4' c='3' d='2' e='1'>Me es difícil revelar mis sentimientos más profundos incluso a mis amigos más íntimos.</sentencia>
+	<sentencia n='18' a='1' b='2' c='3' d='4' e='5'>Puedo sentirme cercano a alguien, incluso en momentos de silencio.</sentencia>
+	<sentencia n='19' a='1' b='2' c='3' d='4' e='5'>Encuentro útil examinar mis sentimientos para resolver problemas personales.</sentencia>
+	<sentencia n='20' a='5' b='4' c='3' d='2' e='1'>Buscar significados ocultos a películas o juegos disminuye el placer de disfrutarlos.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

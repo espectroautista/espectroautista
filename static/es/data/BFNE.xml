@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * BFNE.xml - Escala Breve de Miedo a la Evaluación Negativa
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="BFNE.xml">
+	<sentencia n="1">Me preocupa lo que las otras personas puedan pensar de mí, incluso cuando se que eso no importa.</sentencia>
+	<sentencia n="2">No me importa que otras personas se formen una impresión desfavorable de mí.</sentencia>
+	<sentencia n="3">Temo con frecuencia que otras personas se den cuenta de mis limitaciones.</sentencia>
+	<sentencia n="4">Difícilmente me preocupa el tipo de impresión que puedo causar a alguien.</sentencia>
+	<sentencia n="5">Me asusta que los demás no me acepten.</sentencia>
+	<sentencia n="6">Me asusta que la gente me encuentre fallos.</sentencia>
+	<sentencia n="7">La opinión de las otras personas no me preocupa.</sentencia>
+	<sentencia n="8">Cuando hablo con alguien, me preocupa lo que pueda estar pensando de mí.</sentencia>
+	<sentencia n="9">Usualmente estoy preocupado por la impresión que puedo producir.</sentencia>
+	<sentencia n="10">Me produce muy poco efecto saber que alguien me está juzgando.</sentencia>
+	<sentencia n="11">A veces pienso que me preocupo demasiado de lo que los otros piensan de mí.</sentencia>
+	<sentencia n="12">Suelo estar preocupado por si digo o hago cosas equivocadas.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

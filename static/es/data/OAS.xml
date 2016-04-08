@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * OAS.xml - Observer Alexithymia Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="OAS.xml">
+	<!-- Subescala 1. Distante -->
+	<sentencia n='1' a='3' b='2' c='1' d='0'>Es una persona cálida.</sentencia>
+	<sentencia n='2' a='3' b='2' c='1' d='0'>Se muestra compasiva.</sentencia>
+	<sentencia n='3' a='3' b='2' c='1' d='0'>Es buena relacionándose.</sentencia>
+	<sentencia n='4' a='3' b='2' c='1' d='0'>Manifiesta sensibilidad hacia las otras personas.</sentencia>
+	<sentencia n='5' a='3' b='2' c='1' d='0'>Le gusta sentirse cercana a la gente.</sentencia>
+	<sentencia n='6' a='3' b='2' c='1' d='0'>Le gusta tener amigos próximos.</sentencia>
+	<sentencia n='7' a='3' b='2' c='1' d='0'>Le gusta explorar sus sentimientos.</sentencia>
+	<sentencia n='8' a='3' b='2' c='1' d='0'>Le gusta tocar y ser tocada.</sentencia>
+	<sentencia n='9' a='3' b='2' c='1' d='0'>Es flexible.</sentencia>
+	<sentencia n='10' a='3' b='2' c='1' d='0'>Es imaginativa; es creativa.</sentencia>
+	<!-- Subescala 2. No introspectivo -->
+	<sentencia n='11' a='0' b='1' c='2' d='3'>Se hunde cuando las cosas se ponen realmente difíciles.</sentencia>
+	<sentencia n='12' a='0' b='1' c='2' d='3'>Se muestra confundida cuando las cosas son muy estresantes.</sentencia>
+	<sentencia n='13' a='0' b='1' c='2' d='3'>Se frustra al enfrentarse a lo incierto.</sentencia>
+	<sentencia n='14' a='0' b='1' c='2' d='3'>Tiene fuertes emociones que no puede explicar.</sentencia>
+	<sentencia n='15' a='0' b='1' c='2' d='3'>Tiene dificultades en encontrar las palabras correctas para describir sus sentimientos.</sentencia>
+	<sentencia n='16' a='0' b='1' c='2' d='3'>Parece carecer de una meta.</sentencia>
+	<sentencia n='17' a='3' b='2' c='1' d='0'>Se conoce bien a si misma.</sentencia>
+	<sentencia n='18' a='3' b='2' c='1' d='0'>Comprende muy bien sus necesidades.</sentencia>
+	<!-- Subescala 3. Somatización -->
+	<sentencia n='19' a='0' b='1' c='2' d='3'>Se preocupa demasiado de su salud.</sentencia>
+	<sentencia n='20' a='0' b='1' c='2' d='3'>Habla mucho sobre dolor físico o malestar.</sentencia>
+	<sentencia n='21' a='0' b='1' c='2' d='3'>Pasa mucho tiempo preocupándose de su cuerpo.</sentencia>
+	<sentencia n='22' a='0' b='1' c='2' d='3'>Tiene problemas físicos que son difíciles de tratar.</sentencia>
+	<sentencia n='23' a='0' b='1' c='2' d='3'>Tiene reacciones físicas al estrés (dolor de cabeza, sudoración, problemas digestivos, dolor muscular).</sentencia>
+	<!-- Subescala 4. Sin sentido del humor -->
+	<sentencia n='24' a='3' b='2' c='1' d='0'>Tiene buen sentido del humor.</sentencia>
+	<sentencia n='25' a='3' b='2' c='1' d='0'>Explica chistes y hace comentarios divertidos.</sentencia>
+	<sentencia n='26' a='3' b='2' c='1' d='0'>Es juguetona.</sentencia>
+	<sentencia n='27' a='0' b='1' c='2' d='3'>No es estimulante; es aburrida.</sentencia>
+	<sentencia n='28' a='0' b='1' c='2' d='3'>Es sosa; no es interesante.</sentencia>
+	<!-- Subescala 5. Rígido -->
+	<sentencia n='29' a='0' b='1' c='2' d='3'>Es demasiado auto-controlada.</sentencia>
+	<sentencia n='30' a='0' b='1' c='2' d='3'>Debe "seguir el reglamento".</sentencia>
+	<sentencia n='31' a='0' b='1' c='2' d='3'>Es inflexible; es rígida.</sentencia>
+	<sentencia n='32' a='0' b='1' c='2' d='3'>Ve las cosas sólo en blanco o negro.</sentencia>
+	<sentencia n='33' a='0' b='1' c='2' d='3'>Evita disfrutar de las cosas buenas de la vida, sin que nada le obligue a ello.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

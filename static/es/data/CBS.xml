@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * EQ.xml - Test del Cociente de Empatía
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="EQ.xml">
+	<sentencia n='1'  a='2' b='1' c='0' d='0'>Puedo captar con facilidad si otra persona quiere tomar parte en una conversación.</sentencia>
+	<sentencia n='2'  a='0' b='0' c='1' d='2'>Encuentro difícil explicar a otras personas las cosas que yo entiendo con facilidad, cuando ellas no las  entienden a la primera.</sentencia>
+	<sentencia n='3'  a='2' b='1' c='0' d='0'>Me gusta verdaderamente cuidar de otras personas.</sentencia>
+	<sentencia n='4'  a='0' b='0' c='1' d='2'>Encuentro difícil saber qué es lo que hay que hacer en una situación social.</sentencia>
+	<sentencia n='5' a='0' b='0' c='1' d='2'>A menudo, al verme envuelto en una discusión,  la gente me dice que voy demasiado lejos defendiendo mi punto de vista.</sentencia>
+	<sentencia n='6' a='0' b='0' c='1' d='2'>No me preocupa mucho llegar tarde a una cita con un amigo o amiga.</sentencia>
+	<sentencia n='7' a='0' b='0' c='1' d='2'>Las amistades y las relaciones son demasiado difíciles de mantener, así que procuro no pensar en ello.</sentencia>
+	<sentencia n='8' a='0' b='0' c='1' d='2'>Generalmente me cuesta juzgar si alguien ha sido amable o descortés.</sentencia>
+	<sentencia n='9' a='0' b='0' c='1' d='2'>En una conversación intento concentrarme en mis propios pensamientos antes que en lo que mi interlocutor pueda estar pensando.</sentencia>
+	<sentencia n='10' a='0' b='0' c='1' d='2'>De pequeño me gustaba cortar gusanos en pedazos para ver que pasaba.</sentencia>
+	<sentencia n='11' a='2' b='1' c='0' d='0'>Puedo captar fácilmente si una persona dice una cosa pero en realidad quiere decir otra.</sentencia>
+	<sentencia n='12' a='0' b='0' c='1' d='2'>Me resulta difícil ver porqué algunas cosas molestan tanto a las otras personas.</sentencia>
+	<sentencia n='13' a='2' b='1' c='0' d='0'>Me resulta fácil ponerme en el lugar de otra persona.</sentencia>
+	<sentencia n='14' a='2' b='1' c='0' d='0'>Tengo facilidad para predecir cómo se sentirá otra persona.</sentencia>
+	<sentencia n='15' a='2' b='1' c='0' d='0'>Enseguida me doy cuenta de si alguien se siente molesto en un grupo.</sentencia>
+	<sentencia n='16' a='0' b='0' c='1' d='2'>Si cuando yo hablo alguien se siente ofendido pienso que el problema es suyo, no mío. </sentencia>
+	<sentencia n='17' a='0' b='0' c='1' d='2'>Si alguien me pregunta si me gusta su corte de pelo le respondo la verdad, incluso en el caso de que no me guste.</sentencia>
+	<sentencia n='18' a='0' b='0' c='1' d='2'>A veces no entiendo porqué alguien se ha sentido ofendido por una determinada observación mía. </sentencia>
+	<sentencia n='19' a='0' b='0' c='1' d='2'>Ver llorar a la gente no me pone especialmente triste.</sentencia>
+	<sentencia n='20' a='0' b='0' c='1' d='2'>Soy muy sincero, lo que hace que algunos me consideren maleducado aunque esa no sea mi intención.</sentencia>
+	<sentencia n='21' a='2' b='1' c='0' d='0'>No suelo encontrar confusas las situaciones sociales.</sentencia>
+	<sentencia n='22' a='2' b='1' c='0' d='0'>Las otras personas me dicen que tengo facilidad para entender cómo se sienten y que es lo que están pensando.</sentencia>
+	<sentencia n='23' a='2' b='1' c='0' d='0'>Cuando hablo con otras personas tiendo más a hablar de sus experiencias que de las mías.</sentencia>
+	<sentencia n='24' a='2' b='1' c='0' d='0'>Me da pena ver sufrir a un animal.</sentencia>
+	<sentencia n='25' a='0' b='0' c='1' d='2'>Soy capaz de tomar decisiones sin que me influencien los sentimientos de los demás.</sentencia>
+	<sentencia n='26' a='2' b='1' c='0' d='0'>Puedo captar fácilmente si a alguien le aburre o le interesa lo que estoy diciendo.</sentencia>
+	<sentencia n='27' a='2' b='1' c='0' d='0'>Me afecta ver a personas sufriendo en los programas informativos.</sentencia>
+	<sentencia n='28' a='2' b='1' c='0' d='0'>Mis amistades suelen hablarme de sus problemas porque dicen que realmente les comprendo.</sentencia>
+	<sentencia n='29' a='2' b='1' c='0' d='0'>Me doy cuenta de que molesto incluso si la otra persona no me lo dice.</sentencia>
+	<sentencia n='30' a='0' b='0' c='1' d='2'>A veces la gente me dice que he ido demasiado lejos con mis bromas.</sentencia>
+	<sentencia n='31' a='0' b='0' c='1' d='2'>A menudo la gente dice que soy insensible, aunque yo no veo por qué.</sentencia>
+	<sentencia n='32' a='0' b='0' c='1' d='2'>Si hay alguien nuevo en un grupo pienso que es cosa suya hacer el esfuerzo para integrarse en el mismo.</sentencia>
+	<sentencia n='33' a='0' b='0' c='1' d='2'>Por lo general me mantengo emocionalmente indiferente cuando veo una película.  </sentencia>
+	<sentencia n='34' a='2' b='1' c='0' d='0'>Puedo conectar y saber como se siente alguien de forma rápida e intuitiva.</sentencia>
+	<sentencia n='35' a='2' b='1' c='0' d='0'>Me doy cuenta fácilmente de lo que otra persona puede estar deseando hablar. </sentencia>
+	<sentencia n='36' a='2' b='1' c='0' d='0'>Puedo darme cuenta de si otra persona está ocultando sus verdaderas emociones.</sentencia>
+	<sentencia n='37' a='2' b='1' c='0' d='0'>No elaboro conscientemente las reglas de una situación social.</sentencia>
+	<sentencia n='38' a='2' b='1' c='0' d='0'>Tengo facilidad para predecir lo que otra persona hará.</sentencia>
+	<sentencia n='39' a='2' b='1' c='0' d='0'>Tengo tendencia a implicarme en los problemas de mis amigos o amigas.</sentencia>
+	<sentencia n='40' a='2' b='1' c='0' d='0'>Suelo apreciar el punto de vista de otras personas, incluso si no estoy de acuerdo con ellas.</sentencia>
+<!--
+	<sentencia n='1'  a='2' b='1' c='0' d='0'>Puedo captar con facilidad si otra persona quiere tomar parte en una conversación.</sentencia>
+	<sentencia n='2'  a='0' b='0' c='0' d='0'>Prefiero la compañía de los animales a la de las personas.</sentencia>
+	<sentencia n='3'  a='0' b='0' c='0' d='0'>Intento seguir las tendencias y las modas actuales.</sentencia>
+	<sentencia n='4'  a='0' b='0' c='1' d='2'>Encuentro difícil explicar a otras personas las cosas que yo entiendo con facilidad, cuando ellas no las  entienden a la primera.</sentencia>
+	<sentencia n='5'  a='0' b='0' c='0' d='0'>Sueño la mayoría de las noches.  </sentencia>
+	<sentencia n='6'  a='2' b='1' c='0' d='0'>Me gusta verdaderamente cuidar de otras personas.</sentencia>
+	<sentencia n='7'  a='0' b='0' c='0' d='0'>Intento resolver mis problemas yo solo antes que discutirlos con los demás.</sentencia>
+	<sentencia n='8'  a='0' b='0' c='1' d='2'>Encuentro difícil saber qué es lo que hay que hacer en una situación social.</sentencia>
+	<sentencia n='9'  a='0' b='0' c='0' d='0'>A primera hora de la mañana es cuando estoy en mi mejor momento.</sentencia>
+	<sentencia n='10' a='0' b='0' c='1' d='2'>A menudo, al verme envuelto en una discusión,  la gente me dice que voy demasiado lejos defendiendo mi punto de vista.</sentencia>
+	<sentencia n='11' a='0' b='0' c='1' d='2'>No me preocupa mucho llegar tarde a una cita con un amigo o amiga.</sentencia>
+	<sentencia n='12' a='0' b='0' c='1' d='2'>Las amistades y las relaciones son demasiado difíciles de mantener, así que procuro no pensar en ello.</sentencia>
+	<sentencia n='13' a='0' b='0' c='0' d='0'>Nunca quebrantaría una ley, por irrelevante que fuera.</sentencia>
+	<sentencia n='14' a='0' b='0' c='1' d='2'>Generalmente me cuesta juzgar si alguien ha sido amable o descortés.</sentencia>
+	<sentencia n='15' a='0' b='0' c='1' d='2'>En una conversación intento concentrarme en mis propios pensamientos antes que en lo que mi interlocutor pueda estar pensando.</sentencia>
+	<sentencia n='16' a='0' b='0' c='0' d='0'> Prefiero gastar bromas a contar chistes.</sentencia>
+	<sentencia n='17' a='0' b='0' c='0' d='0'>Prefiero vivir al día a pensar en el futuro.</sentencia>
+	<sentencia n='18' a='0' b='0' c='1' d='2'>De pequeño me gustaba cortar gusanos en pedazos para ver que pasaba.</sentencia>
+	<sentencia n='19' a='2' b='1' c='0' d='0'>Puedo captar fácilmente si una persona dice una cosa pero en realidad quiere decir otra.</sentencia>
+	<sentencia n='20' a='0' b='0' c='0' d='0'>Tiendo a tener fuertes convicciones morales.</sentencia>
+	<sentencia n='21' a='0' b='0' c='1' d='2'>Me resulta difícil ver porqué algunas cosas molestan tanto a las otras personas.</sentencia>
+	<sentencia n='22' a='2' b='1' c='0' d='0'>Me resulta fácil ponerme en el lugar de otra persona.</sentencia>
+	<sentencia n='23' a='0' b='0' c='0' d='0'>Pienso que la buena educación es lo más importante que los padres pueden enseñar sus hijos.</sentencia>
+	<sentencia n='24' a='0' b='0' c='0' d='0'>Me gusta hacer las cosas sin reflexionar demasiado.</sentencia>
+	<sentencia n='25' a='2' b='1' c='0' d='0'>Tengo facilidad para predecir cómo se sentirá otra persona.</sentencia>
+	<sentencia n='26' a='2' b='1' c='0' d='0'>Enseguida me doy cuenta de si alguien se siente molesto en un grupo.</sentencia>
+	<sentencia n='27' a='0' b='0' c='1' d='2'>Si cuando yo hablo alguien se siente ofendido pienso que el problema es suyo, no mío. </sentencia>
+	<sentencia n='28' a='0' b='0' c='1' d='2'>Si alguien me pregunta si me gusta su corte de pelo le respondo la verdad, incluso en el caso de que no me guste.</sentencia>
+	<sentencia n='29' a='0' b='0' c='1' d='2'>A veces no entiendo porqué alguien se ha sentido ofendido por una determinada observación mía. </sentencia>
+	<sentencia n='30' a='0' b='0' c='0' d='0'>A menudo la gente me dice que soy totalmente imprevisible.</sentencia>
+	<sentencia n='31' a='0' b='0' c='0' d='0'>Me gusta ser el centro de atención en cualquier tipo de reunión social.</sentencia>
+	<sentencia n='32' a='0' b='0' c='1' d='2'>Ver llorar a la gente no me pone especialmente triste.</sentencia>
+	<sentencia n='33' a='0' b='0' c='0' d='0'>Me gusta discutir de política.</sentencia>
+	<sentencia n='34' a='0' b='0' c='1' d='2'>Soy muy sincero, lo que hace que algunos me consideren maleducado aunque esa no sea mi intención.</sentencia>
+	<sentencia n='35' a='2' b='1' c='0' d='0'>No suelo encontrar confusas las situaciones sociales.</sentencia>
+	<sentencia n='36' a='2' b='1' c='0' d='0'>Las otras personas me dicen que tengo facilidad para entender cómo se sienten y que es lo que están pensando.</sentencia>
+	<sentencia n='37' a='2' b='1' c='0' d='0'>Cuando hablo con otras personas tiendo más a hablar de sus experiencias que de las mías.</sentencia>
+	<sentencia n='38' a='2' b='1' c='0' d='0'>Me da pena ver sufrir a un animal.</sentencia>
+	<sentencia n='39' a='0' b='0' c='1' d='2'>Soy capaz de tomar decisiones sin que me influencien los sentimientos de los demás.</sentencia>
+	<sentencia n='40' a='0' b='0' c='0' d='0'> No me puedo relajar hasta que no he hecho todo lo que había planeado hacer durante el día. </sentencia>
+	<sentencia n='41' a='2' b='1' c='0' d='0'>Puedo captar fácilmente si a alguien le aburre o le interesa lo que estoy diciendo.</sentencia>
+	<sentencia n='42' a='2' b='1' c='0' d='0'>Me afecta ver a personas sufriendo en los programas informativos.</sentencia>
+	<sentencia n='43' a='2' b='1' c='0' d='0'>Mis amistades suelen hablarme de sus problemas porque dicen que realmente les comprendo.</sentencia>
+	<sentencia n='44' a='2' b='1' c='0' d='0'>Me doy cuenta de que molesto incluso si la otra persona no me lo dice.</sentencia>
+	<sentencia n='45' a='0' b='0' c='0' d='0'>Con frecuencia empiezo a interesarme por nuevas aficiones, pero en seguida me canso de ellas y busco otras aficiones.</sentencia>
+	<sentencia n='46' a='0' b='0' c='1' d='2'>A veces la gente me dice que he ido demasiado lejos con mis bromas.</sentencia>
+	<sentencia n='47' a='0' b='0' c='0' d='0'>Subirme a atracciones como las "montañas rusas" me pondría demasiado nervioso.</sentencia>
+	<sentencia n='48' a='0' b='0' c='1' d='2'>A menudo la gente dice que soy insensible, aunque yo no veo por qué.</sentencia>
+	<sentencia n='49' a='0' b='0' c='1' d='2'>Si hay alguien nuevo en un grupo pienso que es cosa suya hacer el esfuerzo para integrarse en el mismo.</sentencia>
+	<sentencia n='50' a='0' b='0' c='1' d='2'>Por lo general me mantengo emocionalmente indiferente cuando veo una película.  </sentencia>
+	<sentencia n='51' a='0' b='0' c='0' d='0'>Me gusta tener muy organizadas las actividades de la vida cotidiana  y a menudo hago listas de las tareas que tengo que hacer.</sentencia>
+	<sentencia n='52' a='2' b='1' c='0' d='0'>Puedo conectar y saber como se siente alguien de forma rápida e intuitiva.</sentencia>
+	<sentencia n='53' a='0' b='0' c='0' d='0'>No me gusta correr riesgos.</sentencia>
+	<sentencia n='54' a='2' b='1' c='0' d='0'>Me doy cuenta fácilmente de lo que otra persona puede estar deseando hablar. </sentencia>
+	<sentencia n='55' a='2' b='1' c='0' d='0'>Puedo darme cuenta de si otra persona está ocultando sus verdaderas emociones.</sentencia>
+	<sentencia n='56' a='0' b='0' c='0' d='0'>Antes de tomar una decisión siempre considero los pros y los contras.</sentencia>
+	<sentencia n='57' a='2' b='1' c='0' d='0'>No elaboro conscientemente las reglas de una situación social.</sentencia>
+	<sentencia n='58' a='2' b='1' c='0' d='0'>Tengo facilidad para predecir lo que otra persona hará.</sentencia>
+	<sentencia n='59' a='2' b='1' c='0' d='0'>Tengo tendencia a implicarme en los problemas de mis amigos o amigas.</sentencia>
+	<sentencia n='60' a='2' b='1' c='0' d='0'>Suelo apreciar el punto de vista de otras personas, incluso si no estoy de acuerdo con ellas.</sentencia>
+-->
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

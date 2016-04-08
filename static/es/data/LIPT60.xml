@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * LIPT60.xml - Leymann Inventory of Psychological Terrorization
+-->
+<!DOCTYPE sentencias [
+	<!ELEMENT sentencias (sentencia+)>
+	<!ATTLIST sentencias id ID #REQUIRED>
+	<!ELEMENT sentencia (#PCDATA)>
+	<!ATTLIST sentencia n NMTOKEN #REQUIRED>
+]>
+
+<sentencias id="LIPT60.xml">
+	<!-- 0 1 2 3 4 -->
+	<sentencia n="1">Sus superiores no le dejan expresarse o decir lo que tiene que decir.</sentencia>
+	<sentencia n="2">Le interrumpen cuando habla.</sentencia>
+	<sentencia n="3">Sus compañeros le ponen pegas para expresarse o no le dejan hablar.</sentencia>
+	<sentencia n="4">Le gritan o le regañan en voz alta.</sentencia>
+	<sentencia n="5">Critican su trabajo.</sentencia>
+	<sentencia n="6">Critican su vida privada.</sentencia>
+	<sentencia n="7">Recibe llamadas telefónicas amenazantes, insultantes o acusadoras.</sentencia>
+	<sentencia n="8">Se le amenaza verbalmente.</sentencia>
+	<sentencia n="9">Recibe escritos y notas amenazadoras.</sentencia>
+	<sentencia n="10">No le miran, o le miran con desprecio o gestos de rechazo.</sentencia>
+	<sentencia n="11">Ignoran su presencia, no responden a sus preguntas.</sentencia>
+	<sentencia n="12">La gente ha dejado o está dejando de dirigirse o de hablar con usted.</sentencia>
+	<sentencia n="13">No consigue hablar con nadie, todos le evitan.</sentencia>
+	<sentencia n="14">Le asignan un lugar de trabajo que le mantiene aislado del resto de sus compañeros.</sentencia>
+	<sentencia n="15">Prohiben a sus compañeros que hablen con usted.</sentencia>
+	<sentencia n="16">En general, se le ignora y se le trata como si fuera invisible.</sentencia>
+	<sentencia n="17">Le calumnian y murmuran a sus espaldas.</sentencia>
+	<sentencia n="18">Hacen circular rumores falsos o infundados sobre usted.</sentencia>
+	<sentencia n="19">Le ponen en ridículo, se burlan de usted.</sentencia>
+	<sentencia n="20">Le tratan como si fuera un enfermo mental o lo dan a entender.</sentencia>
+	<sentencia n="21">Intentan obligarle a que se haga un examen psiquiátrico o una evaluación psicológica.</sentencia>
+	<sentencia n="22">Se burlan de alguna deformidad o defecto físico que pueda tener.</sentencia>
+	<sentencia n="23">Imitan su forma de andar, su voz, sus gestos para ponerle en ridículo.</sentencia>
+	<sentencia n="24">Atacan o se burlan de sus convicciones políticas o de sus creencias religiosas.</sentencia>
+	<sentencia n="25">Ridiculizan o se burlan de su vida privada.</sentencia>
+	<sentencia n="26">Se burlan de su nacionalidad, procedencia o lugar de origen.</sentencia>
+	<sentencia n="27">Le asignan un trabajo humillante.</sentencia>
+	<sentencia n="28">Se evalúa su trabajo de manera parcial, injusta y malintencionada.</sentencia>
+	<sentencia n="29">Sus decisiones son siempre cuestionadas o contrariadas.</sentencia>
+	<sentencia n="30">Le dirigen insultos o comentarios obscenos o degradantes.</sentencia>
+	<sentencia n="31">Le hacen avances, insinuaciones o gestos sexuales.</sentencia>
+	<sentencia n="32">No se le asignan nuevas tareas, no tiene nada que hacer.</sentencia>
+	<sentencia n="33">Le cortan sus iniciativas, no le permiten desarrollar sus ideas.</sentencia>
+	<sentencia n="34">Le obligan a hacer tareas absurdas o inútiles.</sentencia>
+	<sentencia n="35">Le asignan tareas muy por debajo de su competencia.</sentencia>
+	<sentencia n="36">Le sobrecargan sin cesar con tareas nuevas y diferentes.</sentencia>
+	<sentencia n="37">Le obligan a realizar tareas humillantes.</sentencia>
+	<sentencia n="38">Le asignan tareas muy difíciles o muy por encima de su preparación, en las que es muy probable que fracase.</sentencia>
+	<sentencia n="39">Le obligan a realizar trabajos nocivos o peligrosos.</sentencia>
+	<sentencia n="40">Le amenazan con violencia fisica.</sentencia>
+	<sentencia n="41">Recibe ataques físicos leves, como advertencia.</sentencia>
+	<sentencia n="42">Le atacan físicamente sin ninguna consideración.</sentencia>
+	<sentencia n="43">Le ocasionan a propósito gastos para perjudicarle.</sentencia>
+	<sentencia n="44">Le ocasionan daños en su domicilio o en su puesto de trabajo.</sentencia>
+	<sentencia n="45">Recibe agresiones sexuales físicas directas.</sentencia>
+	<sentencia n="46">Ocasionan daños en sus pertenencias o en su vehículo.</sentencia>
+	<sentencia n="47">Manipulan sus herramientas de trabajo (por ejemplo, borran archivos de su ordenador).</sentencia>
+	<sentencia n="48">Le sustraen algunas de sus pertenencias, documentos o herramientas de trabajo.</sentencia>
+	<sentencia n="49">Se someten informes confidenciales y negativos sobre usted, sin notificarle ni darle oportunidad de defenderse.</sentencia>
+	<sentencia n="50">Las personas que le apoyan reciben amenazas o presiones para que se aparten de usted.</sentencia>
+	<sentencia n="51">Devuelven, abren o interceptan su correspondencia.</sentencia>
+	<sentencia n="52">No le pasan las llamadas o dicen que no está.</sentencia>
+	<sentencia n="53">Pierden u olvidan sus encargos o encargos para usted.</sentencia>
+	<sentencia n="54">Callan o minimizan sus esfuerzos, logros y aciertos.</sentencia>
+	<sentencia n="55">Ocultan sus habilidades y competencias especiales.</sentencia>
+	<sentencia n="56">Exageran sus fallos y errores.</sentencia>
+	<sentencia n="57">Informan mal sobre su permanencia y dedicación.</sentencia>
+	<sentencia n="58">Controlan de manera muy estricta su horario.</sentencia>
+	<sentencia n="59">Cuando solicita un permiso, curso o actividad a la que tiene derecho, se lo niegan o le ponen pegas y dificultades.</sentencia>
+	<sentencia n="60">Se le provoca para obligarle a reaccionar emocionalmente.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

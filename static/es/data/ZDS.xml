@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * ZDS.xml - Zung Depression Scale
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<!--
+a = Muy poco tiempo, muy pocas veces, raramente.
+b = Algún tiempo, algunas veces, de vez en cuando.
+c = Gran parte del tiempo, muchas veces, frecuentemente.
+d = Casi siempre, siempre, casi todo el tiempo.
+-->
+
+<sentencias id="ZDS.xml">
+	<sentencia n="1"  a="1" b="2" c="3" d="4">Me siento triste y deprimido.</sentencia>
+	<sentencia n="2"  a="4" b="3" c="2" d="1">Por las mañanas me siento mejor que por las tardes.</sentencia>
+	<sentencia n="3"  a="1" b="2" c="3" d="4">Frecuentemente tengo ganas de llorar y a veces lloro.</sentencia>
+	<sentencia n="4"  a="1" b="2" c="3" d="4">Me cuesta mucho dormir o duermo mal por las noches.</sentencia>
+	<sentencia n="5"  a="1" b="2" c="3" d="4">Ahora tengo tanto apetito como antes.</sentencia>
+	<sentencia n="6"  a="4" b="3" c="2" d="1">Todavía me siento atraído por el sexo opuesto.</sentencia>
+	<sentencia n="7"  a="4" b="3" c="2" d="1">Creo que estoy adelgazando.</sentencia>
+	<sentencia n="8"  a="1" b="2" c="3" d="4">Estoy estreñido.</sentencia>
+	<sentencia n="9"  a="1" b="2" c="3" d="4">Tengo palpitaciones.</sentencia>
+	<sentencia n="10" a="1" b="2" c="3" d="4">Me canso por cualquier cosa.</sentencia>
+	<sentencia n="11" a="1" b="2" c="3" d="4">Mi cabeza está tan despejada como antes.</sentencia>
+	<sentencia n="12" a="4" b="3" c="2" d="1">Hago las cosas con la misma facilidad que antes.</sentencia>
+	<sentencia n="13" a="4" b="3" c="2" d="1">Me siento agitado e intranquilo y no puedo estar quieto.</sentencia>
+	<sentencia n="14" a="4" b="3" c="2" d="1">Tengo esperanza y confío en el futuro.</sentencia>
+	<sentencia n="15" a="1" b="2" c="3" d="4">Me siento más irritable que habitualmente.</sentencia>
+	<sentencia n="16" a="4" b="3" c="2" d="1">Encuentro fácil tomar decisiones.</sentencia>
+	<sentencia n="17" a="1" b="2" c="3" d="4">Me creo útil y necesario para la gente.</sentencia>
+	<sentencia n="18" a="4" b="3" c="2" d="1">Encuentro agradable vivir, mi vida es plena.</sentencia>
+	<sentencia n="19" a="4" b="3" c="2" d="1">Creo que sería mejor para los demás si me muriera.</sentencia>
+	<sentencia n="20" a="4" b="3" c="2" d="1">Me gustan las mismas cosas que solían agradarme.</sentencia>
+</sentencias>
+
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

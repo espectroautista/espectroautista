@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * QCHAT.xml -
+-->
+<!DOCTYPE preguntas [
+<!ELEMENT preguntas (pregunta+)>
+<!ATTLIST preguntas id ID #REQUIRED>
+<!ENTITY XHTMLNS "http://www.w3.org/1999/xhtml">
+]>
+
+<preguntas id="QCHAT.xml">
+	<pregunta n='1'>
+		<texto xmlns="&XHTMLNS;">¿Su hijo/a le mira cuando usted lo llama por su nombre?</texto>
+		<opcion v='0'>Siempre</opcion>
+		<opcion v='1'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='3'>Rara vez</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='2'>
+		<texto xmlns="&XHTMLNS;">¿Encuentra usted fácil establecer contacto visual con su hijo/a?</texto>
+		<opcion v='0'>Muy fácil</opcion>
+		<opcion v='1'>Bastante fácil</opcion>
+		<opcion v='2'>Un poco difícil</opcion>
+		<opcion v='3'>Muy difícil</opcion>
+		<opcion v='4'>Imposible</opcion>
+	</pregunta>
+
+	<pregunta n='3'>
+		<texto xmlns="&XHTMLNS;">Cuando su hijo/a juga solo, ¿pone objetos en fila?</texto>
+		<opcion v='4'>Siempre</opcion>
+		<opcion v='3'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='1'>Rara vez</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='4'>
+		<texto xmlns="&XHTMLNS;">¿Pueden otras personas comprender lo que dice su hijo/a?</texto>
+		<opcion v='0'>Siempre</opcion>
+		<opcion v='1'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='3'>Rara vez</opcion>
+		<opcion v='4'>Nunca</opcion>
+		<opcion v='4'>Mi hijo/a no habla</opcion>
+	</pregunta>
+
+	<pregunta n='5'>
+		<texto xmlns="&XHTMLNS;">¿Señala su hijo/a para indicar qué quiere (por ejemplo un juguete que no puede alcanzar)?</texto>
+		<opcion v='0'>Muchas veces al día</opcion>
+		<opcion v='1'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='3'>Menos de una vez a la semana</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='6'>
+		<texto xmlns="&XHTMLNS;">¿Señala su hijo/a para compartir interés con usted (por ejemplo mostrar algo interesante)?</texto>
+		<opcion v='0'>Muchas veces al día</opcion>
+		<opcion v='1'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='3'>Menos de una vez a la semana</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='7'>
+		<texto xmlns="&XHTMLNS;">¿Cuánto tiempo puede mantener interés su hijo/a en objetos que giran (por ejemplo lavadora, ventilador, ruedas de vehículos)?</texto>
+		<opcion v='4'>Varias horas</opcion>
+		<opcion v='3'>Media hora</opcion>
+		<opcion v='2'>10 minutos</opcion>
+		<opcion v='1'>Un par de minutos</opcion>
+		<opcion v='0'>Menos de un minuto</opcion>
+	</pregunta>
+
+	<pregunta n='8'>
+		<texto xmlns="&XHTMLNS;">¿Cuántas palabras puede decir su hijo/a?</texto>
+		<opcion v='4'>Ninguna. Aún no ha empezado a hablar</opcion>
+		<opcion v='3'>Menos de 10 palabras</opcion>
+		<opcion v='2'>10–50 palabras</opcion>
+		<opcion v='1'>51–100 palabras</opcion>
+		<opcion v='0'>Más de 100 palabras</opcion>
+	</pregunta>
+
+	<pregunta n='9'>
+		<texto xmlns="&XHTMLNS;">¿Juega su hijo/a a simular (por ejemplo cuidar una muñeca, hablar por un teléfono de juguete)?</texto>
+		<opcion v='0'>Muchas veces al día</opcion>
+		<opcion v='1'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='3'>Menos de una vez a la semana</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='10'>
+		<texto xmlns="&XHTMLNS;">¿Mira su hijo/a hacia donde usted lo hace?</texto>
+		<opcion v='0'>Muchas veces al día</opcion>
+		<opcion v='1'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='3'>Menos de una vez a la semana</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='11'>
+		<texto xmlns="&XHTMLNS;">¿Con qué frecuencia su hijo/a huele o lame objetos inusuales?</texto>
+		<opcion v='4'>Muchas veces al día</opcion>
+		<opcion v='3'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='1'>Menos de una vez a la semana</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='12'>
+		<texto xmlns="&XHTMLNS;">¿Su hijo/a pone la mano de usted sobre un objeto cuando quiere usarlo  (por ejemplo en una manilla de una puerta cuando él quiere  abrir la puerta, sobre juguete para que usted lo ponga en funcionamiento)?</texto>
+		<opcion v='4'>Muchas veces al día</opcion>
+		<opcion v='3'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='1'>Menos de una vez a la semana</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='13'>
+		<texto xmlns="&XHTMLNS;">¿Camina su hijo/a sobre las puntas de los pies?</texto>
+		<opcion v='4'>Siempre</opcion>
+		<opcion v='3'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='1'>Rara vez</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='14'>
+		<texto xmlns="&XHTMLNS;">¿Le resulta fácil a su hijo/a adaptarse cuando se cambian sus rutinas o cuando las cosas están fuera de su lugar común?</texto>
+		<opcion v='0'>Muy fácil</opcion>
+		<opcion v='1'>Bastante fácil</opcion>
+		<opcion v='2'>Un poco difícil</opcion>
+		<opcion v='3'>Muy difícil</opcion>
+		<opcion v='4'>Imposible</opcion>
+	</pregunta>
+
+	<pregunta n='15'>
+		<texto xmlns="&XHTMLNS;">Si usted, o alguien de la familia, está visiblemente molesto, ¿su hijo/a muestra signos de querer consolarlo (por ejemplo acariciarle el cabello, abrazarlo)?</texto>
+		<opcion v='0'>Siempre</opcion>
+		<opcion v='1'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='3'>Rara vez</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='16'>
+		<texto xmlns="&XHTMLNS;">¿Su hijo/a repite una y otra vez algunas acciones (por ejemplo abrir los grifos, encender las luces, abrir y cerrar puertas)?</texto>
+		<opcion v='4'>Muchas veces al día</opcion>
+		<opcion v='3'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='1'>Menos de una vez a la semana</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='17'>
+		<texto xmlns="&XHTMLNS;">Usted describiría las primeras palabras de su hijo/a como:</texto>
+		<opcion v='0'>Muy tipicas</opcion>
+		<opcion v='1'>Bastante típicas</opcion>
+		<opcion v='2'>Un poco inusuales</opcion>
+		<opcion v='3'>Muy inusuales</opcion>
+		<opcion v='4'>Mi hijo/a no habla</opcion>
+	</pregunta>
+
+	<pregunta n='18'>
+		<texto xmlns="&XHTMLNS;">¿Repite su hijo/a cosas que ha escuchado (por ejemplo cosas que usted dice, frases de canciones o películas, sonidos)?</texto>
+		<opcion v='4'>Muchas veces al día</opcion>
+		<opcion v='3'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='1'>Menos de una vez a la semana</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='19'>
+		<texto xmlns="&XHTMLNS;">¿Usa su hijo/a gestos simples (por ejemplo agitar la mano para despedirse)?</texto>
+		<opcion v='0'>Muchas veces al día</opcion>
+		<opcion v='1'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='3'>Menos de una vez a la semana</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='20'>
+		<texto xmlns="&XHTMLNS;">¿Hace su hijo/a movimientos inusuales de los dedos cerca de sus ojos?</texto>
+		<opcion v='4'>Muchas veces al día</opcion>
+		<opcion v='3'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='1'>Menos de una vez a la semana</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='21'>
+		<texto xmlns="&XHTMLNS;">¿Su hijo/a le mira espontáneamente el rostro para ver su reacción cuando se enfrenta con algo poco familiar?</texto>
+		<opcion v='0'>Siempre</opcion>
+		<opcion v='1'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='3'>Rara vez</opcion>
+		<opcion v='4'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='22'>
+		<texto xmlns="&XHTMLNS;">¿Cuánto tiempo puede su hijo/a mantener el interés en uno o dos objetos?</texto>
+		<opcion v='4'>Gran parte del día</opcion>
+		<opcion v='3'>Varias horas</opcion>
+		<opcion v='2'>Media hora</opcion>
+		<opcion v='1'>10 minutos</opcion>
+		<opcion v='0'>Un par de minutos</opcion>
+	</pregunta>
+
+	<pregunta n='23'>
+		<texto xmlns="&XHTMLNS;">¿Su hijo/a agita objetos repetidamente (por ejemplo trozos de cuerda)?</texto>
+		<opcion v='4'>Siempre</opcion>
+		<opcion v='3'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='1'>Rara vez</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='24'>
+		<texto xmlns="&XHTMLNS;">¿Su hijo/a parece ser demasiado sensible a los ruidos?</texto>
+		<opcion v='4'>Siempre</opcion>
+		<opcion v='3'>Normalmente</opcion>
+		<opcion v='2'>A veces</opcion>
+		<opcion v='1'>Rara vez</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+	<pregunta n='25'>
+		<texto xmlns="&XHTMLNS;">¿Su hijo/a se queda mirando al vacío sin objetivo aparente?</texto>
+		<opcion v='4'>Muchas veces al día</opcion>
+		<opcion v='3'>Pocas veces al  día</opcion>
+		<opcion v='2'>Pocas veces en la semana</opcion>
+		<opcion v='1'>Menos de una vez a la semana</opcion>
+		<opcion v='0'>Nunca</opcion>
+	</pregunta>
+
+</preguntas>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

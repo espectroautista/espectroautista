@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * CISNEROS.xml - Cuestionario Individual sobre PSicoterror, Ne gación, Estigmatización y Rechazo en Organizaciones Sociales
+-->
+<!DOCTYPE sentencias [
+	<!ELEMENT sentencias (sentencia+)>
+	<!ATTLIST sentencias id ID #REQUIRED>
+	<!ELEMENT sentencia (#PCDATA)>
+	<!ATTLIST sentencia n NMTOKEN #REQUIRED>
+]>
+
+<sentencias id="CISNEROS.xml">
+	<!-- 0 1 2 3 4 5 6 -->
+	<sentencia n="1">Mi superior restringe mis posibilidades de comunicarme, hablar o reunirme con él.</sentencia>
+	<sentencia n="2">Me ignoran, me excluyen o me hacen el vacío, fingen no verme o me hacen «invisible».</sentencia>
+	<sentencia n="3">Me interrumpen continuamente impidiendo expresarme.</sentencia>
+	<sentencia n="4">Me fuerzan a realizar trabajos que van contra mis principios o mi ética.</sentencia>
+	<sentencia n="5">Evalúan mi trabajo de manera inequitativa o de forma sesgada.</sentencia>
+	<sentencia n="6">Me dejan sin ningún trabajo que hacer, ni siquiera a iniciativa propia.</sentencia>
+	<sentencia n="7">Me asignan tareas o trabajos absurdos o sin sentido.</sentencia>
+	<sentencia n="8">Me asignan tareas o trabajos por debajo de mi capacidad profesional o mis competencias.</sentencia>
+	<sentencia n="9">Me asignan tareas rutinarias o sin valor o interés alguno.</sentencia>
+	<sentencia n="10">Me abruman con una carga de trabajo insoportable de manera malintencionada.</sentencia>
+	<sentencia n="11">Me asignan tareas que ponen en peligro mi integridad física o mi salud a propósito.</sentencia>
+	<sentencia n="12">Me impiden que adopte las medidas de seguridad necesarias para realizar mi trabajo con la debida seguridad.</sentencia>
+	<sentencia n="13">Se me ocasionan gastos con intención de perjudicarme económicamente.</sentencia>
+	<sentencia n="14">Prohíben a mis compañeros o colegas hablar conmigo.</sentencia>
+	<sentencia n="15">Minusvaloran y echan por tierra mi trabajo, no importa lo que haga.</sentencia>
+	<sentencia n="16">Me acusan injustificadamente de incumplimientos, errores, fallos inconcretos y difusos.</sentencia>
+	<sentencia n="17">Recibo críticas y reproches por cualquier cosa que haga o decisión que tome en mi trabajo.</sentencia>
+	<sentencia n="18">Se amplifican y dramatizan de manera injustificada errores pequeños o intrascendentes.</sentencia>
+	<sentencia n="19">Me humillan, desprecian o minusvaloran en público ante otros colegas o ante terceros.</sentencia>
+	<sentencia n="20">Me amenazan con usar instrumentos disciplinarios (rescisión de contrato, expedientes, despido, traslados, etc.).</sentencia>
+	<sentencia n="21">Intentan aislarme de mis compañeros dándome trabajos o tareas que me alejan físicamente de ellos.</sentencia>
+	<sentencia n="22">Distorsionan malintencionadamente lo que digo o hago en mi trabajo.</sentencia>
+	<sentencia n="23">Se intenta buscarme las cosquillas para «hacerme explotar».</sentencia>
+	<sentencia n="24">Me menosprecian personal o profesionalmente.</sentencia>
+	<sentencia n="25">Hacen burla de mí o bromas intentando ridiculizar mi forma de hablar, de andar, etc.</sentencia>
+	<sentencia n="26">Recibo feroces e injustas críticas acerca de aspectos de mi vida personal.</sentencia>
+	<sentencia n="27">Recibo amenazas verbales o mediante gestos intimidatorios.</sentencia>
+	<sentencia n="28">Recibo amenazas por escrito o por teléfono en mi domicilio.</sentencia>
+	<sentencia n="29">Me chillan o gritan, o elevan la voz de manera a intimidarme.</sentencia>
+	<sentencia n="30">Me zarandean, empujan o avasallan físicamente para intimidarme.</sentencia>
+	<sentencia n="31">Se hacen bromas inapropiadas y crueles acerca de mí.</sentencia>
+	<sentencia n="32">Inventan y difunden rumores y calumnias acerca de mí de manera malintencionada.</sentencia>
+	<sentencia n="33">Me privan de información imprescindible y necesaria para hacer mi trabajo.</sentencia>
+	<sentencia n="34">Limitan malintencionadamente mi acceso a cursos, promociones, ascensos, etc.</sentencia>
+	<sentencia n="35">Me atribuyen malintencionadamente conductas ilícitas o antiéticas para perjudicar mi imagen y reputación.</sentencia>
+	<sentencia n="36">Recibo una presión indebida para sacar adelante el trabajo.</sentencia>
+	<sentencia n="37">Me asignan plazos de ejecución o cargas de trabajo irrazonables.</sentencia>
+	<sentencia n="38">Modifican mis responsabilidades o las tareas a ejecutar sin decirme nada.</sentencia>
+	<sentencia n="39">Desvaloran continuamente mi esfuerzo profesional.</sentencia>
+	<sentencia n="40">Intentan persistentemente desmoralizarme.</sentencia>
+	<sentencia n="41">Utilizan varias formas de hacerme incurrir en errores profesionales de manera malintencionada.</sentencia>
+	<sentencia n="42">Controlan aspectos de mi trabajo de forma malintencionada para intentar «pillarme en algún renuncio».</sentencia>
+	<sentencia n="43">Me lanzan insinuaciones o proposiciones sexuales directas o indirectas.</sentencia>
+<!--
+44. En el transcurso de los últimos 6 meses, ¿ha sido Ud víctima de por lo menos alguna de las anteriores formas
+    de maltrato psicológico de manera continuada (con una frecuencia de más de1 vez por semana)?
+    (ver lista de preguntas 1a 43)
+    -->
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

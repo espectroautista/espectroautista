@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ENTITY % E '(
+	authors|title|publisher|year|address|url|lang|
+	journal|volume|pages|number|editors|booktitle|chapter|tags|keywords
+)+ '>
+
+<!ELEMENT bib (book|article|inproceedings|inbook)+>
+<!ATTLIST bib xmlns CDATA #REQUIRED >
+<!ELEMENT book %E;>
+<!ATTLIST book id ID #REQUIRED >
+<!ELEMENT article %E;>
+<!ATTLIST article id ID #REQUIRED >
+<!ELEMENT inproceedings %E;>
+<!ATTLIST inproceedings id ID #REQUIRED >
+<!ELEMENT inbook %E;>
+<!ATTLIST inbook id ID #REQUIRED >
+<!ELEMENT authors (author)+>
+<!ELEMENT editors (editor)+>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT booktitle (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT lang (#PCDATA)>
+<!ELEMENT chapter (#PCDATA)>
+<!ELEMENT journal (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT author (first?, von?, last)+>
+<!ATTLIST author node NMTOKEN #REQUIRED >
+<!ELEMENT editor (first?, last)+>
+<!ATTLIST editor node NMTOKEN #REQUIRED >
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT von (#PCDATA)>
+<!ELEMENT tags (#PCDATA)>
+<!ELEMENT keywords (keyword+)>
+<!ELEMENT keyword (#PCDATA)>
+
+<!ENTITY ldquo   "&#8220;">
+<!ENTITY rdquo   "&#8221;">
+<!ENTITY bdquo   "&#8222;">
+<!ENTITY lsquo   "&#8216;">
+<!ENTITY rsquo   "&#8217;">
+<!ENTITY ndash   "&#8211;">
+<!ENTITY mdash   "&#8212;">

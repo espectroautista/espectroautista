@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * MCHAT.xml - 
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="MCHAT.xml">
+	<sentencia n='1'  si='0' no='1'>¿Le gusta que le balanceen, o que el adulto le haga el “caballito” sentándole en sus rodillas, etc.?</sentencia>
+	<sentencia n='2'  si='0' no='1'>¿Muestra interés por otros niños o niñas?</sentencia>
+	<sentencia n='3'  si='0' no='1'>¿Le gusta subirse a sitios como, por ejemplo, sillones, escalones, juegos del parque&#x2026;?</sentencia>
+	<sentencia n='4'  si='0' no='1'>¿Le gusta que el adulto juegue con él o ella al “cucú-tras” (taparse los ojos y luego descubrirlos; jugar a esconderse y aparecer de repente)</sentencia>
+	<sentencia n='5'  si='0' no='1'>¿Alguna vez hace juegos imaginativos, por ejemplo haciendo como si hablara por teléfono, como si estuviera dando de comer a una muñeca, como si estuviera conduciendo un coche o cosas así?</sentencia>
+	<sentencia n='6'  si='0' no='1'>¿Suele señalar con el dedo para pedir algo?</sentencia>
+	<sentencia n='7'  si='0' no='1'>¿Suele señalar con el dedo para indicar que algo le llama la atención?</sentencia>
+	<sentencia n='8'  si='0' no='1'>¿Puede jugar adecuadamente con piezas o juguetes pequeños (por ejemplo cochecitos, muñequitos o bloques de construcción) sin únicamente chuparlos, agitarlos o tirarlos?</sentencia>
+	<sentencia n='9'  si='0' no='1'>¿Suele traerle objetos para enseñárselos?</sentencia>
+	<sentencia n='10' si='0' no='1'>¿Suele mirarle a los ojos durante unos segundos?</sentencia>
+	<sentencia n='11' si='1' no='0'>¿Le parece demasiado sensible a ruidos poco intensos? (por ejemplo, reacciona tapándose los oídos, etc.)</sentencia>
+	<sentencia n='12' si='0' no='1'>¿Sonríe al verle a usted o cuando usted le sonríe?</sentencia>
+	<sentencia n='13' si='0' no='1'>¿Puede imitar o repetir gestos o acciones que usted hace? (por ejemplo, si usted hace una mueca él o ella también la hace)</sentencia>
+	<sentencia n='14' si='0' no='1'>¿Responde cuando se le llama por su nombre?</sentencia>
+	<sentencia n='15' si='0' no='1'>Si usted señala con el dedo un juguete al otro lado de la habitación… ¿Dirige su hijo o hija la mirada hacia ese juguete?</sentencia>
+	<sentencia n='16' si='0' no='1'>¿Ha aprendido ya a andar?</sentencia>
+	<sentencia n='17' si='0' no='1'>Si usted está mirando algo atentamente, ¿su hijo o hija se pone también a mirarlo?</sentencia>
+	<sentencia n='18' si='1' no='0'>¿Hace su hijo o hija movimientos raros con los dedos, por ejemplo, acercándoselos a los ojos?</sentencia>
+	<sentencia n='19' si='0' no='1'>¿Intenta que usted preste atención a las actividades que él o ella está haciendo?</sentencia>
+	<sentencia n='20' si='1' no='0'>¿Alguna vez ha pensado que su hijo o hija podría tener sordera?</sentencia>
+	<sentencia n='21' si='0' no='1'>¿Entiende su hijo o hija lo que la gente dice?</sentencia>
+	<sentencia n='22' si='1' no='0'>¿Se queda a veces mirando al vacío o va de un lado al otro sin propósito?</sentencia>
+	<sentencia n='23' si='0' no='1'>Si su hijo o hija tiene que enfrentarse a una situación desconocida, ¿le mira primero a usted a la cara para saber cómo reaccionar?</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

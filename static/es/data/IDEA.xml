@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * IDEA.xml -Inventario De Espectro Autista 
+-->
+<!DOCTYPE preguntas [
+<!ELEMENT preguntas (pregunta+)>
+<!ATTLIST preguntas id ID #REQUIRED>
+<!ENTITY XHTMLNS "http://www.w3.org/1999/xhtml">
+]>
+
+<preguntas id="IDEA.xml">
+
+	<pregunta n="1">
+		<texto xmlns="&XHTMLNS;">Relaciones sociales.</texto>
+		<opcion v="8">Aislamiento completo. No apego a personas especificas. No relación con adultos o iguales.</opcion>
+		<opcion v="6">Incapacidad de relación. Vínculo con adultos No relación con iguales.</opcion>
+		<opcion v="4">Relaciones infrecuentes, inducidas, externas con iguales. Las relaciones más como respuesta que a iniciativa propia.</opcion>
+		<opcion v="2">Motivación de relación con iguales, pero falta de relaciones por dificultad para comprender sutilezas sociales y escasa empatía. Conciencia de soledad</opcion>
+		<opcion v="0">No hay trastorno cualitativo de la relación.</opcion>
+	</pregunta>
+
+	<pregunta n="2">
+		<texto xmlns="&XHTMLNS;">Capacidades de referencia conjunta.</texto>
+		<opcion v="8">Ausencia completa de acciones conjuntas o interés por las otras personas y sus acciones.</opcion>
+		<opcion v="6">Acciones conjuntas simples, sin miradas “significativas” de referencia conjunta.</opcion>
+		<opcion v="4">Empleo de miradas de referencia conjunta en situaciones dirigidas, pero no abiertas.</opcion>
+		<opcion v="2">Pautas establecidas de atención y acción conjunta, pero no de preocupación conjunta.</opcion>
+		<opcion v="0">No hay trastorno cualitativo de las capacidades de referencia conjunta.</opcion>
+	</pregunta>
+
+	<pregunta n="3">
+		<texto xmlns="&XHTMLNS;">Capacidades intersubjetivas y mentalistas.</texto>
+		<opcion v="8">Ausencia de pautas de expresión emocional correlativa (i.e. intersubjetividad primaria). Falta de interés por las personas.</opcion>
+		<opcion v="6">Respuestas intersubjetivas primarias, pero ningún indicio de que se vive al otro como “sujeto“.</opcion>
+		<opcion v="4">Indicios de intersubjetividad secundaria, sin atribución explícita de estados mentales. No se resuelven tareas de teoría de la mente.</opcion>
+		<opcion v="2">Conciencia explícita de que las otras personas tienen mente, que se manifiesta en la solución de la tarea de teoría de la mente de primer orden. En situaciones reales, el mentalismo es lento, simple y limitado.</opcion>
+		<opcion v="0">No hay trastorno cualitativo de capacidades intersubjetivas y mentalistas.</opcion>
+	</pregunta>
+
+	<pregunta n="4">
+		<texto xmlns="&XHTMLNS;">Funciones comunicativas.</texto>
+		<opcion v="8">Ausencia de comunicación (relación intencionada. intencional y significante) y de conductas instrumentales con personas.</opcion>
+		<opcion v="6">Conductas instrumentales con personas para lograr cambios en el mundo físico (i e. para “pedir”), sin otras pautas de comunicación.</opcion>
+		<opcion v="4">Conductas comunicativas para pedir (cambiar el mundo físico) pero no para compartir experiencia o cambiar el mundo mental.</opcion>
+		<opcion v="2">Conductas comunicativas de declarar, comentar, etc., con escasas “cualificaciones subjetivas de la experiencia” y declaraciones sobre el mundo interno.</opcion>
+		<opcion v="0">No hay trastorno cualitativo de las funciones comunicativas.</opcion>
+	</pregunta>
+
+	<pregunta n="5">
+		<texto xmlns="&XHTMLNS;">Lenguaje expresivo.</texto>
+		<opcion v="8">Mutismo total o funcional. Puede haber verbalizaciones que no son propiamente lingüísticas.</opcion>
+		<opcion v="6">Lenguaje compuesto de palabras sueltas o ecolalias. No hay creación formal de sintagmas y oraciones.</opcion>
+		<opcion v="4">Lenguaje oracional. Hay oraciones que no son ecolálicas, pero que no configuran discurso o conversación.</opcion>
+		<opcion v="2">Discurso y conversación, con limitaciones de adaptación flexible en las conversaciones y de selección de temas relevantes. Frecuentemente hay anomalías prosódicas.</opcion>
+		<opcion v="0">No hay trastorno cualitativo del lenguaje expresivo.</opcion>
+	</pregunta>
+
+	<pregunta n="6">
+		<texto xmlns="&XHTMLNS;">Lenguaje receptivo.</texto>
+		<opcion v="8">“Sordera central”. Tendencia a ignorar el lenguaje. No hay respuesta a órdenes, llamadas o indicaciones.</opcion>
+		<opcion v="6">Asociación de enunciados verbales con conductas propias, sin indicios de que los enunciados se asimilen a un código.</opcion>
+		<opcion v="4">Comprensión (literal y poco flexible) de enunciados, con alguna clase de análisis estructurales. No se comprende discurso.</opcion>
+		<opcion v="2">Se comprende discurso y conversación, pero se diferencia con gran dificultad el significado literal del intencional.</opcion>
+		<opcion v="0">No hay trastorno cualitativo de las capacidades de comprensión.</opcion>
+	</pregunta>
+
+	<pregunta n="7">
+		<texto xmlns="&XHTMLNS;">Anticipación.</texto>
+		<opcion v="8">Adherencia inflexible a estímulos que se repiten de forma idéntica (por ejemplo, películas de vídeo) Resistencia intensa a cambios. Falta de conductas anticipadoras.</opcion>
+		<opcion v="6">Conductas anticipatorias simples en rutinas cotidianas. Con frecuencia, oposición a cambios y empeoramiento en situaciones que implican cambios.</opcion>
+		<opcion v="4">Incorporadas estructuras temporales amplias (por ejemplo, “curso” versus “vacaciones”). Puede haber reacciones catastróficas ante cambios no previstos.</opcion>
+		<opcion v="2">Alguna capacidad de regular el propio ambiente y de manejar los cambios. Se prefiere un orden claro y un ambiente predictible.</opcion>
+		<opcion v="0">No hay trastorno cualitativo de capacidades de anticipación.</opcion>
+	</pregunta>
+
+	<pregunta n="8">
+		<texto xmlns="&XHTMLNS;">Flexibilidad.</texto>
+		<opcion v="8">Predominan las estereotipias motoras simples.</opcion>
+		<opcion v="6">Predominan los rituales simples. Resistencia a cambios nimios.</opcion>
+		<opcion v="4">Rituales complejos. Apego excesivo a objetos. Preguntas obsesivas.</opcion>
+		<opcion v="2">Contenidos obsesivos y limitados de pensamiento. Intereses poco funcionales y flexibles. Rígido perfeccionismo.</opcion>
+		<opcion v="0">No hay trastorno cualitativo de la flexibilidad.</opcion>
+	</pregunta>
+
+	<pregunta n="9">
+		<texto xmlns="&XHTMLNS;">Sentido de la actividad.</texto>
+		<opcion v="8">Predominio masivo de conductas sin meta. Inaccesibilidad a consignas externas que dirijan la actividad.</opcion>
+		<opcion v="6">Sólo se realizan actividades funcionales breves con consignas externas. Cuando no las hay, se pasa al nivel anterior.</opcion>
+		<opcion v="4">Actividades autónomas de ciclo largo, que no se viven como partes de proyectos coherentes, y cuya motivación es externa.</opcion>
+		<opcion v="2">Actividades complejas de ciclo muy largo, cuya meta se conoce y desea, pero sin una estructura jerárquica de previsiones biográficas en que se inserten.</opcion>
+		<opcion v="0">No hay trastorno cualitativo del sentido de la actividad.</opcion>
+	</pregunta>
+
+	<pregunta n="10">
+		<texto xmlns="&XHTMLNS;">Ficción e imaginación.</texto>
+		<opcion v="8">Ausencia completa de juego funcional o simbólico y de otras competencias de ficción.</opcion>
+		<opcion v="6">Juegos funcionales poco flexibles, poco espontáneos y de contenidos limitados.</opcion>
+		<opcion v="4">Juego simbólico, en general poco espontáneo y obsesivo. Dificultades importantes para diferenciar ficción y realidad.</opcion>
+		<opcion v="2">Capacidades complejas de ficción, que se emplean como recursos de aislamiento. Ficciones poco flexibles.</opcion>
+		<opcion v="0">No hay trastorno de competencias de ficción e imaginación.</opcion>
+	</pregunta>
+
+	<pregunta n="11">
+		<texto xmlns="&XHTMLNS;">Imitación.</texto>
+		<opcion v="8">Ausencia completa de conductas de imitación.</opcion>
+		<opcion v="6">Imitaciones motoras simples, evocadas. No espontáneas.</opcion>
+		<opcion v="4">Imitación espontánea esporádica, poco versátil e intersubjetiva.</opcion>
+		<opcion v="2">Imitación establecida. Ausencia de “modelos internos”.</opcion>
+		<opcion v="0">No hay trastorno de las capacidades de imitación.</opcion>
+	</pregunta>
+
+	<pregunta n="12">
+		<texto xmlns="&XHTMLNS;">Suspensión (capacidad de crear significantes).</texto>
+		<opcion v="8">No se suspenden pre-acciones para crear gestos comunicativos. Comunicación ausente o por gestos instrumentales con personas.</opcion>
+		<opcion v="6">No se suspenden acciones instrumentales para crear símbolos enactivos. No hay juego funcional.</opcion>
+		<opcion v="4">No se suspenden propiedades reales de cosas o situaciones para crear ficciones y juego de ficción.</opcion>
+		<opcion v="2">No se dejan en suspenso representaciones para crear o comprender metáforas o para comprender que los estados mentales no se corresponden necesariamente con las situaciones.</opcion>
+		<opcion v="0">No hay trastorno cualitativo de las capacidad de suspensión.</opcion>
+	</pregunta>
+
+</preguntas>
+
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

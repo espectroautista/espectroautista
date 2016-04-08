@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * TEMPLATE.html - Test Template
+ *
+-->
+
+<!DOCTYPE html
+					PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+					"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+[
+<!ENTITY % XI SYSTEM "../dtd/xinclude.dtd"> %XI;
+]>
+
+<html id="TEMPLATE" xml:lang="es" lang="es">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="../css/object.css"/>
+		<title id="title"><xi:include href="S.html" xpointer="xpointer(id('AS')/text())"/></title>
+		<meta name="keywords" content="Lore, Ipsum"/>
+		<meta name="description" content="Lore Ipsum"/>
+	</head>
+
+	<body>
+
+		<h1><xi:include xpointer="xpointer(id('title')/text())"/></h1>
+		<h1>
+			<xi:include href="S.html" xpointer="xpointer(id('AS')/text())"/> 
+			(<acronym title="English Text">TEMPLATE</acronym>)
+		</h1>
+
+		<p>El <xi:include href="S.html" xpointer="xpointer(id('AS')/text())"/> se presentó en la siguiente publicación:</p>
+
+		<!--
+		<ul class="Paper">
+			<li><object class="bibref" data="PAPER-KEY">PAPER-KEY</object></li>
+		</ul>
+		-->
+
+		<!--
+		<xi:include href="S.html" xpointer="xpointer(id('TRADUCCION')/node())"/>
+		-->
+
+		<h2>¿Cómo interpretar el resultado?</h2>
+
+	</body>
+</html>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:syntax=xml:nowrap
+-->

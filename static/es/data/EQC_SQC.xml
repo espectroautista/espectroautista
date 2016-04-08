@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * EQC-SQC.xml - Test del Cociente de Empatía/Sistematización para Niños
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="EQC_SQC.xml">
+	<sentencia n="1"  a="2" b="1" c="0" d="0">A mi hijo/a le gusta cuidar a otras personas.</sentencia>
+	<sentencia n="2"  a="0" b="0" c="1" d="2">Mi hijo/a a menudo no entiende por que algunas cosas molestan tanto a los demás.</sentencia>
+	<sentencia n="3"  a="0" b="0" c="1" d="2">A mi hijo/a no le importa que en nuestra casa las cosas no estén en su sitio.</sentencia>
+	<sentencia n="4"  a="0" b="0" c="1" d="2">Mi hijo/a no llora ni grita cuando un personaje se muere en una película.</sentencia>
+	<sentencia n="5"  a="2" b="1" c="0" d="0">A mi hijo/a le gusta ordenar cosas con precisión (por ejemplo: flores, libros, CDs o DVDs).</sentencia>
+	<sentencia n="6"  a="2" b="1" c="0" d="0">Mi hijo/a se da cuenta rápidamente cuando alguien está bromeando.</sentencia>
+	<sentencia n="7"  a="0" b="0" c="1" d="2">A mi hijo/a le gusta cortar gusanos o arrancar las patas a los insectos.</sentencia>
+	<sentencia n="8"  a="2" b="1" c="0" d="0">A mi hijo/a tiene interés en clasificar por categorías específicas a los animales (insectos, dinosaurios, etc.).</sentencia>
+	<sentencia n="9"  a="0" b="0" c="1" d="2">Mi hijo/a alguna vez ha robado algo que le gustaba mucho a un hermano/a o amigo/a.</sentencia>
+	<sentencia n="10" a="2" b="1" c="0" d="0">A mi hijo/a le interesan diferentes tipos de vehículos (por ejemplo trenes, coches, aviones).</sentencia>
+	<sentencia n="11" a="0" b="0" c="1" d="2">Mi hijo/a no pasa mucho tiempo poniendo en fila diferentes juguetes (por ejemplo soldaditos, animales, coches).</sentencia>
+	<sentencia n="12" a="2" b="1" c="0" d="0">Si mi hijo/a debe montar un modelo con bloques (lego, mecano, etc.) prefiere seguir las instrucciones del folleto a intentar hacerlo por sus propios medios.</sentencia>
+	<sentencia n="13" a="0" b="0" c="1" d="2">Mi hijo/a tiene dificultades para hacer amigos.</sentencia>
+	<sentencia n="14" a="2" b="1" c="0" d="0">Cuando mi hijo/a juega con otros niños puede espontáneamente respetar su turno y compartir juguetes.</sentencia>
+	<sentencia n="15" a="0" b="0" c="1" d="2">A mi hijo/a le gusta más leer (o que le lean) libros de ficción  que otro tipo de libros.</sentencia>
+	<sentencia n="16" a="0" b="0" c="1" d="2">El cuarto de mi hijo/a está por lo general más desordenado que ordenado.</sentencia>
+	<sentencia n="17" a="0" b="0" c="1" d="2">Mi hijo/a puede ser brusco al dar su opinión, aún cuando esto pueda molestar o incomodar a otras personas.</sentencia>
+	<sentencia n="18" a="2" b="1" c="0" d="0">A mi hijo/a le gusta cuidar animales domésticos.</sentencia>
+	<sentencia n="19" a="2" b="1" c="0" d="0">A mi hijo/a le gusta coleccionar cosas (etiquetas, tarjetas de transporte, etc.).</sentencia>
+	<sentencia n="20" a="0" b="0" c="1" d="2">Mi hijo/a suele ser grosero o descortés sin darse cuenta.</sentencia>
+	<sentencia n="21" a="2" b="1" c="0" d="0">Mi hijo/a sabe mezclar colores para formar otros colores.</sentencia>
+	<sentencia n="22" a="0" b="0" c="1" d="2">Mi hijo/a no se da cuenta si en casa se cambia algo de lugar.</sentencia>
+	<sentencia n="23" a="0" b="0" c="1" d="2">Mi hijo/a ha tenido problemas con otros niños por acoso físico (bullying)</sentencia>
+	<sentencia n="24" a="2" b="1" c="0" d="0">A mi hijo/a le gusta realizar actividades físicas con reglas claramente establecidas (por ejemplo: futbol, karate, ballet clásico, etc.).</sentencia>
+	<sentencia n="25" a="2" b="1" c="0" d="0">Mi hijo/a sabe manejar con facilidad el mando a distancia del vídeo o el DVD.</sentencia>
+	<sentencia n="26" a="2" b="1" c="0" d="0">Mi hijo/a puede explicar fácilmente a otros lo que ha aprendido en la escuela.</sentencia>
+	<sentencia n="27" a="0" b="0" c="1" d="2">A mi hijo/a le sería difícil hacer un lista con sus cinco canciones o películas favoritas.</sentencia>
+	<sentencia n="28" a="2" b="1" c="0" d="0">Mi hijo/a tiene uno o dos amigos íntimos, así como otros amigos más.</sentencia>
+	<sentencia n="29" a="2" b="1" c="0" d="0">Mi hijo/a descubre rápidamente patrones núméricos en la clase de matemáticas.</sentencia>
+	<sentencia n="30" a="2" b="1" c="0" d="0">Mi hijo/a escucha las opiniones de otros, incluso cuando son diferentes a las suyas.</sentencia>
+	<sentencia n="31" a="2" b="1" c="0" d="0">Mi hijo/a se preocupa cuando otros niños se disgustan.</sentencia>
+	<sentencia n="32" a="0" b="0" c="1" d="2">A mi hijo/a no le interesa cómo funcionan los aparatos (por ejemplo cámaras de fotos, semáforos, televisión, etc.).</sentencia>
+	<sentencia n="33" a="0" b="0" c="1" d="2">Mi hijo/a parece tan preocupado por sus propios intereses que no se da cuenta que aburre a los demás.</sentencia>
+	<sentencia n="34" a="2" b="1" c="0" d="0">A mi hijo/a le gusta jugar a juegos con reglas escritas (por ejemplo ajedrez, dominó, etc.).</sentencia>
+	<sentencia n="35" a="2" b="1" c="0" d="0">Mi hijo/a se enfada cuando las cosas no se hacen a su debido tiempo.</sentencia>
+	<sentencia n="36" a="0" b="0" c="1" d="2">A veces mi hijo/a le hecha la culpa a otros niños por las cosas que él/ella ha hecho mal.</sentencia>
+	<sentencia n="37" a="2" b="1" c="0" d="0">Mi hijo/a se altera mucho cuando ve sufrir a un animal.</sentencia>
+	<sentencia n="38" a="2" b="1" c="0" d="0">Mi hijo/a conoce las diferencias de los últimos modelos de consolas de videojuegos (por ejemplo PlayStation 1, 2 y 3, X-Box, Wii, etc.) u otros aparatos electrónicos de consumo.</sentencia>
+	<sentencia n="39" a="2" b="1" c="0" d="0">Mi hijo/a sabe de memoria muchas cosas sobre aquello que más le interesa (por ejemplo banderas, equipos de futbol, grupos de música).</sentencia>
+	<sentencia n="40" a="0" b="0" c="1" d="2">A veces mi hijo/a empuja o pellizca a otro niño/a que lo haya molestado.</sentencia>
+	<sentencia n="41" a="2" b="1" c="0" d="0">A mi hijo/a le gusta seguir el recorrido de los viajes con un mapa.</sentencia>
+	<sentencia n="42" a="2" b="1" c="0" d="0">Mi hijo/a se da cuenta fácilmente cuando otra persona quiere iniciar una conversación con él/ella.</sentencia>
+	<sentencia n="43" a="2" b="1" c="0" d="0">Mi hijo/a es bueno/a para negociar y conseguir aquello que quiere.</sentencia>
+	<sentencia n="44" a="2" b="1" c="0" d="0">A mi hijo/a le gusta hacer listas de cosas (por ejemplo juguetes, programas de televisión, etc.).</sentencia>
+	<sentencia n="45" a="2" b="1" c="0" d="0">Mi hijo/a se preocupa por cómo se siente o sentirá un compañero/a que no ha sido invitado a una fiesta.</sentencia>
+	<sentencia n="46" a="2" b="1" c="0" d="0">A mi hijo/a le gusta pasar tiempo desarrollando actividades que domina (por ejemplo patinar, jugar con la pelota, practicar un paso de ballet).</sentencia>
+	<sentencia n="47" a="0" b="0" c="1" d="2">A mi hijo/a le resulta difícil usar el ordenador.</sentencia>
+	<sentencia n="48" a="2" b="1" c="0" d="0">Mi hijo/a se entristece cuando ve a otros niños sufrir o llorar.</sentencia>
+	<sentencia n="49" a="2" b="1" c="0" d="0">Si mi hijo/a tuviera un colección de figuritas o cromos no estaría satisfecho hasta completarla.</sentencia>
+	<sentencia n="50" a="2" b="1" c="0" d="0">A mi hijo/a le gusta participar de situaciones sociales organizadas (scouts, colonias de vacaciones, etc.).</sentencia>
+	<sentencia n="51" a="0" b="0" c="1" d="2">A mi hijo/a no le interesa conocer los horarios exactos de los planes del día.</sentencia>
+	<sentencia n="52" a="2" b="1" c="0" d="0">A mi hijo/a le gusta ayudar a los nuevos alumnos a integrarse en la clase.</sentencia>
+	<sentencia n="53" a="0" b="0" c="1" d="2">Mi hijo/a ha tenido problemas por haber insultado o molestado a otros niños.</sentencia>
+	<sentencia n="54" a="0" b="0" c="1" d="2">Mi hijo/a no disfruta trabajando para completar un rompecabezas o crucigrama.</sentencia>
+	<sentencia n="55" a="0" b="0" c="1" d="2">Mi hijo/a suele recurrir a la agresión física para conseguir lo que quiere.</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->

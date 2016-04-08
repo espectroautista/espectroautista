@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * EA.xml - Escala Autónoma para la detección del Síndrome de Asperger y el autismo de alto nivel de funcionamiento.
+-->
+<!DOCTYPE sentencias [
+<!ELEMENT sentencias (sentencia+)>
+<!ATTLIST sentencias id ID #REQUIRED>
+]>
+
+<sentencias id="EA.xml">
+	<sentencia n='1'>Tiene dificultades para realizar tareas en las que es especialmente importante extraer las ideas principales del contenido y obviar detalles irrelevantes (por ejemplo, al contar una película, al describir una persona…).</sentencia>
+	<sentencia n='2'>Muestra dificultades para entender el sentido final de expresiones no literales tales como bromas, frases hechas, peticiones mediante preguntas, metáforas, etc.</sentencia>
+	<sentencia n='3'>Prefiere hacer cosas solo antes que con otros (por ejemplo, juega solo o se limita a observar cómo juegan otros, prefiere hacer solo los trabajos escolares o las tareas laborales).</sentencia>
+	<sentencia n='4'>Su forma de iniciar y mantener las interacciones con los demás resulta estraña.</sentencia>
+	<sentencia n='5'>Manifiesta dificultades para comprender expresiones faciales sutiles que no sean muy exageradas.</sentencia>
+	<sentencia n='6'>Tiene problemas para interpretar el sentido adecuado de palabras o expresiones cuyo significado depende del contexto en que se usan.</sentencia>
+	<sentencia n='7'>Carece de iniciativa y creatividad en las actividades en que participa.</sentencia>
+	<sentencia n='8'>Hace un uso estereotipado o peculiar de fórmulas sociales en la conversación (por ejemplo, saluda o se despide de un modo especial o ritualizado, usa fórmulas de cortesía infrecuentes o impropias…).</sentencia>
+	<sentencia n='9'>Le resulta difícil hacer amigos.</sentencia>
+	<sentencia n='10'>La conversación con él/ella resulta laboriosa y poco fluida (por ejemplo, sus temas de conversación son muy limitados, tarda mucho en responder o no responde a comentarios y preguntas que se le hacen, dice cosas que no guardan relación con lo que se acaba de decir…).</sentencia>
+	<sentencia n='11'>Ofrece la impresión de no compartir con el grupo de iguales intereses, gustos, aficiones, etc.</sentencia>
+	<sentencia n='12'>Tiene dificultades para cooperar eficazmente con otros.</sentencia>
+	<sentencia n='13'>Su comportamiento resulta ingenuo (no se da cuenta de que le engañan ni de las burlas, no sabe mentir ni ocultar información, no sabe disimular u ocultar sus intenciones…).</sentencia>
+	<sentencia n='14'>Hace un uso idiosincrásico de las palabras (por ejemplo, utiliza palabras poco habituales o con acepciones poco frecuentes, asigna significados muy concretos a algunas palabras).</sentencia>
+	<sentencia n='15'>Los demás tienen dificultades para interpretar sus expresiones emocionales y sus muestras de empatía.</sentencia>
+	<sentencia n='16'>Tiene dificultades para entender situaciones ficticias (películas, narraciones, teatro, cuentos, juegos de rol…).</sentencia>
+	<sentencia n='17'>Realiza o trata de imponer rutinas o rituales complejos que dificultan la realización de actividades cotidianas.</sentencia>
+	<sentencia n='18'>En los juegos, se adhiere de forma rígida e inflexible a las reglas (por ejemplo, no admite variaciones en el juego, nunca hace trampas y es intolerante con los demás).</sentencia>
+</sentencias>
+<!--
+vim:sw=2:ts=2:ai:fileencoding=utf8:nowrap
+-->
