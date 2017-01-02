@@ -80,7 +80,9 @@ do
 done
 
 cd $TARGET
-mv error404.html 404.html
+#mv error404.html 404.html
+cp $BASE/edited-404.html 404.html
+cp $BASE/robots-site.txt robots.txt
 
 ########################################################################
 

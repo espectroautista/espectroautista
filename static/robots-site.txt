@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: etiquetas_
+Disallow: mapa.html
+Disallow: bibautores_
+Disallow: palabras_
+Disallow: 404.html
+Disallow: error
+Disallow: feed.
+Disallow: /ficheros
+Disallow: /scripts
+Disallow: /styles
